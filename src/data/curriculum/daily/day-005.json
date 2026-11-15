@@ -23,7 +23,7 @@
       "prompt": "Which meaning best matches \"Responsibility\"?",
       "options": [
         "A duty or task that you are expected to handle.",
-        "A task with no assigned owner"
+        "A task that nobody is expected to handle."
       ],
       "correctIndex": 0,
       "explanation": "Responsibility means: A duty or task that you are expected to handle. Example: Preparing the slides is my responsibility."
@@ -32,7 +32,7 @@
       "fil": "Pananagutan"
     },
     "explanation": {
-      "en": "A duty or task that you are expected to handle.",
+      "en": "A duty or task that you are expected to handle. For example: Preparing the slides is my responsibility.",
       "taglish": "Ginagamit kapag malinaw kung sino ang may hawak ng isang task.",
       "fil": "Gawain o tungkuling inaasahang ikaw ang gagawa."
     }
@@ -42,7 +42,8 @@
     "text": "I'll take care of…",
     "meaning": {
       "taglish": "Akuin ang isang task.",
-      "fil": "Ginagamit kapag kusang inaako ang isang gawain."
+      "fil": "Ginagamit kapag kusang inaako ang isang gawain.",
+      "en": "To volunteer to handle a responsibility."
     },
     "examples": {
       "work": "I'll take care of the presentation.",
@@ -71,7 +72,7 @@
         "I'll take care of the documents."
       ],
       "correctIndex": 1,
-      "explanation": "undefined Example: I'll take care of the presentation."
+      "explanation": "To volunteer to handle a responsibility. Example: I'll take care of the presentation."
     }
   },
   "grammarTip": {

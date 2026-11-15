@@ -23,7 +23,7 @@
       "prompt": "Which meaning best matches \"Consider\"?",
       "options": [
         "To think carefully about an option.",
-        "To ignore an option"
+        "To reject an idea without thinking about it."
       ],
       "correctIndex": 0,
       "explanation": "Consider means: To think carefully about an option. Example: We should consider another approach."
@@ -32,7 +32,7 @@
       "fil": "Isaalang-alang"
     },
     "explanation": {
-      "en": "To think carefully about an option.",
+      "en": "To think carefully about an option. For example: We should consider another approach.",
       "taglish": "Ginagamit kapag hindi pa napagdesisyunan ang isang option.",
       "fil": "Pag-isipang mabuti ang isang posibilidad."
     }
@@ -42,7 +42,8 @@
     "text": "Have we considered…?",
     "meaning": {
       "taglish": "Itanong kung na-consider na ang option.",
-      "fil": "Ginagamit para itanong kung nasuri na ang ibang posibilidad."
+      "fil": "Ginagamit para itanong kung nasuri na ang ibang posibilidad.",
+      "en": "To ask whether the group has thought about an option."
     },
     "examples": {
       "work": "Have we considered dividing the tasks?",
@@ -71,7 +72,7 @@
         "extend"
       ],
       "correctIndex": 0,
-      "explanation": "undefined Example: Have we considered dividing the tasks?"
+      "explanation": "To ask whether the group has thought about an option. Example: Have we considered dividing the tasks?"
     }
   },
   "grammarTip": {

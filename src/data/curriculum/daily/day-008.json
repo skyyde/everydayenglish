@@ -23,7 +23,7 @@
       "prompt": "Which meaning best matches \"Suggest\"?",
       "options": [
         "To offer an idea for consideration.",
-        "To demand obedience"
+        "To force others to follow an order."
       ],
       "correctIndex": 0,
       "explanation": "Suggest means: To offer an idea for consideration. Example: I suggest a shorter meeting."
@@ -32,7 +32,7 @@
       "fil": "Magmungkahi"
     },
     "explanation": {
-      "en": "To offer an idea for consideration.",
+      "en": "To offer an idea for consideration. For example: I suggest a shorter meeting.",
       "taglish": "Ginagamit para makibahagi nang magalang sa meeting.",
       "fil": "Magbigay ng ideya na maaaring pag-isipan."
     }
@@ -42,7 +42,8 @@
     "text": "I'd like to suggest…",
     "meaning": {
       "taglish": "Magbigay ng suggestion nang polite.",
-      "fil": "Ginagamit para magbigay ng ideya nang hindi nag-uutos."
+      "fil": "Ginagamit para magbigay ng ideya nang hindi nag-uutos.",
+      "en": "To offer an idea politely without ordering others."
     },
     "examples": {
       "work": "I'd like to suggest setting a time limit for each topic.",
@@ -71,7 +72,7 @@
         "use"
       ],
       "correctIndex": 0,
-      "explanation": "undefined Example: I'd like to suggest setting a time limit for each topic."
+      "explanation": "To offer an idea politely without ordering others. Example: I'd like to suggest setting a time limit for each topic."
     }
   },
   "grammarTip": {

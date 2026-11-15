@@ -23,7 +23,7 @@
       "prompt": "Which meaning best matches \"Prioritize\"?",
       "options": [
         "To decide which tasks are most important.",
-        "To complete every task at the same time"
+        "To ignore important tasks."
       ],
       "correctIndex": 0,
       "explanation": "Prioritize means: To decide which tasks are most important. Example: We need to prioritize urgent requests."
@@ -32,7 +32,7 @@
       "fil": "Unahin ayon sa halaga"
     },
     "explanation": {
-      "en": "To decide which tasks are most important.",
+      "en": "To decide which tasks are most important. For example: We need to prioritize urgent requests.",
       "taglish": "Ginagamit ito kapag maraming gawain at kailangang magdesisyon kung ano ang uunahin.",
       "fil": "Piliin muna ang pinakamahalagang gawain."
     }
@@ -42,7 +42,8 @@
     "text": "Moving forward…",
     "meaning": {
       "taglish": "Ipakilala ang bagong plan mula ngayon.",
-      "fil": "Ginagamit para pag-usapan ang susunod na plano."
+      "fil": "Ginagamit para pag-usapan ang susunod na plano.",
+      "en": "To introduce a plan or change that applies from now on."
     },
     "examples": {
       "work": "Moving forward, let's review our priorities every Monday.",
@@ -71,7 +72,7 @@
         "A future plan"
       ],
       "correctIndex": 1,
-      "explanation": "undefined Example: Moving forward, let's review our priorities every Monday."
+      "explanation": "To introduce a plan or change that applies from now on. Example: Moving forward, let's review our priorities every Monday."
     }
   },
   "grammarTip": {

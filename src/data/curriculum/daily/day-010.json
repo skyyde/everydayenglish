@@ -23,7 +23,7 @@
       "prompt": "Which meaning best matches \"Perspective\"?",
       "options": [
         "A point of view.",
-        "A fixed deadline"
+        "A task that must be finished by Friday."
       ],
       "correctIndex": 0,
       "explanation": "Perspective means: A point of view. Example: I understand your perspective."
@@ -32,7 +32,7 @@
       "fil": "Pananaw"
     },
     "explanation": {
-      "en": "A point of view.",
+      "en": "A point of view. For example: I understand your perspective.",
       "taglish": "Ginagamit kapag nagbibigay ng sariling opinyon.",
       "fil": "Paraan ng pagtingin o pag-unawa sa isang bagay."
     }
@@ -42,7 +42,8 @@
     "text": "From my perspective…",
     "meaning": {
       "taglish": "Ibigay ang sariling opinion.",
-      "fil": "Ginagamit para ipakitang sariling opinyon ang susunod na sasabihin."
+      "fil": "Ginagamit para ipakitang sariling opinyon ang susunod na sasabihin.",
+      "en": "To introduce your personal point of view."
     },
     "examples": {
       "work": "From my perspective, online meetings save travel time.",
@@ -71,7 +72,7 @@
         "A deadline"
       ],
       "correctIndex": 0,
-      "explanation": "undefined Example: From my perspective, online meetings save travel time."
+      "explanation": "To introduce your personal point of view. Example: From my perspective, online meetings save travel time."
     }
   },
   "grammarTip": {

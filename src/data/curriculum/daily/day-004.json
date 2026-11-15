@@ -23,7 +23,7 @@
       "prompt": "Which meaning best matches \"Deadline\"?",
       "options": [
         "The date or time when work must be finished.",
-        "A casual suggestion with no due date"
+        "An informal idea with no due date."
       ],
       "correctIndex": 0,
       "explanation": "Deadline means: The date or time when work must be finished. Example: The deadline is Friday afternoon."
@@ -32,7 +32,7 @@
       "fil": "Takdang petsa"
     },
     "explanation": {
-      "en": "The date or time when work must be finished.",
+      "en": "The date or time when work must be finished. For example: The deadline is Friday afternoon.",
       "taglish": "Mahalagang banggitin ang eksaktong petsa kapag may deadline.",
       "fil": "Araw o oras kung kailan dapat matapos ang isang gawain."
     }
@@ -42,7 +42,8 @@
     "text": "We're on track to…",
     "meaning": {
       "taglish": "Sabihing ayon pa rin sa schedule ang progress.",
-      "fil": "Ginagamit para sabihing umaayon pa rin sa plano ang trabaho."
+      "fil": "Ginagamit para sabihing umaayon pa rin sa plano ang trabaho.",
+      "en": "To say that progress is following the schedule."
     },
     "examples": {
       "work": "We're on track to finish by Friday.",
@@ -71,7 +72,7 @@
         "Already finished"
       ],
       "correctIndex": 0,
-      "explanation": "undefined Example: We're on track to finish by Friday."
+      "explanation": "To say that progress is following the schedule. Example: We're on track to finish by Friday."
     }
   },
   "grammarTip": {

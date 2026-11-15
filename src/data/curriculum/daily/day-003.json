@@ -23,7 +23,7 @@
       "prompt": "Which meaning best matches \"Update\"?",
       "options": [
         "To give the latest information.",
-        "To keep old information unchanged"
+        "To avoid sharing any new information."
       ],
       "correctIndex": 0,
       "explanation": "Update means: To give the latest information. Example: I'll update the team this afternoon."
@@ -32,7 +32,7 @@
       "fil": "Magbigay ng bagong impormasyon"
     },
     "explanation": {
-      "en": "To give the latest information.",
+      "en": "To give the latest information. For example: I'll update the team this afternoon.",
       "taglish": "Ginagamit ito kapag nag-uulat ng kasalukuyang estado ng isang gawain.",
       "fil": "Sabihin ang pinakabagong nangyari o pagbabago."
     }
@@ -42,7 +42,8 @@
     "text": "So far, we've…",
     "meaning": {
       "taglish": "Sabihin ang mga natapos hanggang ngayon.",
-      "fil": "Ginagamit para ipaliwanag ang nagawa na hanggang ngayon."
+      "fil": "Ginagamit para ipaliwanag ang nagawa na hanggang ngayon.",
+      "en": "To introduce progress completed up to the present."
     },
     "examples": {
       "work": "So far, we've completed the first draft.",
@@ -71,7 +72,7 @@
         "finish"
       ],
       "correctIndex": 0,
-      "explanation": "undefined Example: So far, we've completed the first draft."
+      "explanation": "To introduce progress completed up to the present. Example: So far, we've completed the first draft."
     }
   },
   "grammarTip": {

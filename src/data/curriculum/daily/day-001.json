@@ -23,7 +23,7 @@
       "prompt": "Which meaning best matches \"Clarify\"?",
       "options": [
         "To make something easier to understand.",
-        "To make a task more difficult"
+        "To make information harder to understand."
       ],
       "correctIndex": 0,
       "explanation": "Clarify means: To make something easier to understand. Example: Could you clarify the deadline?"
@@ -32,7 +32,7 @@
       "fil": "Paki-linaw"
     },
     "explanation": {
-      "en": "To make something easier to understand.",
+      "en": "To make something easier to understand. For example: Could you clarify the deadline?",
       "taglish": "Ginagamit ito kapag gusto mong siguraduhin na pareho ang pagkaintindi ninyo.",
       "fil": "Linawin ang impormasyon para mas madaling maintindihan."
     }
@@ -42,7 +42,8 @@
     "text": "Just to make sure we're on the same page…",
     "meaning": {
       "taglish": "I-check kung pareho kayo ng understanding.",
-      "fil": "Ginagamit kapag may kailangang linawin bago magtrabaho."
+      "fil": "Ginagamit kapag may kailangang linawin bago magtrabaho.",
+      "en": "To politely confirm that everyone understands the same plan."
     },
     "examples": {
       "work": "Just to make sure we're on the same page, the report is due Friday, right?",
@@ -71,7 +72,7 @@
         "To end an unrelated conversation"
       ],
       "correctIndex": 0,
-      "explanation": "undefined Example: Just to make sure we're on the same page, the report is due Friday, right?"
+      "explanation": "To politely confirm that everyone understands the same plan. Example: Just to make sure we're on the same page, the report is due Friday, right?"
     }
   },
   "grammarTip": {

@@ -23,7 +23,7 @@
       "prompt": "Which meaning best matches \"Summarize\"?",
       "options": [
         "To express the main points briefly.",
-        "To explain every detail at length"
+        "To repeat every detail without choosing key points."
       ],
       "correctIndex": 0,
       "explanation": "Summarize means: To express the main points briefly. Example: Can you summarize the meeting?"
@@ -32,7 +32,7 @@
       "fil": "Ibuod"
     },
     "explanation": {
-      "en": "To express the main points briefly.",
+      "en": "To express the main points briefly. For example: Can you summarize the meeting?",
       "taglish": "Ginagamit sa pagtatapos ng meeting o paliwanag.",
       "fil": "Sabihin lamang ang mahahalagang punto."
     }
@@ -42,7 +42,8 @@
     "text": "To sum things up…",
     "meaning": {
       "taglish": "I-summarize ang main points.",
-      "fil": "Ginagamit para ipakilala ang maikling buod."
+      "fil": "Ginagamit para ipakilala ang maikling buod.",
+      "en": "To introduce a short summary of the main points."
     },
     "examples": {
       "work": "To sum things up, we've agreed on the next steps.",
@@ -71,7 +72,7 @@
         "By the way…"
       ],
       "correctIndex": 0,
-      "explanation": "undefined Example: To sum things up, we've agreed on the next steps."
+      "explanation": "To introduce a short summary of the main points. Example: To sum things up, we've agreed on the next steps."
     }
   },
   "grammarTip": {

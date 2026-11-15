@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-018",
+  "dayNumber": 18,
+  "week": 3,
+  "weekTheme": "Everyday Conversations",
+  "title": "Recommend — You might want to try…",
+  "word": {
+    "id": "word-018",
+    "text": "Recommend",
+    "meaning": {
+      "en": "To suggest something as a good choice.",
+      "taglish": "Mag-suggest ng magandang option."
+    },
+    "examples": {
+      "work": "I recommend visiting the museum.",
+      "everyday": "I recommend visiting the museum."
+    },
+    "check": {
+      "id": "daily-018-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Recommend\"?",
+      "options": [
+        "To suggest something as a good choice.",
+        "A word with the opposite meaning or an unrelated idea"
+      ],
+      "correctIndex": 0,
+      "explanation": "To suggest something as a good choice."
+    }
+  },
+  "phrase": {
+    "id": "phrase-018",
+    "text": "You might want to try…",
+    "meaning": {
+      "en": "Use this expression naturally in conversation: You might want to try…",
+      "taglish": "Mag-recommend nang hindi nag-uutos."
+    },
+    "examples": {
+      "work": "You might want to try the restaurant near the park.",
+      "everyday": "You might want to try the restaurant near the park."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Can you tell me more?"
+      },
+      {
+        "speaker": "B",
+        "text": "You might want to try the restaurant near the park."
+      }
+    ],
+    "check": {
+      "id": "daily-018-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "Why say 'You might want to try'?",
+      "options": [
+        "To recommend gently",
+        "To give an order"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mag-recommend nang hindi nag-uutos."
+    }
+  },
+  "grammarTip": {
+    "topic": "might and could",
+    "explanation": "Practice might and could using today's example: You might want to try the restaurant near the park."
+  },
+  "speaking": {
+    "id": "daily-018-speaking",
+    "scenario": "Recommend a place to visit to a friend.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "You might want to try…",
+      "I recommend visiting the museum."
+    ],
+    "oneMinuteGoal": "State your main idea clearly and add one detail.",
+    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
+    "modelResponse": "You might want to try the restaurant near the park. I recommend visiting the museum.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a polite or natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

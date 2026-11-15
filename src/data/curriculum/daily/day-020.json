@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-020",
+  "dayNumber": 20,
+  "week": 3,
+  "weekTheme": "Everyday Conversations",
+  "title": "Enjoy — In my free time…",
+  "word": {
+    "id": "word-020",
+    "text": "Enjoy",
+    "meaning": {
+      "en": "To take pleasure in something.",
+      "taglish": "Masaya kang gawin ang isang bagay."
+    },
+    "examples": {
+      "work": "I enjoy reading in the evening.",
+      "everyday": "I enjoy reading in the evening."
+    },
+    "check": {
+      "id": "daily-020-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Enjoy\"?",
+      "options": [
+        "To take pleasure in something.",
+        "A word with the opposite meaning or an unrelated idea"
+      ],
+      "correctIndex": 0,
+      "explanation": "To take pleasure in something."
+    }
+  },
+  "phrase": {
+    "id": "phrase-020",
+    "text": "In my free time…",
+    "meaning": {
+      "en": "Use this expression naturally in conversation: In my free time…",
+      "taglish": "Ipakilala ang iyong hobbies."
+    },
+    "examples": {
+      "work": "In my free time, I enjoy gardening.",
+      "everyday": "In my free time, I enjoy gardening."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Can you tell me more?"
+      },
+      {
+        "speaker": "B",
+        "text": "In my free time, I enjoy gardening."
+      }
+    ],
+    "check": {
+      "id": "daily-020-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "Complete: 'I enjoy ___.'",
+      "options": [
+        "reading",
+        "read"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ipakilala ang iyong hobbies."
+    }
+  },
+  "grammarTip": {
+    "topic": "enjoy plus -ing",
+    "explanation": "Practice enjoy plus -ing using today's example: In my free time, I enjoy gardening."
+  },
+  "speaking": {
+    "id": "daily-020-speaking",
+    "scenario": "Talk about your hobbies and interests.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "In my free time…",
+      "I enjoy reading in the evening."
+    ],
+    "oneMinuteGoal": "State your main idea clearly and add one detail.",
+    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
+    "modelResponse": "In my free time, I enjoy gardening. I enjoy reading in the evening.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a polite or natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

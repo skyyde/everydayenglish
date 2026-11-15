@@ -10,11 +10,12 @@
     "text": "Clarify",
     "meaning": {
       "en": "To make something easier to understand.",
-      "taglish": "Gawing mas malinaw ang information."
+      "taglish": "Gawing mas malinaw ang information.",
+      "fil": "Linawin ang impormasyon para mas madaling maintindihan."
     },
     "examples": {
       "work": "Could you clarify the deadline?",
-      "everyday": "Could you clarify the deadline?"
+      "everyday": "Could you clarify which file you need?"
     },
     "check": {
       "id": "daily-001-word-check",
@@ -22,31 +23,43 @@
       "prompt": "Which meaning best matches \"Clarify\"?",
       "options": [
         "To make something easier to understand.",
-        "A word with the opposite meaning or an unrelated idea"
+        "To make a task more difficult"
       ],
       "correctIndex": 0,
-      "explanation": "To make something easier to understand."
+      "explanation": "Clarify means: To make something easier to understand. Example: Could you clarify the deadline?"
+    },
+    "translation": {
+      "fil": "Paki-linaw"
+    },
+    "explanation": {
+      "en": "To make something easier to understand.",
+      "taglish": "Ginagamit ito kapag gusto mong siguraduhin na pareho ang pagkaintindi ninyo.",
+      "fil": "Linawin ang impormasyon para mas madaling maintindihan."
     }
   },
   "phrase": {
     "id": "phrase-001",
     "text": "Just to make sure we're on the same page…",
     "meaning": {
-      "en": "Use this expression naturally in conversation: Just to make sure we're on the same page…",
-      "taglish": "I-check kung pareho kayo ng understanding."
+      "taglish": "I-check kung pareho kayo ng understanding.",
+      "fil": "Ginagamit kapag may kailangang linawin bago magtrabaho."
     },
     "examples": {
       "work": "Just to make sure we're on the same page, the report is due Friday, right?",
-      "everyday": "Just to make sure we're on the same page, the report is due Friday, right?"
+      "everyday": "Just to make sure we're on the same page, are we meeting at three?"
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "What do you think we should do?"
+        "speaker": "Coworker",
+        "text": "What do you think we should do next?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "Just to make sure we're on the same page, the report is due Friday, right?"
+      },
+      {
+        "speaker": "Coworker",
+        "text": "Thanks, that helps."
       }
     ],
     "check": {
@@ -58,35 +71,42 @@
         "To end an unrelated conversation"
       ],
       "correctIndex": 0,
-      "explanation": "I-check kung pareho kayo ng understanding."
+      "explanation": "undefined Example: Just to make sure we're on the same page, the report is due Friday, right?"
     }
   },
   "grammarTip": {
     "topic": "polite questions",
-    "explanation": "Practice polite questions using today's example: Just to make sure we're on the same page, the report is due Friday, right?"
+    "explanation": "Notice the grammar in \"Just to make sure we're on the same page, the report is due Friday, right?\" Practice the same structure with your own details."
   },
   "speaking": {
     "id": "daily-001-speaking",
-    "scenario": "Ask your manager politely to confirm the report deadline.",
+    "scenario": "Your supervisor asks you to confirm who will submit a report. Ask politely and restate the agreed plan.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "To avoid mistakes, I'd like to clarify our responsibilities.",
       "Just to make sure we're on the same page…",
-      "Could you clarify the deadline?"
+      "Say what happened or what you need.",
+      "Add one clear reason or next step."
     ],
-    "oneMinuteGoal": "State your main idea clearly and add one detail.",
-    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
-    "modelResponse": "Just to make sure we're on the same page, the report is due Friday, right? Could you clarify the deadline?",
+    "oneMinuteGoal": "Introduce the situation, state your message, and give one reason or detail.",
+    "twoMinuteGoal": "Introduce the situation, give two supporting details, explain the next step, and close politely.",
+    "modelResponse": "Just to make sure we're on the same page, we will submit the revised report on Friday. I'll prepare the figures, and you will check the formatting. Is that correct?",
     "selfReview": [
       "I communicated my main idea.",
       "I used a polite or natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "Who are you speaking to?",
+      "What is your main message?",
+      "What detail will make it clear?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

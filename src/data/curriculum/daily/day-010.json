@@ -10,11 +10,12 @@
     "text": "Perspective",
     "meaning": {
       "en": "A point of view.",
-      "taglish": "Sariling point of view."
+      "taglish": "Sariling point of view.",
+      "fil": "Paraan ng pagtingin o pag-unawa sa isang bagay."
     },
     "examples": {
       "work": "I understand your perspective.",
-      "everyday": "I understand your perspective."
+      "everyday": "I respect your perspective on this issue."
     },
     "check": {
       "id": "daily-010-word-check",
@@ -22,31 +23,43 @@
       "prompt": "Which meaning best matches \"Perspective\"?",
       "options": [
         "A point of view.",
-        "A word with the opposite meaning or an unrelated idea"
+        "A fixed deadline"
       ],
       "correctIndex": 0,
-      "explanation": "A point of view."
+      "explanation": "Perspective means: A point of view. Example: I understand your perspective."
+    },
+    "translation": {
+      "fil": "Pananaw"
+    },
+    "explanation": {
+      "en": "A point of view.",
+      "taglish": "Ginagamit kapag nagbibigay ng sariling opinyon.",
+      "fil": "Paraan ng pagtingin o pag-unawa sa isang bagay."
     }
   },
   "phrase": {
     "id": "phrase-010",
     "text": "From my perspective…",
     "meaning": {
-      "en": "Use this expression naturally in conversation: From my perspective…",
-      "taglish": "Ibigay ang sariling opinion."
+      "taglish": "Ibigay ang sariling opinion.",
+      "fil": "Ginagamit para ipakitang sariling opinyon ang susunod na sasabihin."
     },
     "examples": {
       "work": "From my perspective, online meetings save travel time.",
-      "everyday": "From my perspective, online meetings save travel time."
+      "everyday": "From my perspective, the first plan is easier to manage."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "What do you think we should do?"
+        "speaker": "Coworker",
+        "text": "What do you think we should do next?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "From my perspective, online meetings save travel time."
+      },
+      {
+        "speaker": "Coworker",
+        "text": "Thanks, that helps."
       }
     ],
     "check": {
@@ -58,35 +71,42 @@
         "A deadline"
       ],
       "correctIndex": 0,
-      "explanation": "Ibigay ang sariling opinion."
+      "explanation": "undefined Example: From my perspective, online meetings save travel time."
     }
   },
   "grammarTip": {
     "topic": "opinions and reasons",
-    "explanation": "Practice opinions and reasons using today's example: From my perspective, online meetings save travel time."
+    "explanation": "Notice the grammar in \"From my perspective, online meetings save travel time.\" Practice the same structure with your own details."
   },
   "speaking": {
     "id": "daily-010-speaking",
-    "scenario": "Share your opinion about online meetings and give a reason.",
+    "scenario": "Give your opinion about remote meetings, including a reason and an example.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "From my perspective, clear instructions save time.",
       "From my perspective…",
-      "I understand your perspective."
+      "Say what happened or what you need.",
+      "Add one clear reason or next step."
     ],
-    "oneMinuteGoal": "State your main idea clearly and add one detail.",
-    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
-    "modelResponse": "From my perspective, online meetings save travel time. I understand your perspective.",
+    "oneMinuteGoal": "Introduce the situation, state your message, and give one reason or detail.",
+    "twoMinuteGoal": "Introduce the situation, give two supporting details, explain the next step, and close politely.",
+    "modelResponse": "From my perspective, a short daily update would improve communication. Everyone would know what is happening, and we could solve small issues earlier. Of course, I'd like to hear the team's views too.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a polite or natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "Who are you speaking to?",
+      "What is your main message?",
+      "What detail will make it clear?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

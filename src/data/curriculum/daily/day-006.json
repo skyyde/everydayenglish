@@ -10,11 +10,12 @@
     "text": "Progress",
     "meaning": {
       "en": "Movement toward completing a goal.",
-      "taglish": "Pag-usad patungo sa goal."
+      "taglish": "Pag-usad patungo sa goal.",
+      "fil": "Paglapit sa pagkumpleto ng isang layunin."
     },
     "examples": {
       "work": "We've made good progress on the project.",
-      "everyday": "We've made good progress on the project."
+      "everyday": "We made progress even though the task was difficult."
     },
     "check": {
       "id": "daily-006-word-check",
@@ -22,31 +23,43 @@
       "prompt": "Which meaning best matches \"Progress\"?",
       "options": [
         "Movement toward completing a goal.",
-        "A word with the opposite meaning or an unrelated idea"
+        "A complete stop in all work"
       ],
       "correctIndex": 0,
-      "explanation": "Movement toward completing a goal."
+      "explanation": "Progress means: Movement toward completing a goal. Example: We've made good progress on the project."
+    },
+    "translation": {
+      "fil": "Pag-usad"
+    },
+    "explanation": {
+      "en": "Movement toward completing a goal.",
+      "taglish": "Ginagamit kapag may natapos nang bahagi ng trabaho.",
+      "fil": "Paglapit sa pagkumpleto ng isang layunin."
     }
   },
   "phrase": {
     "id": "phrase-006",
     "text": "We're making progress on…",
     "meaning": {
-      "en": "Use this expression naturally in conversation: We're making progress on…",
-      "taglish": "Sabihing umuusad ang trabaho."
+      "taglish": "Sabihing umuusad ang trabaho.",
+      "fil": "Ginagamit para sabihing may pagbabago at umuusad ang gawain."
     },
     "examples": {
       "work": "We're making progress on the testing.",
-      "everyday": "We're making progress on the testing."
+      "everyday": "We're making progress on the new system."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "What do you think we should do?"
+        "speaker": "Coworker",
+        "text": "What do you think we should do next?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "We're making progress on the testing."
+      },
+      {
+        "speaker": "Coworker",
+        "text": "Thanks, that helps."
       }
     ],
     "check": {
@@ -58,35 +71,42 @@
         "We're making progress in the project on."
       ],
       "correctIndex": 0,
-      "explanation": "Sabihing umuusad ang trabaho."
+      "explanation": "undefined Example: We're making progress on the testing."
     }
   },
   "grammarTip": {
     "topic": "present continuous",
-    "explanation": "Practice present continuous using today's example: We're making progress on the testing."
+    "explanation": "Notice the grammar in \"We're making progress on the testing.\" Practice the same structure with your own details."
   },
   "speaking": {
     "id": "daily-006-speaking",
-    "scenario": "Describe the progress of an ongoing project.",
+    "scenario": "Give an encouraging update about work that is not finished yet.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "We're making progress, but we still need to test it.",
       "We're making progress on…",
-      "We've made good progress on the project."
+      "Say what happened or what you need.",
+      "Add one clear reason or next step."
     ],
-    "oneMinuteGoal": "State your main idea clearly and add one detail.",
-    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
-    "modelResponse": "We're making progress on the testing. We've made good progress on the project.",
+    "oneMinuteGoal": "Introduce the situation, state your message, and give one reason or detail.",
+    "twoMinuteGoal": "Introduce the situation, give two supporting details, explain the next step, and close politely.",
+    "modelResponse": "We're making progress on the new process. We've already tested two steps, and the results look promising. Next, we'll ask the team for feedback.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a polite or natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "Who are you speaking to?",
+      "What is your main message?",
+      "What detail will make it clear?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

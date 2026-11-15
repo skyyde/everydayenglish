@@ -10,11 +10,12 @@
     "text": "Responsibility",
     "meaning": {
       "en": "A duty or task that you are expected to handle.",
-      "taglish": "Task o duty na ikaw ang responsible."
+      "taglish": "Task o duty na ikaw ang responsible.",
+      "fil": "Gawain o tungkuling inaasahang ikaw ang gagawa."
     },
     "examples": {
       "work": "Preparing the slides is my responsibility.",
-      "everyday": "Preparing the slides is my responsibility."
+      "everyday": "It's my responsibility to prepare the agenda."
     },
     "check": {
       "id": "daily-005-word-check",
@@ -22,31 +23,43 @@
       "prompt": "Which meaning best matches \"Responsibility\"?",
       "options": [
         "A duty or task that you are expected to handle.",
-        "A word with the opposite meaning or an unrelated idea"
+        "A task with no assigned owner"
       ],
       "correctIndex": 0,
-      "explanation": "A duty or task that you are expected to handle."
+      "explanation": "Responsibility means: A duty or task that you are expected to handle. Example: Preparing the slides is my responsibility."
+    },
+    "translation": {
+      "fil": "Pananagutan"
+    },
+    "explanation": {
+      "en": "A duty or task that you are expected to handle.",
+      "taglish": "Ginagamit kapag malinaw kung sino ang may hawak ng isang task.",
+      "fil": "Gawain o tungkuling inaasahang ikaw ang gagawa."
     }
   },
   "phrase": {
     "id": "phrase-005",
     "text": "I'll take care of…",
     "meaning": {
-      "en": "Use this expression naturally in conversation: I'll take care of…",
-      "taglish": "Akuin ang isang task."
+      "taglish": "Akuin ang isang task.",
+      "fil": "Ginagamit kapag kusang inaako ang isang gawain."
     },
     "examples": {
       "work": "I'll take care of the presentation.",
-      "everyday": "I'll take care of the presentation."
+      "everyday": "I'll take care of the email invitations."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "What do you think we should do?"
+        "speaker": "Coworker",
+        "text": "What do you think we should do next?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "I'll take care of the presentation."
+      },
+      {
+        "speaker": "Coworker",
+        "text": "Thanks, that helps."
       }
     ],
     "check": {
@@ -58,35 +71,42 @@
         "I'll take care of the documents."
       ],
       "correctIndex": 1,
-      "explanation": "Akuin ang isang task."
+      "explanation": "undefined Example: I'll take care of the presentation."
     }
   },
   "grammarTip": {
     "topic": "pronouns",
-    "explanation": "Practice pronouns using today's example: I'll take care of the presentation."
+    "explanation": "Notice the grammar in \"I'll take care of the presentation.\" Practice the same structure with your own details."
   },
   "speaking": {
     "id": "daily-005-speaking",
-    "scenario": "Explain which work tasks you will handle.",
+    "scenario": "Your team is dividing responsibilities. Volunteer for one task.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "I'll take care of the follow-up emails.",
       "I'll take care of…",
-      "Preparing the slides is my responsibility."
+      "Say what happened or what you need.",
+      "Add one clear reason or next step."
     ],
-    "oneMinuteGoal": "State your main idea clearly and add one detail.",
-    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
-    "modelResponse": "I'll take care of the presentation. Preparing the slides is my responsibility.",
+    "oneMinuteGoal": "Introduce the situation, state your message, and give one reason or detail.",
+    "twoMinuteGoal": "Introduce the situation, give two supporting details, explain the next step, and close politely.",
+    "modelResponse": "I'll take care of the meeting notes and send them to everyone this afternoon. Could someone else prepare the slides? That way, we can finish both tasks on time.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a polite or natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "Who are you speaking to?",
+      "What is your main message?",
+      "What detail will make it clear?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

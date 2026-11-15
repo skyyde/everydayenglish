@@ -10,11 +10,12 @@
     "text": "Prioritize",
     "meaning": {
       "en": "To decide which tasks are most important.",
-      "taglish": "Piliin kung aling task ang pinakaimportante."
+      "taglish": "Piliin kung aling task ang pinakaimportante.",
+      "fil": "Piliin muna ang pinakamahalagang gawain."
     },
     "examples": {
       "work": "We need to prioritize urgent requests.",
-      "everyday": "We need to prioritize urgent requests."
+      "everyday": "Let's prioritize the urgent customer requests."
     },
     "check": {
       "id": "daily-002-word-check",
@@ -22,31 +23,43 @@
       "prompt": "Which meaning best matches \"Prioritize\"?",
       "options": [
         "To decide which tasks are most important.",
-        "A word with the opposite meaning or an unrelated idea"
+        "To complete every task at the same time"
       ],
       "correctIndex": 0,
-      "explanation": "To decide which tasks are most important."
+      "explanation": "Prioritize means: To decide which tasks are most important. Example: We need to prioritize urgent requests."
+    },
+    "translation": {
+      "fil": "Unahin ayon sa halaga"
+    },
+    "explanation": {
+      "en": "To decide which tasks are most important.",
+      "taglish": "Ginagamit ito kapag maraming gawain at kailangang magdesisyon kung ano ang uunahin.",
+      "fil": "Piliin muna ang pinakamahalagang gawain."
     }
   },
   "phrase": {
     "id": "phrase-002",
     "text": "Moving forward…",
     "meaning": {
-      "en": "Use this expression naturally in conversation: Moving forward…",
-      "taglish": "Ipakilala ang bagong plan mula ngayon."
+      "taglish": "Ipakilala ang bagong plan mula ngayon.",
+      "fil": "Ginagamit para pag-usapan ang susunod na plano."
     },
     "examples": {
       "work": "Moving forward, let's review our priorities every Monday.",
-      "everyday": "Moving forward, let's review our priorities every Monday."
+      "everyday": "Moving forward, I will send updates every Wednesday."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "What do you think we should do?"
+        "speaker": "Coworker",
+        "text": "What do you think we should do next?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "Moving forward, let's review our priorities every Monday."
+      },
+      {
+        "speaker": "Coworker",
+        "text": "Thanks, that helps."
       }
     ],
     "check": {
@@ -58,35 +71,42 @@
         "A future plan"
       ],
       "correctIndex": 1,
-      "explanation": "Ipakilala ang bagong plan mula ngayon."
+      "explanation": "undefined Example: Moving forward, let's review our priorities every Monday."
     }
   },
   "grammarTip": {
     "topic": "future plans",
-    "explanation": "Practice future plans using today's example: Moving forward, let's review our priorities every Monday."
+    "explanation": "Notice the grammar in \"Moving forward, let's review our priorities every Monday.\" Practice the same structure with your own details."
   },
   "speaking": {
     "id": "daily-002-speaking",
-    "scenario": "Explain how you will prioritize tasks this week.",
+    "scenario": "You have three tasks due this week. Explain which you will do first and why.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "We should prioritize the task with the earliest deadline.",
       "Moving forward…",
-      "We need to prioritize urgent requests."
+      "Say what happened or what you need.",
+      "Add one clear reason or next step."
     ],
-    "oneMinuteGoal": "State your main idea clearly and add one detail.",
-    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
-    "modelResponse": "Moving forward, let's review our priorities every Monday. We need to prioritize urgent requests.",
+    "oneMinuteGoal": "Introduce the situation, state your message, and give one reason or detail.",
+    "twoMinuteGoal": "Introduce the situation, give two supporting details, explain the next step, and close politely.",
+    "modelResponse": "Moving forward, I suggest we prioritize the customer requests first because they are urgent. After that, we can finish the internal report. This should help us manage our time.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a polite or natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "Who are you speaking to?",
+      "What is your main message?",
+      "What detail will make it clear?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

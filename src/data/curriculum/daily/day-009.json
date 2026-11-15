@@ -10,11 +10,12 @@
     "text": "Consider",
     "meaning": {
       "en": "To think carefully about an option.",
-      "taglish": "Pag-isipang mabuti ang isang option."
+      "taglish": "Pag-isipang mabuti ang isang option.",
+      "fil": "Pag-isipang mabuti ang isang posibilidad."
     },
     "examples": {
       "work": "We should consider another approach.",
-      "everyday": "We should consider another approach."
+      "everyday": "Let's consider the cost before deciding."
     },
     "check": {
       "id": "daily-009-word-check",
@@ -22,31 +23,43 @@
       "prompt": "Which meaning best matches \"Consider\"?",
       "options": [
         "To think carefully about an option.",
-        "A word with the opposite meaning or an unrelated idea"
+        "To ignore an option"
       ],
       "correctIndex": 0,
-      "explanation": "To think carefully about an option."
+      "explanation": "Consider means: To think carefully about an option. Example: We should consider another approach."
+    },
+    "translation": {
+      "fil": "Isaalang-alang"
+    },
+    "explanation": {
+      "en": "To think carefully about an option.",
+      "taglish": "Ginagamit kapag hindi pa napagdesisyunan ang isang option.",
+      "fil": "Pag-isipang mabuti ang isang posibilidad."
     }
   },
   "phrase": {
     "id": "phrase-009",
     "text": "Have we considered…?",
     "meaning": {
-      "en": "Use this expression naturally in conversation: Have we considered…?",
-      "taglish": "Itanong kung na-consider na ang option."
+      "taglish": "Itanong kung na-consider na ang option.",
+      "fil": "Ginagamit para itanong kung nasuri na ang ibang posibilidad."
     },
     "examples": {
       "work": "Have we considered dividing the tasks?",
-      "everyday": "Have we considered dividing the tasks?"
+      "everyday": "Have we considered asking for customer feedback?"
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "What do you think we should do?"
+        "speaker": "Coworker",
+        "text": "What do you think we should do next?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "Have we considered dividing the tasks?"
+      },
+      {
+        "speaker": "Coworker",
+        "text": "Thanks, that helps."
       }
     ],
     "check": {
@@ -58,35 +71,42 @@
         "extend"
       ],
       "correctIndex": 0,
-      "explanation": "Itanong kung na-consider na ang option."
+      "explanation": "undefined Example: Have we considered dividing the tasks?"
     }
   },
   "grammarTip": {
     "topic": "present perfect questions",
-    "explanation": "Practice present perfect questions using today's example: Have we considered dividing the tasks?"
+    "explanation": "Notice the grammar in \"Have we considered dividing the tasks?\" Practice the same structure with your own details."
   },
   "speaking": {
     "id": "daily-009-speaking",
-    "scenario": "Ask your team to consider an alternative.",
+    "scenario": "Your team is choosing between two plans. Ask them to evaluate another option.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "Have we considered a simpler solution?",
       "Have we considered…?",
-      "We should consider another approach."
+      "Say what happened or what you need.",
+      "Add one clear reason or next step."
     ],
-    "oneMinuteGoal": "State your main idea clearly and add one detail.",
-    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
-    "modelResponse": "Have we considered dividing the tasks? We should consider another approach.",
+    "oneMinuteGoal": "Introduce the situation, state your message, and give one reason or detail.",
+    "twoMinuteGoal": "Introduce the situation, give two supporting details, explain the next step, and close politely.",
+    "modelResponse": "Have we considered testing the new process with a smaller group first? That could help us identify problems before the full launch. It might also save time.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a polite or natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "Who are you speaking to?",
+      "What is your main message?",
+      "What detail will make it clear?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

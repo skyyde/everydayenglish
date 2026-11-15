@@ -10,11 +10,12 @@
     "text": "Suggest",
     "meaning": {
       "en": "To offer an idea for consideration.",
-      "taglish": "Magbigay ng idea na puwedeng pag-isipan."
+      "taglish": "Magbigay ng idea na puwedeng pag-isipan.",
+      "fil": "Magbigay ng ideya na maaaring pag-isipan."
     },
     "examples": {
       "work": "I suggest a shorter meeting.",
-      "everyday": "I suggest a shorter meeting."
+      "everyday": "May I suggest a simpler approach?"
     },
     "check": {
       "id": "daily-008-word-check",
@@ -22,31 +23,43 @@
       "prompt": "Which meaning best matches \"Suggest\"?",
       "options": [
         "To offer an idea for consideration.",
-        "A word with the opposite meaning or an unrelated idea"
+        "To demand obedience"
       ],
       "correctIndex": 0,
-      "explanation": "To offer an idea for consideration."
+      "explanation": "Suggest means: To offer an idea for consideration. Example: I suggest a shorter meeting."
+    },
+    "translation": {
+      "fil": "Magmungkahi"
+    },
+    "explanation": {
+      "en": "To offer an idea for consideration.",
+      "taglish": "Ginagamit para makibahagi nang magalang sa meeting.",
+      "fil": "Magbigay ng ideya na maaaring pag-isipan."
     }
   },
   "phrase": {
     "id": "phrase-008",
     "text": "I'd like to suggest…",
     "meaning": {
-      "en": "Use this expression naturally in conversation: I'd like to suggest…",
-      "taglish": "Magbigay ng suggestion nang polite."
+      "taglish": "Magbigay ng suggestion nang polite.",
+      "fil": "Ginagamit para magbigay ng ideya nang hindi nag-uutos."
     },
     "examples": {
       "work": "I'd like to suggest setting a time limit for each topic.",
-      "everyday": "I'd like to suggest setting a time limit for each topic."
+      "everyday": "I'd like to suggest a shorter weekly meeting."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "What do you think we should do?"
+        "speaker": "Coworker",
+        "text": "What do you think we should do next?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "I'd like to suggest setting a time limit for each topic."
+      },
+      {
+        "speaker": "Coworker",
+        "text": "Thanks, that helps."
       }
     ],
     "check": {
@@ -58,35 +71,42 @@
         "use"
       ],
       "correctIndex": 0,
-      "explanation": "Magbigay ng suggestion nang polite."
+      "explanation": "undefined Example: I'd like to suggest setting a time limit for each topic."
     }
   },
   "grammarTip": {
     "topic": "polite suggestions",
-    "explanation": "Practice polite suggestions using today's example: I'd like to suggest setting a time limit for each topic."
+    "explanation": "Notice the grammar in \"I'd like to suggest setting a time limit for each topic.\" Practice the same structure with your own details."
   },
   "speaking": {
     "id": "daily-008-speaking",
-    "scenario": "Suggest one improvement during a meeting.",
+    "scenario": "Suggest a change that would make your team meetings better.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "I'd like to suggest we start with the most urgent topic.",
       "I'd like to suggest…",
-      "I suggest a shorter meeting."
+      "Say what happened or what you need.",
+      "Add one clear reason or next step."
     ],
-    "oneMinuteGoal": "State your main idea clearly and add one detail.",
-    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
-    "modelResponse": "I'd like to suggest setting a time limit for each topic. I suggest a shorter meeting.",
+    "oneMinuteGoal": "Introduce the situation, state your message, and give one reason or detail.",
+    "twoMinuteGoal": "Introduce the situation, give two supporting details, explain the next step, and close politely.",
+    "modelResponse": "I'd like to suggest using a shared checklist. It would help everyone see which tasks are finished and which still need attention. We could try it for one week and review the results.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a polite or natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "Who are you speaking to?",
+      "What is your main message?",
+      "What detail will make it clear?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

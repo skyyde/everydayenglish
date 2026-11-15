@@ -10,11 +10,12 @@
     "text": "Summarize",
     "meaning": {
       "en": "To express the main points briefly.",
-      "taglish": "Sabihin nang maikli ang main points."
+      "taglish": "Sabihin nang maikli ang main points.",
+      "fil": "Sabihin lamang ang mahahalagang punto."
     },
     "examples": {
       "work": "Can you summarize the meeting?",
-      "everyday": "Can you summarize the meeting?"
+      "everyday": "Could you summarize the main decisions?"
     },
     "check": {
       "id": "daily-007-word-check",
@@ -22,31 +23,43 @@
       "prompt": "Which meaning best matches \"Summarize\"?",
       "options": [
         "To express the main points briefly.",
-        "A word with the opposite meaning or an unrelated idea"
+        "To explain every detail at length"
       ],
       "correctIndex": 0,
-      "explanation": "To express the main points briefly."
+      "explanation": "Summarize means: To express the main points briefly. Example: Can you summarize the meeting?"
+    },
+    "translation": {
+      "fil": "Ibuod"
+    },
+    "explanation": {
+      "en": "To express the main points briefly.",
+      "taglish": "Ginagamit sa pagtatapos ng meeting o paliwanag.",
+      "fil": "Sabihin lamang ang mahahalagang punto."
     }
   },
   "phrase": {
     "id": "phrase-007",
     "text": "To sum things up…",
     "meaning": {
-      "en": "Use this expression naturally in conversation: To sum things up…",
-      "taglish": "I-summarize ang main points."
+      "taglish": "I-summarize ang main points.",
+      "fil": "Ginagamit para ipakilala ang maikling buod."
     },
     "examples": {
       "work": "To sum things up, we've agreed on the next steps.",
-      "everyday": "To sum things up, we've agreed on the next steps."
+      "everyday": "To sum things up, we'll meet again on Thursday."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "What do you think we should do?"
+        "speaker": "Coworker",
+        "text": "What do you think we should do next?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "To sum things up, we've agreed on the next steps."
+      },
+      {
+        "speaker": "Coworker",
+        "text": "Thanks, that helps."
       }
     ],
     "check": {
@@ -58,35 +71,42 @@
         "By the way…"
       ],
       "correctIndex": 0,
-      "explanation": "I-summarize ang main points."
+      "explanation": "undefined Example: To sum things up, we've agreed on the next steps."
     }
   },
   "grammarTip": {
     "topic": "sequencing",
-    "explanation": "Practice sequencing using today's example: To sum things up, we've agreed on the next steps."
+    "explanation": "Notice the grammar in \"To sum things up, we've agreed on the next steps.\" Practice the same structure with your own details."
   },
   "speaking": {
     "id": "daily-007-speaking",
-    "scenario": "Summarize what your team accomplished this week.",
+    "scenario": "End a meeting with three agreed next steps.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "To summarize, here are the three priorities.",
       "To sum things up…",
-      "Can you summarize the meeting?"
+      "Say what happened or what you need.",
+      "Add one clear reason or next step."
     ],
-    "oneMinuteGoal": "State your main idea clearly and add one detail.",
-    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
-    "modelResponse": "To sum things up, we've agreed on the next steps. Can you summarize the meeting?",
+    "oneMinuteGoal": "Introduce the situation, state your message, and give one reason or detail.",
+    "twoMinuteGoal": "Introduce the situation, give two supporting details, explain the next step, and close politely.",
+    "modelResponse": "To sum things up, we've agreed to revise the schedule and assign one person to each task. I'll share the updated plan today. Please let me know if I missed anything.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a polite or natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "Who are you speaking to?",
+      "What is your main message?",
+      "What detail will make it clear?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

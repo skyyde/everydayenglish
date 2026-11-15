@@ -10,11 +10,12 @@
     "text": "Update",
     "meaning": {
       "en": "To give the latest information.",
-      "taglish": "Ibigay ang pinakabagong impormasyon."
+      "taglish": "Ibigay ang pinakabagong impormasyon.",
+      "fil": "Sabihin ang pinakabagong nangyari o pagbabago."
     },
     "examples": {
       "work": "I'll update the team this afternoon.",
-      "everyday": "I'll update the team this afternoon."
+      "everyday": "I'll update you after the meeting."
     },
     "check": {
       "id": "daily-003-word-check",
@@ -22,31 +23,43 @@
       "prompt": "Which meaning best matches \"Update\"?",
       "options": [
         "To give the latest information.",
-        "A word with the opposite meaning or an unrelated idea"
+        "To keep old information unchanged"
       ],
       "correctIndex": 0,
-      "explanation": "To give the latest information."
+      "explanation": "Update means: To give the latest information. Example: I'll update the team this afternoon."
+    },
+    "translation": {
+      "fil": "Magbigay ng bagong impormasyon"
+    },
+    "explanation": {
+      "en": "To give the latest information.",
+      "taglish": "Ginagamit ito kapag nag-uulat ng kasalukuyang estado ng isang gawain.",
+      "fil": "Sabihin ang pinakabagong nangyari o pagbabago."
     }
   },
   "phrase": {
     "id": "phrase-003",
     "text": "So far, we've…",
     "meaning": {
-      "en": "Use this expression naturally in conversation: So far, we've…",
-      "taglish": "Sabihin ang mga natapos hanggang ngayon."
+      "taglish": "Sabihin ang mga natapos hanggang ngayon.",
+      "fil": "Ginagamit para ipaliwanag ang nagawa na hanggang ngayon."
     },
     "examples": {
       "work": "So far, we've completed the first draft.",
-      "everyday": "So far, we've completed the first draft."
+      "everyday": "So far, we've contacted three suppliers."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "What do you think we should do?"
+        "speaker": "Coworker",
+        "text": "What do you think we should do next?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "So far, we've completed the first draft."
+      },
+      {
+        "speaker": "Coworker",
+        "text": "Thanks, that helps."
       }
     ],
     "check": {
@@ -58,35 +71,42 @@
         "finish"
       ],
       "correctIndex": 0,
-      "explanation": "Sabihin ang mga natapos hanggang ngayon."
+      "explanation": "undefined Example: So far, we've completed the first draft."
     }
   },
   "grammarTip": {
     "topic": "present perfect",
-    "explanation": "Practice present perfect using today's example: So far, we've completed the first draft."
+    "explanation": "Notice the grammar in \"So far, we've completed the first draft.\" Practice the same structure with your own details."
   },
   "speaking": {
     "id": "daily-003-speaking",
-    "scenario": "Give a short project update to your manager.",
+    "scenario": "Your manager asks what has been completed and what remains.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "I can give you an update before lunch.",
       "So far, we've…",
-      "I'll update the team this afternoon."
+      "Say what happened or what you need.",
+      "Add one clear reason or next step."
     ],
-    "oneMinuteGoal": "State your main idea clearly and add one detail.",
-    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
-    "modelResponse": "So far, we've completed the first draft. I'll update the team this afternoon.",
+    "oneMinuteGoal": "Introduce the situation, state your message, and give one reason or detail.",
+    "twoMinuteGoal": "Introduce the situation, give two supporting details, explain the next step, and close politely.",
+    "modelResponse": "So far, we've completed the first draft and checked the numbers. We still need to review the conclusion. I expect to send the final version tomorrow afternoon.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a polite or natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "Who are you speaking to?",
+      "What is your main message?",
+      "What detail will make it clear?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-030",
+  "dayNumber": 30,
+  "week": 4,
+  "weekTheme": "Speaking with Confidence",
+  "title": "Accomplish — I'm proud of the progress I've made.",
+  "word": {
+    "id": "word-030",
+    "text": "Accomplish",
+    "meaning": {
+      "en": "To successfully complete something.",
+      "taglish": "Matagumpay na matapos ang isang gawain."
+    },
+    "examples": {
+      "work": "I accomplished my learning goal.",
+      "everyday": "I accomplished my learning goal."
+    },
+    "check": {
+      "id": "daily-30-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Accomplish\"?",
+      "options": [
+        "To successfully complete something.",
+        "An unrelated meaning"
+      ],
+      "correctIndex": 0,
+      "explanation": "To successfully complete something."
+    }
+  },
+  "phrase": {
+    "id": "phrase-030",
+    "text": "I'm proud of the progress I've made.",
+    "meaning": {
+      "en": "Use this expression in conversation: I'm proud of the progress I've made.",
+      "taglish": "Gamitin ang expression sa natural na usapan."
+    },
+    "examples": {
+      "work": "I'm proud of the progress I've made this month.",
+      "everyday": "I'm proud of the progress I've made this month."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Can you tell me more?"
+      },
+      {
+        "speaker": "B",
+        "text": "I'm proud of the progress I've made this month."
+      }
+    ],
+    "check": {
+      "id": "daily-30-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "Complete: 'I've ___ more confident.'",
+      "options": [
+        "become",
+        "became"
+      ],
+      "correctIndex": 0,
+      "explanation": "become"
+    }
+  },
+  "grammarTip": {
+    "topic": "present perfect",
+    "explanation": "Practice present perfect: I'm proud of the progress I've made this month."
+  },
+  "speaking": {
+    "id": "daily-30-speaking",
+    "scenario": "Reflect on your English-learning progress and future goals.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "I'm proud of the progress I've made.",
+      "I accomplished my learning goal."
+    ],
+    "oneMinuteGoal": "State your main idea and one detail.",
+    "twoMinuteGoal": "Add a reason, example, and conclusion.",
+    "modelResponse": "I'm proud of the progress I've made this month. I accomplished my learning goal.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

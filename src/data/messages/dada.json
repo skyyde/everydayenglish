@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "defaultNickname": "Dada",
+  "nicknameEditable": true,
+  "accentUsage": "Only app name, nickname, icons, small active indicators",
+  "greetings": {
+    "morning": [
+      "Good morning, {nickname}! ☀️",
+      "A little English practice to start your day, {nickname}."
+    ],
+    "afternoon": [
+      "Good afternoon, {nickname}!",
+      "Hope your day's going well, {nickname}."
+    ],
+    "evening": [
+      "Good evening, {nickname}! 🌙",
+      "You worked hard today. A little practice is enough, {nickname}."
+    ]
+  },
+  "events": {
+    "welcome": [
+      "Hi, {nickname}! 💙 Welcome to your very own English-learning space."
+    ],
+    "return": [
+      "Welcome back, {nickname}! It's nice to see you again."
+    ],
+    "returnAfterBreak": [
+      "Hi, {nickname}! No pressure. We can always start again today."
+    ],
+    "correct": [
+      "That's right, {nickname}! Nice one!",
+      "Good job, {nickname}!"
+    ],
+    "incorrect": [
+      "Almost, {nickname}! Give it another try."
+    ],
+    "hint": [
+      "Here's a little hint, {nickname}."
+    ],
+    "wordCompleted": [
+      "Good job, {nickname}! Another word added to your vocabulary!"
+    ],
+    "phraseCompleted": [
+      "Nice one, {nickname}! You're getting better at expressing yourself."
+    ],
+    "speakingCompleted": [
+      "I'm proud of you, {nickname}! Every time you speak, you're improving."
+    ],
+    "grammarCompleted": [
+      "You did great, {nickname}! One more lesson completed."
+    ],
+    "dailyCompleted": [
+      "Yay, {nickname}! You did it! 🎉 All done for today."
+    ],
+    "weeklyReviewCompleted": [
+      "Look at you, {nickname}! Another week of learning reviewed!"
+    ],
+    "moduleCompleted": [
+      "Congratulations, {nickname}! 🎓 You finished your first grammar module."
+    ],
+    "day30": [
+      "30 days of English, {nickname}! 💙 Look how far you've come."
+    ],
+    "caughtUp": [
+      "You've caught up, {nickname}! New lessons are coming soon."
+    ],
+    "backupCompleted": [
+      "All saved, {nickname}! Your learning progress has been backed up."
+    ]
+  },
+  "reminderExamples": [
+    "Good morning, {nickname}! Your English practice is ready whenever you are.",
+    "Hi, {nickname}! A few minutes of practice can make a difference.",
+    "Good evening, {nickname}! How about a little English practice before bedtime?"
+  ],
+  "reminderPolicy": "Optional; no promise of scheduled push while app is closed without a backend",
+  "curriculumUnchangedByPersonalization": true
+}

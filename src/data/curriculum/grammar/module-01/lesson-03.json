@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "grammar-01-03",
+  "moduleId": "module-01",
+  "lessonNumber": 3,
+  "title": "Subject–Verb Agreement",
+  "estimatedMinutes": 8,
+  "explanation": {
+    "en": "In the simple present, he, she, and it usually take -s or -es. I, you, we, and they generally use the base verb.",
+    "taglish": "Kapag he, she, o it, usually may -s o -es sa simple present. Base verb sa I, you, we, at they."
+  },
+  "examples": [
+    "She works on Mondays.",
+    "They work on Mondays."
+  ],
+  "exercises": [
+    {
+      "id": "grammar-01-03-q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "She works here.",
+        "She work here.",
+        "She working here."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: She works here."
+    },
+    {
+      "id": "grammar-01-03-q2",
+      "type": "multiple_choice",
+      "prompt": "Complete: 'They ___ every day.'",
+      "options": [
+        "works",
+        "work",
+        "working"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: work"
+    },
+    {
+      "id": "grammar-01-03-q3",
+      "type": "multiple_choice",
+      "prompt": "Correct: 'He send reports.'",
+      "options": [
+        "He sends reports.",
+        "He sending reports.",
+        "He send reports."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: He sends reports."
+    },
+    {
+      "id": "grammar-01-03-q4",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct be verb.",
+      "options": [
+        "I am ready.",
+        "I is ready.",
+        "I are ready."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: I am ready."
+    },
+    {
+      "id": "grammar-01-03-q5",
+      "type": "multiple_choice",
+      "prompt": "Build a correct sentence.",
+      "options": [
+        "My manager reviews the plan.",
+        "My manager review the plan.",
+        "My manager reviewing the plan."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: My manager reviews the plan."
+    }
+  ],
+  "writing": {
+    "type": "self_review",
+    "prompt": "Write one sentence about what a colleague usually does.",
+    "checklist": [
+      "My sentence is complete.",
+      "My word order is natural.",
+      "I reviewed the lesson examples."
+    ]
+  },
+  "optionalSpeaking": {
+    "prompt": "Write one sentence about what a colleague usually does."
+  },
+  "editorialStatus": "draft_review_required"
+}

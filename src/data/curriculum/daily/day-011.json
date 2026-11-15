@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-011",
+  "dayNumber": 11,
+  "week": 2,
+  "weekTheme": "Participating in Meetings",
+  "title": "Agree — I see your point, and…",
+  "word": {
+    "id": "word-011",
+    "text": "Agree",
+    "meaning": {
+      "en": "To have the same opinion.",
+      "taglish": "Pareho kayo ng opinion."
+    },
+    "examples": {
+      "work": "I agree with your suggestion.",
+      "everyday": "I agree with your suggestion."
+    },
+    "check": {
+      "id": "daily-011-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Agree\"?",
+      "options": [
+        "To have the same opinion.",
+        "A word with the opposite meaning or an unrelated idea"
+      ],
+      "correctIndex": 0,
+      "explanation": "To have the same opinion."
+    }
+  },
+  "phrase": {
+    "id": "phrase-011",
+    "text": "I see your point, and…",
+    "meaning": {
+      "en": "Use this expression naturally in conversation: I see your point, and…",
+      "taglish": "I-acknowledge ang idea at magdagdag ng sarili."
+    },
+    "examples": {
+      "work": "I see your point, and I think we should prepare earlier.",
+      "everyday": "I see your point, and I think we should prepare earlier."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "What do you think we should do?"
+      },
+      {
+        "speaker": "B",
+        "text": "I see your point, and I think we should prepare earlier."
+      }
+    ],
+    "check": {
+      "id": "daily-011-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "Why say 'I see your point, and…'?",
+      "options": [
+        "To acknowledge and add an idea",
+        "To reject the conversation"
+      ],
+      "correctIndex": 0,
+      "explanation": "I-acknowledge ang idea at magdagdag ng sarili."
+    }
+  },
+  "grammarTip": {
+    "topic": "connectors",
+    "explanation": "Practice connectors using today's example: I see your point, and I think we should prepare earlier."
+  },
+  "speaking": {
+    "id": "daily-011-speaking",
+    "scenario": "Agree with a coworker and add one useful idea.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "I see your point, and…",
+      "I agree with your suggestion."
+    ],
+    "oneMinuteGoal": "State your main idea clearly and add one detail.",
+    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
+    "modelResponse": "I see your point, and I think we should prepare earlier. I agree with your suggestion.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a polite or natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

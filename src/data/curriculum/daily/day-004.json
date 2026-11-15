@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-004",
+  "dayNumber": 4,
+  "week": 1,
+  "weekTheme": "Speaking Clearly at Work",
+  "title": "Deadline — We're on track to…",
+  "word": {
+    "id": "word-004",
+    "text": "Deadline",
+    "meaning": {
+      "en": "The date or time when work must be finished.",
+      "taglish": "Ang takdang oras kung kailan dapat matapos ang gawain."
+    },
+    "examples": {
+      "work": "The deadline is Friday afternoon.",
+      "everyday": "The deadline is Friday afternoon."
+    },
+    "check": {
+      "id": "daily-004-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Deadline\"?",
+      "options": [
+        "The date or time when work must be finished.",
+        "A word with the opposite meaning or an unrelated idea"
+      ],
+      "correctIndex": 0,
+      "explanation": "The date or time when work must be finished."
+    }
+  },
+  "phrase": {
+    "id": "phrase-004",
+    "text": "We're on track to…",
+    "meaning": {
+      "en": "Use this expression naturally in conversation: We're on track to…",
+      "taglish": "Sabihing ayon pa rin sa schedule ang progress."
+    },
+    "examples": {
+      "work": "We're on track to finish by Friday.",
+      "everyday": "We're on track to finish by Friday."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "What do you think we should do?"
+      },
+      {
+        "speaker": "B",
+        "text": "We're on track to finish by Friday."
+      }
+    ],
+    "check": {
+      "id": "daily-004-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "What does 'on track' mean?",
+      "options": [
+        "Progressing as planned",
+        "Already finished"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sabihing ayon pa rin sa schedule ang progress."
+    }
+  },
+  "grammarTip": {
+    "topic": "future expressions",
+    "explanation": "Practice future expressions using today's example: We're on track to finish by Friday."
+  },
+  "speaking": {
+    "id": "daily-004-speaking",
+    "scenario": "Explain whether your team can meet a deadline.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "We're on track to…",
+      "The deadline is Friday afternoon."
+    ],
+    "oneMinuteGoal": "State your main idea clearly and add one detail.",
+    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
+    "modelResponse": "We're on track to finish by Friday. The deadline is Friday afternoon.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a polite or natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-027",
+  "dayNumber": 27,
+  "week": 4,
+  "weekTheme": "Speaking with Confidence",
+  "title": "Explain — Let me walk you through…",
+  "word": {
+    "id": "word-027",
+    "text": "Explain",
+    "meaning": {
+      "en": "To make an idea clear by describing it.",
+      "taglish": "Gawing malinaw ang isang idea."
+    },
+    "examples": {
+      "work": "Can you explain how the system works?",
+      "everyday": "Can you explain how the system works?"
+    },
+    "check": {
+      "id": "daily-27-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Explain\"?",
+      "options": [
+        "To make an idea clear by describing it.",
+        "An unrelated meaning"
+      ],
+      "correctIndex": 0,
+      "explanation": "To make an idea clear by describing it."
+    }
+  },
+  "phrase": {
+    "id": "phrase-027",
+    "text": "Let me walk you through…",
+    "meaning": {
+      "en": "Use this expression in conversation: Let me walk you through…",
+      "taglish": "Gamitin ang expression sa natural na usapan."
+    },
+    "examples": {
+      "work": "Let me walk you through the process.",
+      "everyday": "Let me walk you through the process."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Can you tell me more?"
+      },
+      {
+        "speaker": "B",
+        "text": "Let me walk you through the process."
+      }
+    ],
+    "check": {
+      "id": "daily-27-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "What does 'walk you through' mean?",
+      "options": [
+        "Explain step by step",
+        "Avoid explaining"
+      ],
+      "correctIndex": 0,
+      "explanation": "Explain step by step"
+    }
+  },
+  "grammarTip": {
+    "topic": "sequencing",
+    "explanation": "Practice sequencing: Let me walk you through the process."
+  },
+  "speaking": {
+    "id": "daily-27-speaking",
+    "scenario": "Explain a familiar process step by step.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "Let me walk you through…",
+      "Can you explain how the system works?"
+    ],
+    "oneMinuteGoal": "State your main idea and one detail.",
+    "twoMinuteGoal": "Add a reason, example, and conclusion.",
+    "modelResponse": "Let me walk you through the process. Can you explain how the system works?",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-024",
+  "dayNumber": 24,
+  "week": 4,
+  "weekTheme": "Speaking with Confidence",
+  "title": "Improve — There's room for improvement.",
+  "word": {
+    "id": "word-024",
+    "text": "Improve",
+    "meaning": {
+      "en": "To make something better.",
+      "taglish": "Gawing mas maayos ang isang bagay."
+    },
+    "examples": {
+      "work": "We can improve the process.",
+      "everyday": "We can improve the process."
+    },
+    "check": {
+      "id": "daily-24-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Improve\"?",
+      "options": [
+        "To make something better.",
+        "An unrelated meaning"
+      ],
+      "correctIndex": 0,
+      "explanation": "To make something better."
+    }
+  },
+  "phrase": {
+    "id": "phrase-024",
+    "text": "There's room for improvement.",
+    "meaning": {
+      "en": "Use this expression in conversation: There's room for improvement.",
+      "taglish": "Gamitin ang expression sa natural na usapan."
+    },
+    "examples": {
+      "work": "The system works, but there's room for improvement.",
+      "everyday": "The system works, but there's room for improvement."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Can you tell me more?"
+      },
+      {
+        "speaker": "B",
+        "text": "The system works, but there's room for improvement."
+      }
+    ],
+    "check": {
+      "id": "daily-24-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "What does 'room for improvement' mean?",
+      "options": [
+        "Something can be better",
+        "Nothing can change"
+      ],
+      "correctIndex": 0,
+      "explanation": "Something can be better"
+    }
+  },
+  "grammarTip": {
+    "topic": "comparatives",
+    "explanation": "Practice comparatives: The system works, but there's room for improvement."
+  },
+  "speaking": {
+    "id": "daily-24-speaking",
+    "scenario": "Explain how to improve a routine or process.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "There's room for improvement.",
+      "We can improve the process."
+    ],
+    "oneMinuteGoal": "State your main idea and one detail.",
+    "twoMinuteGoal": "Add a reason, example, and conclusion.",
+    "modelResponse": "The system works, but there's room for improvement. We can improve the process.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

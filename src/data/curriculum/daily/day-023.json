@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-023",
+  "dayNumber": 23,
+  "week": 4,
+  "weekTheme": "Speaking with Confidence",
+  "title": "Challenge — One challenge we're facing is…",
+  "word": {
+    "id": "word-023",
+    "text": "Challenge",
+    "meaning": {
+      "en": "A difficult task or situation.",
+      "taglish": "Mahirap na task o situation."
+    },
+    "examples": {
+      "work": "Finishing on time is a challenge.",
+      "everyday": "Finishing on time is a challenge."
+    },
+    "check": {
+      "id": "daily-23-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Challenge\"?",
+      "options": [
+        "A difficult task or situation.",
+        "An unrelated meaning"
+      ],
+      "correctIndex": 0,
+      "explanation": "A difficult task or situation."
+    }
+  },
+  "phrase": {
+    "id": "phrase-023",
+    "text": "One challenge we're facing is…",
+    "meaning": {
+      "en": "Use this expression in conversation: One challenge we're facing is…",
+      "taglish": "Gamitin ang expression sa natural na usapan."
+    },
+    "examples": {
+      "work": "One challenge we're facing is limited staff.",
+      "everyday": "One challenge we're facing is limited staff."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Can you tell me more?"
+      },
+      {
+        "speaker": "B",
+        "text": "One challenge we're facing is limited staff."
+      }
+    ],
+    "check": {
+      "id": "daily-23-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "Complete: 'One challenge we're facing is ___ we need time.'",
+      "options": [
+        "that",
+        "for"
+      ],
+      "correctIndex": 0,
+      "explanation": "that"
+    }
+  },
+  "grammarTip": {
+    "topic": "problem clauses",
+    "explanation": "Practice problem clauses: One challenge we're facing is limited staff."
+  },
+  "speaking": {
+    "id": "daily-23-speaking",
+    "scenario": "Explain a challenge your team is facing.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "One challenge we're facing is…",
+      "Finishing on time is a challenge."
+    ],
+    "oneMinuteGoal": "State your main idea and one detail.",
+    "twoMinuteGoal": "Add a reason, example, and conclusion.",
+    "modelResponse": "One challenge we're facing is limited staff. Finishing on time is a challenge.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

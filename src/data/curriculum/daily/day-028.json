@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-028",
+  "dayNumber": 28,
+  "week": 4,
+  "weekTheme": "Speaking with Confidence",
+  "title": "Reflect — Looking back…",
+  "word": {
+    "id": "word-028",
+    "text": "Reflect",
+    "meaning": {
+      "en": "To think carefully about a past experience.",
+      "taglish": "Pag-isipan ang nakaraang experience."
+    },
+    "examples": {
+      "work": "I reflect on what I learned.",
+      "everyday": "I reflect on what I learned."
+    },
+    "check": {
+      "id": "daily-28-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Reflect\"?",
+      "options": [
+        "To think carefully about a past experience.",
+        "An unrelated meaning"
+      ],
+      "correctIndex": 0,
+      "explanation": "To think carefully about a past experience."
+    }
+  },
+  "phrase": {
+    "id": "phrase-028",
+    "text": "Looking back…",
+    "meaning": {
+      "en": "Use this expression in conversation: Looking back…",
+      "taglish": "Gamitin ang expression sa natural na usapan."
+    },
+    "examples": {
+      "work": "Looking back, I should have asked more questions.",
+      "everyday": "Looking back, I should have asked more questions."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Can you tell me more?"
+      },
+      {
+        "speaker": "B",
+        "text": "Looking back, I should have asked more questions."
+      }
+    ],
+    "check": {
+      "id": "daily-28-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "What does 'Looking back' introduce?",
+      "options": [
+        "Reflection on the past",
+        "Plans for next year"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reflection on the past"
+    }
+  },
+  "grammarTip": {
+    "topic": "past tense",
+    "explanation": "Practice past tense: Looking back, I should have asked more questions."
+  },
+  "speaking": {
+    "id": "daily-28-speaking",
+    "scenario": "Reflect on a challenge and what it taught you.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "Looking back…",
+      "I reflect on what I learned."
+    ],
+    "oneMinuteGoal": "State your main idea and one detail.",
+    "twoMinuteGoal": "Add a reason, example, and conclusion.",
+    "modelResponse": "Looking back, I should have asked more questions. I reflect on what I learned.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

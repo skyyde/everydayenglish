@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "grammar-01-02",
+  "moduleId": "module-01",
+  "lessonNumber": 2,
+  "title": "Word Order",
+  "estimatedMinutes": 8,
+  "explanation": {
+    "en": "English statements commonly use subject–verb–object order. Time expressions often come at the end.",
+    "taglish": "Common sa English ang subject–verb–object. Madalas nasa dulo ang time expression."
+  },
+  "examples": [
+    "I check my email every morning.",
+    "She reads the report."
+  ],
+  "exercises": [
+    {
+      "id": "grammar-01-02-q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the natural sentence.",
+      "options": [
+        "I review the plan.",
+        "Review I the plan.",
+        "The plan I review."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: I review the plan."
+    },
+    {
+      "id": "grammar-01-02-q2",
+      "type": "multiple_choice",
+      "prompt": "Which word is the verb: 'They prepare dinner'?",
+      "options": [
+        "They",
+        "prepare",
+        "dinner"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct answer: prepare"
+    },
+    {
+      "id": "grammar-01-02-q3",
+      "type": "multiple_choice",
+      "prompt": "Correct the word order.",
+      "options": [
+        "He sends the email.",
+        "He the email sends.",
+        "Sends he the email."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: He sends the email."
+    },
+    {
+      "id": "grammar-01-02-q4",
+      "type": "multiple_choice",
+      "prompt": "Choose the natural order.",
+      "options": [
+        "We meet on Monday.",
+        "On Monday meet we.",
+        "We on Monday meet."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: We meet on Monday."
+    },
+    {
+      "id": "grammar-01-02-q5",
+      "type": "multiple_choice",
+      "prompt": "Build a sentence.",
+      "options": [
+        "My colleague reviews the figures.",
+        "My colleague the figures reviews.",
+        "Reviews my colleague figures."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: My colleague reviews the figures."
+    }
+  ],
+  "writing": {
+    "type": "self_review",
+    "prompt": "Write a sentence about something you do each morning.",
+    "checklist": [
+      "My sentence is complete.",
+      "My word order is natural.",
+      "I reviewed the lesson examples."
+    ]
+  },
+  "optionalSpeaking": {
+    "prompt": "Write a sentence about something you do each morning."
+  },
+  "editorialStatus": "draft_review_required"
+}

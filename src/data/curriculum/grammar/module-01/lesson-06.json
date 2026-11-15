@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "grammar-01-06",
+  "moduleId": "module-01",
+  "lessonNumber": 6,
+  "title": "Fragments and Run-ons",
+  "estimatedMinutes": 8,
+  "explanation": {
+    "en": "A fragment lacks a complete main clause. A run-on joins independent sentences incorrectly. Use appropriate punctuation and connectors.",
+    "taglish": "Fragment ay kulang na sentence. Run-on ay dalawang complete ideas na mali ang pagkakadugtong."
+  },
+  "examples": [
+    "I finished the report, and I sent it.",
+    "Because it was late, we went home."
+  ],
+  "exercises": [
+    {
+      "id": "grammar-01-06-q1",
+      "type": "multiple_choice",
+      "prompt": "Which is a fragment?",
+      "options": [
+        "Because the meeting ended.",
+        "The meeting ended.",
+        "We went home."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: Because the meeting ended."
+    },
+    {
+      "id": "grammar-01-06-q2",
+      "type": "multiple_choice",
+      "prompt": "Which is a run-on?",
+      "options": [
+        "I was tired I went home.",
+        "I was tired, so I went home.",
+        "I went home."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: I was tired I went home."
+    },
+    {
+      "id": "grammar-01-06-q3",
+      "type": "multiple_choice",
+      "prompt": "Fix the fragment 'Because I was late.'",
+      "options": [
+        "I apologized because I was late.",
+        "Because I was late.",
+        "Was late because I."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: I apologized because I was late."
+    },
+    {
+      "id": "grammar-01-06-q4",
+      "type": "multiple_choice",
+      "prompt": "Fix the run-on.",
+      "options": [
+        "I finished the report, and I sent it.",
+        "I finished the report I sent it.",
+        "I finished report sent it."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: I finished the report, and I sent it."
+    },
+    {
+      "id": "grammar-01-06-q5",
+      "type": "multiple_choice",
+      "prompt": "Build a complete sentence.",
+      "options": [
+        "The manager called, so I answered.",
+        "Because the manager called.",
+        "The manager called I answered."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: The manager called, so I answered."
+    }
+  ],
+  "writing": {
+    "type": "self_review",
+    "prompt": "Write two related sentences and connect them correctly.",
+    "checklist": [
+      "My sentence is complete.",
+      "My word order is natural.",
+      "I reviewed the lesson examples."
+    ]
+  },
+  "optionalSpeaking": {
+    "prompt": "Write two related sentences and connect them correctly."
+  },
+  "editorialStatus": "draft_review_required"
+}

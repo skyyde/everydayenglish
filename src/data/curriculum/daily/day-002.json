@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-002",
+  "dayNumber": 2,
+  "week": 1,
+  "weekTheme": "Speaking Clearly at Work",
+  "title": "Prioritize — Moving forward…",
+  "word": {
+    "id": "word-002",
+    "text": "Prioritize",
+    "meaning": {
+      "en": "To decide which tasks are most important.",
+      "taglish": "Piliin kung aling task ang pinakaimportante."
+    },
+    "examples": {
+      "work": "We need to prioritize urgent requests.",
+      "everyday": "We need to prioritize urgent requests."
+    },
+    "check": {
+      "id": "daily-002-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Prioritize\"?",
+      "options": [
+        "To decide which tasks are most important.",
+        "A word with the opposite meaning or an unrelated idea"
+      ],
+      "correctIndex": 0,
+      "explanation": "To decide which tasks are most important."
+    }
+  },
+  "phrase": {
+    "id": "phrase-002",
+    "text": "Moving forward…",
+    "meaning": {
+      "en": "Use this expression naturally in conversation: Moving forward…",
+      "taglish": "Ipakilala ang bagong plan mula ngayon."
+    },
+    "examples": {
+      "work": "Moving forward, let's review our priorities every Monday.",
+      "everyday": "Moving forward, let's review our priorities every Monday."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "What do you think we should do?"
+      },
+      {
+        "speaker": "B",
+        "text": "Moving forward, let's review our priorities every Monday."
+      }
+    ],
+    "check": {
+      "id": "daily-002-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "What does 'Moving forward' introduce?",
+      "options": [
+        "A past event",
+        "A future plan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ipakilala ang bagong plan mula ngayon."
+    }
+  },
+  "grammarTip": {
+    "topic": "future plans",
+    "explanation": "Practice future plans using today's example: Moving forward, let's review our priorities every Monday."
+  },
+  "speaking": {
+    "id": "daily-002-speaking",
+    "scenario": "Explain how you will prioritize tasks this week.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "Moving forward…",
+      "We need to prioritize urgent requests."
+    ],
+    "oneMinuteGoal": "State your main idea clearly and add one detail.",
+    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
+    "modelResponse": "Moving forward, let's review our priorities every Monday. We need to prioritize urgent requests.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a polite or natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

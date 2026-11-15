@@ -1,0 +1,45 @@
+{
+  "appName": "Everyday English",
+  "nav": {
+    "today": "Today",
+    "learn": "Learn",
+    "speak": "Speak",
+    "progress": "Progress",
+    "settings": "Settings"
+  },
+  "today": {
+    "title": "Today's practice",
+    "word": "Word of the Day",
+    "phrase": "Phrase of the Day",
+    "speaking": "Speaking Challenge",
+    "goal": "Daily goal",
+    "completed": "All done for today!",
+    "comingSoon": "New lessons coming soon."
+  },
+  "actions": {
+    "start": "Start lesson",
+    "continue": "Continue",
+    "finish": "Finish",
+    "retry": "Try again",
+    "showHint": "Show hint",
+    "listen": "Listen",
+    "record": "Start recording",
+    "stop": "Stop recording",
+    "play": "Play recording",
+    "save": "Save",
+    "download": "Download",
+    "delete": "Delete",
+    "back": "Back",
+    "skip": "Skip for now",
+    "review": "Review answer"
+  },
+  "feedback": {
+    "correct": "That's right!",
+    "tryAgain": "Not quite. Try again.",
+    "selfReview": "Compare your answer with the example. Your own correct wording may be different."
+  },
+  "privacy": {
+    "recordingLocal": "Your recording stays on this device unless you choose to download or share it.",
+    "backupExcludesAudio": "Backups do not include audio recordings."
+  }
+}

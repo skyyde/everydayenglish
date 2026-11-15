@@ -1,0 +1,45 @@
+{
+  "appName": "Everyday English",
+  "nav": {
+    "today": "Ngayon",
+    "learn": "Matuto",
+    "speak": "Magsalita",
+    "progress": "Pag-unlad",
+    "settings": "Mga Setting"
+  },
+  "today": {
+    "title": "Pagsasanay ngayong araw",
+    "word": "Salita ng Araw",
+    "phrase": "Parirala ng Araw",
+    "speaking": "Pagsasanay sa Pagsasalita",
+    "goal": "Layunin sa Araw",
+    "completed": "Tapos na ang pagsasanay ngayong araw!",
+    "comingSoon": "May mga bagong araling paparating."
+  },
+  "actions": {
+    "start": "Simulan ang aralin",
+    "continue": "Magpatuloy",
+    "finish": "Tapusin",
+    "retry": "Subukang muli",
+    "showHint": "Tingnan ang pahiwatig",
+    "listen": "Pakinggan",
+    "record": "Simulan ang pagrekord",
+    "stop": "Itigil",
+    "play": "Pakinggan ang rekording",
+    "save": "I-save",
+    "download": "I-download",
+    "delete": "Burahin",
+    "back": "Bumalik",
+    "skip": "Laktawan muna",
+    "review": "Suriin ang sagot"
+  },
+  "feedback": {
+    "correct": "Tama!",
+    "tryAgain": "Hindi pa tama. Subukang muli.",
+    "selfReview": "Ihambing ang sagot sa halimbawa. Maaaring iba ang pagkakasulat ng isa pang tamang sagot."
+  },
+  "privacy": {
+    "recordingLocal": "Mananatili sa device ang rekording maliban kung piliin mong i-download o ibahagi.",
+    "backupExcludesAudio": "Hindi kasama ang mga audio recording sa backup."
+  }
+}

@@ -13,7 +13,8 @@
         "work"
       ],
       "correctIndex": 0,
-      "explanation": "Correct: working"
+      "explanation": "The correct choice is \"working\". Read the full sentence aloud and notice how the words fit together.",
+      "hint": "Read each option as a complete sentence before choosing."
     },
     {
       "id": "week-04-q2",
@@ -24,7 +25,8 @@
         "improvement"
       ],
       "correctIndex": 1,
-      "explanation": "Correct: improvement"
+      "explanation": "The correct choice is \"improvement\". Read the full sentence aloud and notice how the words fit together.",
+      "hint": "Read each option as a complete sentence before choosing."
     },
     {
       "id": "week-04-q3",
@@ -35,7 +37,8 @@
         "Let's to review the next steps."
       ],
       "correctIndex": 0,
-      "explanation": "Correct: Let's review the next steps."
+      "explanation": "The correct choice is \"Let's review the next steps.\". Read the full sentence aloud and notice how the words fit together.",
+      "hint": "Read each option as a complete sentence before choosing."
     },
     {
       "id": "week-04-q4",
@@ -46,7 +49,8 @@
         "simplifying"
       ],
       "correctIndex": 0,
-      "explanation": "Correct: simplify"
+      "explanation": "The correct choice is \"simplify\". Read the full sentence aloud and notice how the words fit together.",
+      "hint": "Read each option as a complete sentence before choosing."
     },
     {
       "id": "week-04-q5",
@@ -57,12 +61,25 @@
         "Moving forward…"
       ],
       "correctIndex": 0,
-      "explanation": "Correct: Looking back…"
+      "explanation": "The correct choice is \"Looking back…\". Read the full sentence aloud and notice how the words fit together.",
+      "hint": "Read each option as a complete sentence before choosing."
     }
   ],
   "application": {
     "type": "self_review",
-    "prompt": "Explain one problem, its cause, a possible solution, and what you learned."
+    "prompt": "Describe a problem you solved and explain what you learned.",
+    "checklist": [
+      "I used at least two phrases from this week.",
+      "I included a clear main idea.",
+      "I added a reason or example."
+    ],
+    "modelResponseVisibility": "after_attempt"
   },
-  "completionRule": "Attempt all five questions and review explanations"
+  "completionRule": "Attempt all five questions and review explanations",
+  "introduction": {
+    "en": "Practice explaining a challenge, proposing improvements, guiding someone through steps, and reflecting.",
+    "taglish": "Balikan ang challenges, improvements, explanations, at reflections.",
+    "fil": "Balikan ang challenges, improvements, explanations, at reflections."
+  },
+  "editorialStatus": "authored_v1"
 }

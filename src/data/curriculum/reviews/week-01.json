@@ -13,7 +13,8 @@
         "clarification"
       ],
       "correctIndex": 0,
-      "explanation": "Correct: clarify"
+      "explanation": "The correct choice is \"clarify\". Read the full sentence aloud and notice how the words fit together.",
+      "hint": "Read each option as a complete sentence before choosing."
     },
     {
       "id": "week-01-q2",
@@ -24,7 +25,8 @@
         "finished"
       ],
       "correctIndex": 1,
-      "explanation": "Correct: finished"
+      "explanation": "The correct choice is \"finished\". Read the full sentence aloud and notice how the words fit together.",
+      "hint": "Read each option as a complete sentence before choosing."
     },
     {
       "id": "week-01-q3",
@@ -35,7 +37,8 @@
         "Already completed"
       ],
       "correctIndex": 0,
-      "explanation": "Correct: Progressing as planned"
+      "explanation": "The correct choice is \"Progressing as planned\". Read the full sentence aloud and notice how the words fit together.",
+      "hint": "Read each option as a complete sentence before choosing."
     },
     {
       "id": "week-01-q4",
@@ -46,7 +49,8 @@
         "I'll take care the report."
       ],
       "correctIndex": 0,
-      "explanation": "Correct: I'll take care of the report."
+      "explanation": "The correct choice is \"I'll take care of the report.\". Read the full sentence aloud and notice how the words fit together.",
+      "hint": "Read each option as a complete sentence before choosing."
     },
     {
       "id": "week-01-q5",
@@ -57,12 +61,25 @@
         "By the way…"
       ],
       "correctIndex": 0,
-      "explanation": "Correct: To sum things up…"
+      "explanation": "The correct choice is \"To sum things up…\". Read the full sentence aloud and notice how the words fit together.",
+      "hint": "Read each option as a complete sentence before choosing."
     }
   ],
   "application": {
     "type": "self_review",
-    "prompt": "Give a short work update using two expressions from this week."
+    "prompt": "Imagine a short team meeting. Describe what is done, what remains, and the next step.",
+    "checklist": [
+      "I used at least two phrases from this week.",
+      "I included a clear main idea.",
+      "I added a reason or example."
+    ],
+    "modelResponseVisibility": "after_attempt"
   },
-  "completionRule": "Attempt all five questions and review explanations"
+  "completionRule": "Attempt all five questions and review explanations",
+  "introduction": {
+    "en": "Review how to ask for clarification, give an update, assign responsibility, and summarize.",
+    "taglish": "Balikan ang polite questions, updates, responsibilities, at summaries.",
+    "fil": "Balikan ang polite questions, updates, responsibilities, at summaries."
+  },
+  "editorialStatus": "authored_v1"
 }

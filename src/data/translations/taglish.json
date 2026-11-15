@@ -1,0 +1,45 @@
+{
+  "appName": "Everyday English",
+  "nav": {
+    "today": "Today",
+    "learn": "Learn",
+    "speak": "Speak",
+    "progress": "Progress",
+    "settings": "Settings"
+  },
+  "today": {
+    "title": "Practice natin today",
+    "word": "Word of the Day",
+    "phrase": "Phrase of the Day",
+    "speaking": "Speaking Challenge",
+    "goal": "Daily goal",
+    "completed": "Tapos na ang practice today!",
+    "comingSoon": "May bagong lessons na paparating."
+  },
+  "actions": {
+    "start": "Simulan ang lesson",
+    "continue": "Ituloy",
+    "finish": "Tapusin",
+    "retry": "Subukan ulit",
+    "showHint": "Tingnan ang hint",
+    "listen": "Pakinggan",
+    "record": "Simulan ang recording",
+    "stop": "Itigil",
+    "play": "Pakinggan ang recording",
+    "save": "I-save",
+    "download": "I-download",
+    "delete": "Burahin",
+    "back": "Bumalik",
+    "skip": "Skip muna",
+    "review": "I-review ang sagot"
+  },
+  "feedback": {
+    "correct": "Tama!",
+    "tryAgain": "Hindi pa. Subukan ulit.",
+    "selfReview": "I-compare ang sagot sa example. Puwede ring iba ang tamang wording."
+  },
+  "privacy": {
+    "recordingLocal": "Sa device mo lang naka-save ang recording maliban kung i-download o i-share mo.",
+    "backupExcludesAudio": "Hindi kasama ang audio recordings sa backup."
+  }
+}

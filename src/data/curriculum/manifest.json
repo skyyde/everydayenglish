@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "1.0.0-draft",
+  "contentVersion": "1.0.0",
   "title": "Everyday English",
   "timezone": "Asia/Manila",
   "dailyLessons": 30,
@@ -59,5 +59,22 @@
   ],
   "weeklyReviews": 4,
   "placementAssessment": true,
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1_qa_pending",
+  "contentNote": "Complete authored content for 30 daily lessons, six grammar lessons, placement, and reviews. Validate before release; language and pedagogy should be tested with the learner.",
+  "dataContract": {
+    "dailyActivities": [
+      "word",
+      "phrase",
+      "speaking"
+    ],
+    "completionBasedOnActualUserActions": true,
+    "modelResponsesShownAfterAttempt": true,
+    "languageFallback": "en",
+    "reviewScheduleDays": [
+      2,
+      7,
+      14,
+      30
+    ]
+  }
 }

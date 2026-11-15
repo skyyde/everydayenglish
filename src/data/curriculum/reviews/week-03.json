@@ -13,7 +13,8 @@
         "He usually wake up early."
       ],
       "correctIndex": 0,
-      "explanation": "Correct: He usually wakes up early."
+      "explanation": "The correct choice is \"He usually wakes up early.\". Read the full sentence aloud and notice how the words fit together.",
+      "hint": "Read each option as a complete sentence before choosing."
     },
     {
       "id": "week-03-q2",
@@ -24,7 +25,8 @@
         "start"
       ],
       "correctIndex": 0,
-      "explanation": "Correct: started"
+      "explanation": "The correct choice is \"started\". Read the full sentence aloud and notice how the words fit together.",
+      "hint": "Read each option as a complete sentence before choosing."
     },
     {
       "id": "week-03-q3",
@@ -35,7 +37,8 @@
         "cook"
       ],
       "correctIndex": 0,
-      "explanation": "Correct: cooking"
+      "explanation": "The correct choice is \"cooking\". Read the full sentence aloud and notice how the words fit together.",
+      "hint": "Read each option as a complete sentence before choosing."
     },
     {
       "id": "week-03-q4",
@@ -46,7 +49,8 @@
         "to stay"
       ],
       "correctIndex": 0,
-      "explanation": "Correct: stay"
+      "explanation": "The correct choice is \"stay\". Read the full sentence aloud and notice how the words fit together.",
+      "hint": "Read each option as a complete sentence before choosing."
     },
     {
       "id": "week-03-q5",
@@ -57,12 +61,25 @@
         "Okay."
       ],
       "correctIndex": 0,
-      "explanation": "Correct: How did you get interested in that?"
+      "explanation": "The correct choice is \"How did you get interested in that?\". Read the full sentence aloud and notice how the words fit together.",
+      "hint": "Read each option as a complete sentence before choosing."
     }
   ],
   "application": {
     "type": "self_review",
-    "prompt": "Tell a short story about a memorable weekend."
+    "prompt": "Tell a friend about a favorite place, then ask two natural follow-up questions.",
+    "checklist": [
+      "I used at least two phrases from this week.",
+      "I included a clear main idea.",
+      "I added a reason or example."
+    ],
+    "modelResponseVisibility": "after_attempt"
   },
-  "completionRule": "Attempt all five questions and review explanations"
+  "completionRule": "Attempt all five questions and review explanations",
+  "introduction": {
+    "en": "Practice asking follow-up questions, describing routines, sharing memories, and making recommendations.",
+    "taglish": "Balikan ang everyday conversations, routines, memories, at recommendations.",
+    "fil": "Balikan ang everyday conversations, routines, memories, at recommendations."
+  },
+  "editorialStatus": "authored_v1"
 }

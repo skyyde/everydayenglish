@@ -16,7 +16,8 @@
         "The report ready."
       ],
       "correctIndex": 0,
-      "explanation": "Correct: The report is ready."
+      "explanation": "Correct: \"The report is ready.\". Compare the subject, verb, and word order with the other choices.",
+      "hint": "Look for the option that forms a natural, complete English sentence."
     },
     {
       "id": "placement-q2",
@@ -28,7 +29,8 @@
         "going"
       ],
       "correctIndex": 1,
-      "explanation": "Correct: goes"
+      "explanation": "Correct: \"goes\". Compare the subject, verb, and word order with the other choices.",
+      "hint": "Look for the option that forms a natural, complete English sentence."
     },
     {
       "id": "placement-q3",
@@ -40,7 +42,8 @@
         "finishing"
       ],
       "correctIndex": 1,
-      "explanation": "Correct: finished"
+      "explanation": "Correct: \"finished\". Compare the subject, verb, and word order with the other choices.",
+      "hint": "Look for the option that forms a natural, complete English sentence."
     },
     {
       "id": "placement-q4",
@@ -52,7 +55,8 @@
         "completing"
       ],
       "correctIndex": 1,
-      "explanation": "Correct: completed"
+      "explanation": "Correct: \"completed\". Compare the subject, verb, and word order with the other choices.",
+      "hint": "Look for the option that forms a natural, complete English sentence."
     },
     {
       "id": "placement-q5",
@@ -64,7 +68,8 @@
         "Where meeting?"
       ],
       "correctIndex": 0,
-      "explanation": "Correct: Where is the meeting?"
+      "explanation": "Correct: \"Where is the meeting?\". Compare the subject, verb, and word order with the other choices.",
+      "hint": "Look for the option that forms a natural, complete English sentence."
     },
     {
       "id": "placement-q6",
@@ -76,7 +81,8 @@
         "Tell me meeting starts?"
       ],
       "correctIndex": 0,
-      "explanation": "Correct: Could you tell me when the meeting starts?"
+      "explanation": "Correct: \"Could you tell me when the meeting starts?\". Compare the subject, verb, and word order with the other choices.",
+      "hint": "Look for the option that forms a natural, complete English sentence."
     },
     {
       "id": "placement-q7",
@@ -88,7 +94,8 @@
         "however"
       ],
       "correctIndex": 0,
-      "explanation": "Correct: because"
+      "explanation": "Correct: \"because\". Compare the subject, verb, and word order with the other choices.",
+      "hint": "Look for the option that forms a natural, complete English sentence."
     },
     {
       "id": "placement-q8",
@@ -100,7 +107,8 @@
         "You must send file."
       ],
       "correctIndex": 0,
-      "explanation": "Correct: Could you please send the file?"
+      "explanation": "Correct: \"Could you please send the file?\". Compare the subject, verb, and word order with the other choices.",
+      "hint": "Look for the option that forms a natural, complete English sentence."
     },
     {
       "id": "placement-q9",
@@ -112,7 +120,8 @@
         "We completing phase."
       ],
       "correctIndex": 0,
-      "explanation": "Correct: We've completed the first phase."
+      "explanation": "Correct: \"We've completed the first phase.\". Compare the subject, verb, and word order with the other choices.",
+      "hint": "Look for the option that forms a natural, complete English sentence."
     },
     {
       "id": "placement-q10",
@@ -124,7 +133,8 @@
         "I agree, because but."
       ],
       "correctIndex": 0,
-      "explanation": "Correct: I agree, but I have one concern."
+      "explanation": "Correct: \"I agree, but I have one concern.\". Compare the subject, verb, and word order with the other choices.",
+      "hint": "Look for the option that forms a natural, complete English sentence."
     }
   ],
   "openQuestions": [
@@ -132,19 +142,37 @@
       "id": "placement-open-1",
       "type": "self_review",
       "prompt": "Correct this sentence: 'She go to work every day.'",
-      "sample": "She goes to work every day."
+      "sample": "She goes to work every day.",
+      "feedbackMode": "self_review_only",
+      "checklist": [
+        "My answer is understandable.",
+        "My sentence has the correct word order.",
+        "I compared my answer with the sample without expecting an automatic score."
+      ]
     },
     {
       "id": "placement-open-2",
       "type": "self_review",
       "prompt": "Combine: 'I was late. There was traffic.'",
-      "sample": "I was late because there was traffic."
+      "sample": "I was late because there was traffic.",
+      "feedbackMode": "self_review_only",
+      "checklist": [
+        "My answer is understandable.",
+        "My sentence has the correct word order.",
+        "I compared my answer with the sample without expecting an automatic score."
+      ]
     },
     {
       "id": "placement-open-3",
       "type": "self_review",
       "prompt": "Write a polite response to a coworker asking for a progress update.",
-      "sample": "So far, I've finished the draft. I'll send the final version tomorrow."
+      "sample": "So far, I've finished the draft. I'll send the final version tomorrow.",
+      "feedbackMode": "self_review_only",
+      "checklist": [
+        "My answer is understandable.",
+        "My sentence has the correct word order.",
+        "I compared my answer with the sample without expecting an automatic score."
+      ]
     }
   ],
   "recommendations": [
@@ -166,5 +194,10 @@
       "note": "Review foundations and explore more advanced modules when available."
     }
   ],
-  "disclaimer": "A rough practice recommendation, not a validated English proficiency score."
+  "disclaimer": "A rough practice recommendation, not a validated English proficiency score.",
+  "instructions": {
+    "en": "Answer ten multiple-choice questions. Then review three short writing prompts. You may skip this assessment or retake it later.",
+    "taglish": "Sagutan ang sampung multiple-choice. Pagkatapos, i-review ang tatlong writing prompts. Puwedeng i-skip o ulitin."
+  },
+  "editorialStatus": "authored_v1"
 }

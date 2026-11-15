@@ -7,7 +7,8 @@
   "estimatedMinutes": 8,
   "explanation": {
     "en": "Common patterns include at 9 AM, on Monday, in November, send to someone, and prepare for a meeting.",
-    "taglish": "Tandaan ang patterns: at 9 AM, on Monday, in November, send to, at prepare for."
+    "taglish": "Tandaan ang patterns: at 9 AM, on Monday, in November, send to, at prepare for. Halimbawa: I'll send the report to Maria on Friday.",
+    "fil": "Gamitin ang at para sa tiyak na oras, on para sa araw, at in para sa buwan o taon."
   },
   "examples": [
     "I'll send the report to Maria on Friday.",
@@ -24,7 +25,9 @@
         "at"
       ],
       "correctIndex": 0,
-      "explanation": "Correct answer: on"
+      "explanation": "Use at for clock times, on for days, and in for months or years. Correct answer: on",
+      "hint": "Look at the noun after the preposition.",
+      "maxAttemptsBeforeExplanation": 3
     },
     {
       "id": "grammar-01-05-q2",
@@ -36,7 +39,9 @@
         "in"
       ],
       "correctIndex": 0,
-      "explanation": "Correct answer: at"
+      "explanation": "Use to for the person receiving something. Correct answer: at",
+      "hint": "For time, decide whether it is a clock time, day, or month.",
+      "maxAttemptsBeforeExplanation": 3
     },
     {
       "id": "grammar-01-05-q3",
@@ -48,7 +53,9 @@
         "I sent the email at Maria."
       ],
       "correctIndex": 0,
-      "explanation": "Correct answer: I sent the email to Maria."
+      "explanation": "Use for when referring to preparation or purpose. Correct answer: I sent the email to Maria.",
+      "hint": "Learn common word combinations as a phrase.",
+      "maxAttemptsBeforeExplanation": 3
     },
     {
       "id": "grammar-01-05-q4",
@@ -60,7 +67,9 @@
         "We are preparing at the meeting."
       ],
       "correctIndex": 0,
-      "explanation": "Correct answer: We are preparing for the meeting."
+      "explanation": "Use for when referring to preparation or purpose. Correct answer: We are preparing for the meeting.",
+      "hint": "Learn common word combinations as a phrase.",
+      "maxAttemptsBeforeExplanation": 3
     },
     {
       "id": "grammar-01-05-q5",
@@ -72,7 +81,9 @@
         "Change 'on' to 'in'."
       ],
       "correctIndex": 0,
-      "explanation": "Correct answer: No change needed."
+      "explanation": "Use for when referring to preparation or purpose. Correct answer: No change needed.",
+      "hint": "Learn common word combinations as a phrase.",
+      "maxAttemptsBeforeExplanation": 3
     }
   ],
   "writing": {
@@ -82,10 +93,43 @@
       "My sentence is complete.",
       "My word order is natural.",
       "I reviewed the lesson examples."
-    ]
+    ],
+    "exampleAnswer": "We meet on Friday at nine.",
+    "feedbackMode": "self_review_only"
   },
   "optionalSpeaking": {
-    "prompt": "Write one sentence using a time preposition and one using 'to' or 'for'."
+    "prompt": "Write one sentence using a time preposition and one using 'to' or 'for'.",
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "feedbackMode": "self_review_only"
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1",
+  "sections": [
+    {
+      "id": "grammar-01-05-section-1",
+      "heading": "Time",
+      "explanation": "Use at for clock times, on for days, and in for months or years.",
+      "example": "at 9 AM; on Monday; in November"
+    },
+    {
+      "id": "grammar-01-05-section-2",
+      "heading": "Direction and recipients",
+      "explanation": "Use to for the person receiving something.",
+      "example": "I sent the report to Ana."
+    },
+    {
+      "id": "grammar-01-05-section-3",
+      "heading": "Purpose",
+      "explanation": "Use for when referring to preparation or purpose.",
+      "example": "We prepared for the meeting."
+    }
+  ],
+  "guidedSteps": [
+    "Look at the noun after the preposition.",
+    "For time, decide whether it is a clock time, day, or month.",
+    "Learn common word combinations as a phrase."
+  ],
+  "commonMistake": "'We meet in Monday' should be 'We meet on Monday'."
 }

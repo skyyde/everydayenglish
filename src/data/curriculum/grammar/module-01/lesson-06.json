@@ -7,7 +7,8 @@
   "estimatedMinutes": 8,
   "explanation": {
     "en": "A fragment lacks a complete main clause. A run-on joins independent sentences incorrectly. Use appropriate punctuation and connectors.",
-    "taglish": "Fragment ay kulang na sentence. Run-on ay dalawang complete ideas na mali ang pagkakadugtong."
+    "taglish": "Fragment ay kulang na sentence. Run-on ay dalawang complete ideas na mali ang pagkakadugtong. Halimbawa: I finished the report, and I sent it.",
+    "fil": "Ang fragment ay kulang na pangungusap. Ang run-on ay dalawang buong ideyang hindi maayos ang pagkakadugtong."
   },
   "examples": [
     "I finished the report, and I sent it.",
@@ -24,7 +25,9 @@
         "We went home."
       ],
       "correctIndex": 0,
-      "explanation": "Correct answer: Because the meeting ended."
+      "explanation": "A dependent clause by itself may leave an incomplete thought. Correct answer: Because the meeting ended.",
+      "hint": "Check that every sentence has a main clause.",
+      "maxAttemptsBeforeExplanation": 3
     },
     {
       "id": "grammar-01-06-q2",
@@ -36,7 +39,9 @@
         "I went home."
       ],
       "correctIndex": 0,
-      "explanation": "Correct answer: I was tired I went home."
+      "explanation": "Two complete sentences need punctuation or a connector. Correct answer: I was tired I went home.",
+      "hint": "Look for two complete ideas joined without punctuation.",
+      "maxAttemptsBeforeExplanation": 3
     },
     {
       "id": "grammar-01-06-q3",
@@ -48,7 +53,9 @@
         "Was late because I."
       ],
       "correctIndex": 0,
-      "explanation": "Correct answer: I apologized because I was late."
+      "explanation": "Use a period, a semicolon, or an appropriate comma and coordinating conjunction. Correct answer: I apologized because I was late.",
+      "hint": "Use a connector that matches the relationship.",
+      "maxAttemptsBeforeExplanation": 3
     },
     {
       "id": "grammar-01-06-q4",
@@ -60,7 +67,9 @@
         "I finished report sent it."
       ],
       "correctIndex": 0,
-      "explanation": "Correct answer: I finished the report, and I sent it."
+      "explanation": "Use a period, a semicolon, or an appropriate comma and coordinating conjunction. Correct answer: I finished the report, and I sent it.",
+      "hint": "Use a connector that matches the relationship.",
+      "maxAttemptsBeforeExplanation": 3
     },
     {
       "id": "grammar-01-06-q5",
@@ -72,7 +81,9 @@
         "The manager called I answered."
       ],
       "correctIndex": 0,
-      "explanation": "Correct answer: The manager called, so I answered."
+      "explanation": "Use a period, a semicolon, or an appropriate comma and coordinating conjunction. Correct answer: The manager called, so I answered.",
+      "hint": "Use a connector that matches the relationship.",
+      "maxAttemptsBeforeExplanation": 3
     }
   ],
   "writing": {
@@ -82,10 +93,43 @@
       "My sentence is complete.",
       "My word order is natural.",
       "I reviewed the lesson examples."
-    ]
+    ],
+    "exampleAnswer": "I finished the report, and I sent it to my manager.",
+    "feedbackMode": "self_review_only"
   },
   "optionalSpeaking": {
-    "prompt": "Write two related sentences and connect them correctly."
+    "prompt": "Write two related sentences and connect them correctly.",
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "feedbackMode": "self_review_only"
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1",
+  "sections": [
+    {
+      "id": "grammar-01-06-section-1",
+      "heading": "Fragments",
+      "explanation": "A dependent clause by itself may leave an incomplete thought.",
+      "example": "Fragment: 'Because I was late.' Complete: 'I apologized because I was late.'"
+    },
+    {
+      "id": "grammar-01-06-section-2",
+      "heading": "Run-ons",
+      "explanation": "Two complete sentences need punctuation or a connector.",
+      "example": "Run-on: 'I was tired I went home.' Correct: 'I was tired, so I went home.'"
+    },
+    {
+      "id": "grammar-01-06-section-3",
+      "heading": "Joining ideas",
+      "explanation": "Use a period, a semicolon, or an appropriate comma and coordinating conjunction.",
+      "example": "The meeting ended, and we went home."
+    }
+  ],
+  "guidedSteps": [
+    "Check that every sentence has a main clause.",
+    "Look for two complete ideas joined without punctuation.",
+    "Use a connector that matches the relationship."
+  ],
+  "commonMistake": "'I finished the report I sent it' needs punctuation and a connector."
 }

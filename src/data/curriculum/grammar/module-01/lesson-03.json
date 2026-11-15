@@ -7,7 +7,8 @@
   "estimatedMinutes": 8,
   "explanation": {
     "en": "In the simple present, he, she, and it usually take -s or -es. I, you, we, and they generally use the base verb.",
-    "taglish": "Kapag he, she, o it, usually may -s o -es sa simple present. Base verb sa I, you, we, at they."
+    "taglish": "Kapag he, she, o it, usually may -s o -es sa simple present. Base verb sa I, you, we, at they. Halimbawa: She works on Mondays.",
+    "fil": "Sa simple present, madalas may -s o -es ang pandiwa kapag he, she, o it ang simuno."
   },
   "examples": [
     "She works on Mondays.",
@@ -24,7 +25,9 @@
         "She working here."
       ],
       "correctIndex": 0,
-      "explanation": "Correct answer: She works here."
+      "explanation": "Add -s or -es to most simple-present verbs. Correct answer: She works here.",
+      "hint": "Find the subject first.",
+      "maxAttemptsBeforeExplanation": 3
     },
     {
       "id": "grammar-01-03-q2",
@@ -36,7 +39,9 @@
         "working"
       ],
       "correctIndex": 1,
-      "explanation": "Correct answer: work"
+      "explanation": "Use the base form in ordinary simple-present statements. Correct answer: work",
+      "hint": "Decide whether the sentence is simple present.",
+      "maxAttemptsBeforeExplanation": 3
     },
     {
       "id": "grammar-01-03-q3",
@@ -48,7 +53,9 @@
         "He send reports."
       ],
       "correctIndex": 0,
-      "explanation": "Correct answer: He sends reports."
+      "explanation": "Use am, is, or are depending on the subject. Correct answer: He sends reports.",
+      "hint": "Choose the matching verb form.",
+      "maxAttemptsBeforeExplanation": 3
     },
     {
       "id": "grammar-01-03-q4",
@@ -60,7 +67,9 @@
         "I are ready."
       ],
       "correctIndex": 0,
-      "explanation": "Correct answer: I am ready."
+      "explanation": "Use am, is, or are depending on the subject. Correct answer: I am ready.",
+      "hint": "Choose the matching verb form.",
+      "maxAttemptsBeforeExplanation": 3
     },
     {
       "id": "grammar-01-03-q5",
@@ -72,7 +81,9 @@
         "My manager reviewing the plan."
       ],
       "correctIndex": 0,
-      "explanation": "Correct answer: My manager reviews the plan."
+      "explanation": "Use am, is, or are depending on the subject. Correct answer: My manager reviews the plan.",
+      "hint": "Choose the matching verb form.",
+      "maxAttemptsBeforeExplanation": 3
     }
   ],
   "writing": {
@@ -82,10 +93,43 @@
       "My sentence is complete.",
       "My word order is natural.",
       "I reviewed the lesson examples."
-    ]
+    ],
+    "exampleAnswer": "My colleague sends updates every Monday.",
+    "feedbackMode": "self_review_only"
   },
   "optionalSpeaking": {
-    "prompt": "Write one sentence about what a colleague usually does."
+    "prompt": "Write one sentence about what a colleague usually does.",
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "feedbackMode": "self_review_only"
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1",
+  "sections": [
+    {
+      "id": "grammar-01-03-section-1",
+      "heading": "He, she, it",
+      "explanation": "Add -s or -es to most simple-present verbs.",
+      "example": "She sends updates."
+    },
+    {
+      "id": "grammar-01-03-section-2",
+      "heading": "I, you, we, they",
+      "explanation": "Use the base form in ordinary simple-present statements.",
+      "example": "They send updates."
+    },
+    {
+      "id": "grammar-01-03-section-3",
+      "heading": "The verb be",
+      "explanation": "Use am, is, or are depending on the subject.",
+      "example": "I am ready. She is ready. They are ready."
+    }
+  ],
+  "guidedSteps": [
+    "Find the subject first.",
+    "Decide whether the sentence is simple present.",
+    "Choose the matching verb form."
+  ],
+  "commonMistake": "'He send reports' needs 'sends'."
 }

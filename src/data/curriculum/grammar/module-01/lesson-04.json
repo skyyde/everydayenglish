@@ -7,7 +7,8 @@
   "estimatedMinutes": 8,
   "explanation": {
     "en": "Use a or an for a nonspecific singular countable noun. An comes before a vowel sound. The points to something specific.",
-    "taglish": "Use a o an kapag nonspecific na isang bagay; an before vowel sound. Use the kapag specific na."
+    "taglish": "Use a o an kapag nonspecific na isang bagay; an before vowel sound. Use the kapag specific na. Halimbawa: I received an email.",
+    "fil": "Gamitin ang a o an sa isang hindi pa tiyak na bagay. Gamitin ang the kapag tiyak na ang tinutukoy."
   },
   "examples": [
     "I received an email.",
@@ -24,7 +25,9 @@
         "The only"
       ],
       "correctIndex": 0,
-      "explanation": "Correct answer: An"
+      "explanation": "Use a before consonant sounds and an before vowel sounds. Correct answer: An",
+      "hint": "Is the noun singular and countable?",
+      "maxAttemptsBeforeExplanation": 3
     },
     {
       "id": "grammar-01-04-q2",
@@ -36,7 +39,9 @@
         "No article ever"
       ],
       "correctIndex": 0,
-      "explanation": "Correct answer: A"
+      "explanation": "Use the for something identifiable or already mentioned. Correct answer: A",
+      "hint": "Is the thing specific or nonspecific?",
+      "maxAttemptsBeforeExplanation": 3
     },
     {
       "id": "grammar-01-04-q3",
@@ -48,7 +53,9 @@
         "I need the a pen."
       ],
       "correctIndex": 0,
-      "explanation": "Correct answer: I need a pen."
+      "explanation": "Choose a or an by pronunciation, not just the first letter. Correct answer: I need a pen.",
+      "hint": "If nonspecific, listen for a vowel or consonant sound.",
+      "maxAttemptsBeforeExplanation": 3
     },
     {
       "id": "grammar-01-04-q4",
@@ -60,7 +67,9 @@
         "An"
       ],
       "correctIndex": 0,
-      "explanation": "Correct answer: The"
+      "explanation": "Choose a or an by pronunciation, not just the first letter. Correct answer: The",
+      "hint": "If nonspecific, listen for a vowel or consonant sound.",
+      "maxAttemptsBeforeExplanation": 3
     },
     {
       "id": "grammar-01-04-q5",
@@ -72,7 +81,9 @@
         "She bought notebook a."
       ],
       "correctIndex": 0,
-      "explanation": "Correct answer: She bought a notebook."
+      "explanation": "Choose a or an by pronunciation, not just the first letter. Correct answer: She bought a notebook.",
+      "hint": "If nonspecific, listen for a vowel or consonant sound.",
+      "maxAttemptsBeforeExplanation": 3
     }
   ],
   "writing": {
@@ -82,10 +93,43 @@
       "My sentence is complete.",
       "My word order is natural.",
       "I reviewed the lesson examples."
-    ]
+    ],
+    "exampleAnswer": "I received an email. The email was important.",
+    "feedbackMode": "self_review_only"
   },
   "optionalSpeaking": {
-    "prompt": "Write a sentence using 'a' or 'an', then another using 'the'."
+    "prompt": "Write a sentence using 'a' or 'an', then another using 'the'.",
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "feedbackMode": "self_review_only"
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1",
+  "sections": [
+    {
+      "id": "grammar-01-04-section-1",
+      "heading": "A and an",
+      "explanation": "Use a before consonant sounds and an before vowel sounds.",
+      "example": "a meeting; an email; a university"
+    },
+    {
+      "id": "grammar-01-04-section-2",
+      "heading": "The",
+      "explanation": "Use the for something identifiable or already mentioned.",
+      "example": "I received an email. The email was urgent."
+    },
+    {
+      "id": "grammar-01-04-section-3",
+      "heading": "Sound matters",
+      "explanation": "Choose a or an by pronunciation, not just the first letter.",
+      "example": "an hour; a university"
+    }
+  ],
+  "guidedSteps": [
+    "Is the noun singular and countable?",
+    "Is the thing specific or nonspecific?",
+    "If nonspecific, listen for a vowel or consonant sound."
+  ],
+  "commonMistake": "'An university' is incorrect because university begins with a /y/ sound."
 }

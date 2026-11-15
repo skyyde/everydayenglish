@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-014",
+  "dayNumber": 14,
+  "week": 2,
+  "weekTheme": "Participating in Meetings",
+  "title": "Confirm — Before we proceed…",
+  "word": {
+    "id": "word-014",
+    "text": "Confirm",
+    "meaning": {
+      "en": "To check that something is correct.",
+      "taglish": "I-check kung tama ang details."
+    },
+    "examples": {
+      "work": "Please confirm the meeting time.",
+      "everyday": "Please confirm the meeting time."
+    },
+    "check": {
+      "id": "daily-014-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Confirm\"?",
+      "options": [
+        "To check that something is correct.",
+        "A word with the opposite meaning or an unrelated idea"
+      ],
+      "correctIndex": 0,
+      "explanation": "To check that something is correct."
+    }
+  },
+  "phrase": {
+    "id": "phrase-014",
+    "text": "Before we proceed…",
+    "meaning": {
+      "en": "Use this expression naturally in conversation: Before we proceed…",
+      "taglish": "I-check muna bago mag-proceed."
+    },
+    "examples": {
+      "work": "Before we proceed, could we confirm everyone's tasks?",
+      "everyday": "Before we proceed, could we confirm everyone's tasks?"
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "What do you think we should do?"
+      },
+      {
+        "speaker": "B",
+        "text": "Before we proceed, could we confirm everyone's tasks?"
+      }
+    ],
+    "check": {
+      "id": "daily-014-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "Why say 'Before we proceed'?",
+      "options": [
+        "To confirm details first",
+        "To change the subject"
+      ],
+      "correctIndex": 0,
+      "explanation": "I-check muna bago mag-proceed."
+    }
+  },
+  "grammarTip": {
+    "topic": "indirect questions",
+    "explanation": "Practice indirect questions using today's example: Before we proceed, could we confirm everyone's tasks?"
+  },
+  "speaking": {
+    "id": "daily-014-speaking",
+    "scenario": "Confirm a decision before your team starts working.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "Before we proceed…",
+      "Please confirm the meeting time."
+    ],
+    "oneMinuteGoal": "State your main idea clearly and add one detail.",
+    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
+    "modelResponse": "Before we proceed, could we confirm everyone's tasks? Please confirm the meeting time.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a polite or natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

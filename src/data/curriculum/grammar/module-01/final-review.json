@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "grammar-01-final",
+  "title": "Sentence Foundations — Final Review",
+  "questions": [
+    {
+      "id": "grammar-01-final-q1",
+      "type": "multiple_choice",
+      "prompt": "Which sentence is complete?",
+      "options": [
+        "The report ready.",
+        "The report is ready.",
+        "Because the report."
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct: The report is ready."
+    },
+    {
+      "id": "grammar-01-final-q2",
+      "type": "multiple_choice",
+      "prompt": "Choose natural word order.",
+      "options": [
+        "I every morning check my email.",
+        "Check my email I every morning.",
+        "I check my email every morning."
+      ],
+      "correctIndex": 2,
+      "explanation": "Correct: I check my email every morning."
+    },
+    {
+      "id": "grammar-01-final-q3",
+      "type": "multiple_choice",
+      "prompt": "My colleague ___ the reports every Friday.",
+      "options": [
+        "review",
+        "reviews",
+        "reviewing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct: reviews"
+    },
+    {
+      "id": "grammar-01-final-q4",
+      "type": "multiple_choice",
+      "prompt": "She received ___ important message.",
+      "options": [
+        "a",
+        "an",
+        "the only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct: an"
+    },
+    {
+      "id": "grammar-01-final-q5",
+      "type": "multiple_choice",
+      "prompt": "Choose the correctly written sentence.",
+      "options": [
+        "I finished the report I sent it yesterday.",
+        "I finished the report, and I sent it yesterday.",
+        "I finished the report because."
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct: I finished the report, and I sent it yesterday."
+    }
+  ],
+  "achievement": "Sentence Builder",
+  "achievementRule": "Complete six lessons and submit final review"
+}

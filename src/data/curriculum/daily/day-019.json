@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-019",
+  "dayNumber": 19,
+  "week": 3,
+  "weekTheme": "Everyday Conversations",
+  "title": "Prefer — I'd rather…",
+  "word": {
+    "id": "word-019",
+    "text": "Prefer",
+    "meaning": {
+      "en": "To like one option more than another.",
+      "taglish": "Mas gusto ang isang option."
+    },
+    "examples": {
+      "work": "I prefer tea to coffee.",
+      "everyday": "I prefer tea to coffee."
+    },
+    "check": {
+      "id": "daily-019-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Prefer\"?",
+      "options": [
+        "To like one option more than another.",
+        "A word with the opposite meaning or an unrelated idea"
+      ],
+      "correctIndex": 0,
+      "explanation": "To like one option more than another."
+    }
+  },
+  "phrase": {
+    "id": "phrase-019",
+    "text": "I'd rather…",
+    "meaning": {
+      "en": "Use this expression naturally in conversation: I'd rather…",
+      "taglish": "Sabihin ang mas gusto mong gawin."
+    },
+    "examples": {
+      "work": "I'd rather stay home tonight.",
+      "everyday": "I'd rather stay home tonight."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Can you tell me more?"
+      },
+      {
+        "speaker": "B",
+        "text": "I'd rather stay home tonight."
+      }
+    ],
+    "check": {
+      "id": "daily-019-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "Complete: 'I'd rather ___ home.'",
+      "options": [
+        "stay",
+        "to stay"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sabihin ang mas gusto mong gawin."
+    }
+  },
+  "grammarTip": {
+    "topic": "comparisons",
+    "explanation": "Practice comparisons using today's example: I'd rather stay home tonight."
+  },
+  "speaking": {
+    "id": "daily-019-speaking",
+    "scenario": "Explain your preference between two weekend activities.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "I'd rather…",
+      "I prefer tea to coffee."
+    ],
+    "oneMinuteGoal": "State your main idea clearly and add one detail.",
+    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
+    "modelResponse": "I'd rather stay home tonight. I prefer tea to coffee.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a polite or natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

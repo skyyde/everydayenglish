@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-017",
+  "dayNumber": 17,
+  "week": 3,
+  "weekTheme": "Everyday Conversations",
+  "title": "Experience — I remember when…",
+  "word": {
+    "id": "word-017",
+    "text": "Experience",
+    "meaning": {
+      "en": "Something that happened to you or that you learned by doing.",
+      "taglish": "Nangyari sa iyo o natutunan mo sa paggawa."
+    },
+    "examples": {
+      "work": "My first job was a valuable experience.",
+      "everyday": "My first job was a valuable experience."
+    },
+    "check": {
+      "id": "daily-017-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Experience\"?",
+      "options": [
+        "Something that happened to you or that you learned by doing.",
+        "A word with the opposite meaning or an unrelated idea"
+      ],
+      "correctIndex": 0,
+      "explanation": "Something that happened to you or that you learned by doing."
+    }
+  },
+  "phrase": {
+    "id": "phrase-017",
+    "text": "I remember when…",
+    "meaning": {
+      "en": "Use this expression naturally in conversation: I remember when…",
+      "taglish": "Magkuwento ng memory o experience."
+    },
+    "examples": {
+      "work": "I remember when I first started working.",
+      "everyday": "I remember when I first started working."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Can you tell me more?"
+      },
+      {
+        "speaker": "B",
+        "text": "I remember when I first started working."
+      }
+    ],
+    "check": {
+      "id": "daily-017-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "Complete: 'I remember when I ___ my first job.'",
+      "options": [
+        "started",
+        "start"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magkuwento ng memory o experience."
+    }
+  },
+  "grammarTip": {
+    "topic": "past simple",
+    "explanation": "Practice past simple using today's example: I remember when I first started working."
+  },
+  "speaking": {
+    "id": "daily-017-speaking",
+    "scenario": "Tell a story about something you learned in the past.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "I remember when…",
+      "My first job was a valuable experience."
+    ],
+    "oneMinuteGoal": "State your main idea clearly and add one detail.",
+    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
+    "modelResponse": "I remember when I first started working. My first job was a valuable experience.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a polite or natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

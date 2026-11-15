@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "placement-v1",
+  "estimatedMinutes": 8,
+  "optional": true,
+  "retakable": true,
+  "speakingRequired": false,
+  "closedQuestions": [
+    {
+      "id": "placement-q1",
+      "type": "multiple_choice",
+      "prompt": "Which is a complete sentence?",
+      "options": [
+        "The report is ready.",
+        "Because the report.",
+        "The report ready."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: The report is ready."
+    },
+    {
+      "id": "placement-q2",
+      "type": "multiple_choice",
+      "prompt": "She ___ to work every day.",
+      "options": [
+        "go",
+        "goes",
+        "going"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct: goes"
+    },
+    {
+      "id": "placement-q3",
+      "type": "multiple_choice",
+      "prompt": "Yesterday, we ___ the report.",
+      "options": [
+        "finish",
+        "finished",
+        "finishing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct: finished"
+    },
+    {
+      "id": "placement-q4",
+      "type": "multiple_choice",
+      "prompt": "So far, we have ___ three tasks.",
+      "options": [
+        "complete",
+        "completed",
+        "completing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct: completed"
+    },
+    {
+      "id": "placement-q5",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct question.",
+      "options": [
+        "Where is the meeting?",
+        "Where the meeting is?",
+        "Where meeting?"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: Where is the meeting?"
+    },
+    {
+      "id": "placement-q6",
+      "type": "multiple_choice",
+      "prompt": "Choose the polite indirect question.",
+      "options": [
+        "Could you tell me when the meeting starts?",
+        "Could you tell me when does the meeting start?",
+        "Tell me meeting starts?"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: Could you tell me when the meeting starts?"
+    },
+    {
+      "id": "placement-q7",
+      "type": "multiple_choice",
+      "prompt": "I stayed home ___ it was raining.",
+      "options": [
+        "because",
+        "although",
+        "however"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: because"
+    },
+    {
+      "id": "placement-q8",
+      "type": "multiple_choice",
+      "prompt": "Choose the polite request.",
+      "options": [
+        "Could you please send the file?",
+        "Send file now.",
+        "You must send file."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: Could you please send the file?"
+    },
+    {
+      "id": "placement-q9",
+      "type": "multiple_choice",
+      "prompt": "Choose the natural work update.",
+      "options": [
+        "We've completed the first phase.",
+        "We complete first phase yesterday now.",
+        "We completing phase."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: We've completed the first phase."
+    },
+    {
+      "id": "placement-q10",
+      "type": "multiple_choice",
+      "prompt": "Which sentence connects ideas correctly?",
+      "options": [
+        "I agree, but I have one concern.",
+        "I agree but have concern I.",
+        "I agree, because but."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: I agree, but I have one concern."
+    }
+  ],
+  "openQuestions": [
+    {
+      "id": "placement-open-1",
+      "type": "self_review",
+      "prompt": "Correct this sentence: 'She go to work every day.'",
+      "sample": "She goes to work every day."
+    },
+    {
+      "id": "placement-open-2",
+      "type": "self_review",
+      "prompt": "Combine: 'I was late. There was traffic.'",
+      "sample": "I was late because there was traffic."
+    },
+    {
+      "id": "placement-open-3",
+      "type": "self_review",
+      "prompt": "Write a polite response to a coworker asking for a progress update.",
+      "sample": "So far, I've finished the draft. I'll send the final version tomorrow."
+    }
+  ],
+  "recommendations": [
+    {
+      "scoreMin": 0,
+      "scoreMax": 4,
+      "module": "module-01"
+    },
+    {
+      "scoreMin": 5,
+      "scoreMax": 7,
+      "module": "module-01",
+      "note": "Review targeted foundations, then explore Module 2 when available."
+    },
+    {
+      "scoreMin": 8,
+      "scoreMax": 10,
+      "module": "module-01",
+      "note": "Review foundations and explore more advanced modules when available."
+    }
+  ],
+  "disclaimer": "A rough practice recommendation, not a validated English proficiency score."
+}

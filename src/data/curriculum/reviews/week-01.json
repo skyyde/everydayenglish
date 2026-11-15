@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "week-01",
+  "title": "Clear Workplace Communication",
+  "optional": true,
+  "questions": [
+    {
+      "id": "week-01-q1",
+      "type": "multiple_choice",
+      "prompt": "Could you ___ the instructions?",
+      "options": [
+        "clarify",
+        "clarification"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: clarify"
+    },
+    {
+      "id": "week-01-q2",
+      "type": "multiple_choice",
+      "prompt": "So far, we've ___ the first draft.",
+      "options": [
+        "finish",
+        "finished"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct: finished"
+    },
+    {
+      "id": "week-01-q3",
+      "type": "multiple_choice",
+      "prompt": "What does 'We're on track' mean?",
+      "options": [
+        "Progressing as planned",
+        "Already completed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: Progressing as planned"
+    },
+    {
+      "id": "week-01-q4",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "I'll take care of the report.",
+        "I'll take care the report."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: I'll take care of the report."
+    },
+    {
+      "id": "week-01-q5",
+      "type": "multiple_choice",
+      "prompt": "Which phrase introduces a summary?",
+      "options": [
+        "To sum things up…",
+        "By the way…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: To sum things up…"
+    }
+  ],
+  "application": {
+    "type": "self_review",
+    "prompt": "Give a short work update using two expressions from this week."
+  },
+  "completionRule": "Attempt all five questions and review explanations"
+}

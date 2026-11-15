@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-026",
+  "dayNumber": 26,
+  "week": 4,
+  "weekTheme": "Speaking with Confidence",
+  "title": "Efficient — A more efficient approach would be…",
+  "word": {
+    "id": "word-026",
+    "text": "Efficient",
+    "meaning": {
+      "en": "Achieving results without wasting time or effort.",
+      "taglish": "Magandang result nang hindi sayang ang oras."
+    },
+    "examples": {
+      "work": "This is a more efficient process.",
+      "everyday": "This is a more efficient process."
+    },
+    "check": {
+      "id": "daily-26-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Efficient\"?",
+      "options": [
+        "Achieving results without wasting time or effort.",
+        "An unrelated meaning"
+      ],
+      "correctIndex": 0,
+      "explanation": "Achieving results without wasting time or effort."
+    }
+  },
+  "phrase": {
+    "id": "phrase-026",
+    "text": "A more efficient approach would be…",
+    "meaning": {
+      "en": "Use this expression in conversation: A more efficient approach would be…",
+      "taglish": "Gamitin ang expression sa natural na usapan."
+    },
+    "examples": {
+      "work": "A more efficient approach would be to use a shared template.",
+      "everyday": "A more efficient approach would be to use a shared template."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Can you tell me more?"
+      },
+      {
+        "speaker": "B",
+        "text": "A more efficient approach would be to use a shared template."
+      }
+    ],
+    "check": {
+      "id": "daily-26-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "Complete: 'An approach would be to ___ the files.'",
+      "options": [
+        "organize",
+        "organizing"
+      ],
+      "correctIndex": 0,
+      "explanation": "organize"
+    }
+  },
+  "grammarTip": {
+    "topic": "comparisons and conditionals",
+    "explanation": "Practice comparisons and conditionals: A more efficient approach would be to use a shared template."
+  },
+  "speaking": {
+    "id": "daily-26-speaking",
+    "scenario": "Recommend a more efficient way to complete a task.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "A more efficient approach would be…",
+      "This is a more efficient process."
+    ],
+    "oneMinuteGoal": "State your main idea and one detail.",
+    "twoMinuteGoal": "Add a reason, example, and conclusion.",
+    "modelResponse": "A more efficient approach would be to use a shared template. This is a more efficient process.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

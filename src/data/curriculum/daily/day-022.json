@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-022",
+  "dayNumber": 22,
+  "week": 4,
+  "weekTheme": "Speaking with Confidence",
+  "title": "Resolve — We're working on a solution.",
+  "word": {
+    "id": "word-022",
+    "text": "Resolve",
+    "meaning": {
+      "en": "To solve a problem.",
+      "taglish": "Ayusin o solusyunan ang problema."
+    },
+    "examples": {
+      "work": "We need to resolve the issue.",
+      "everyday": "We need to resolve the issue."
+    },
+    "check": {
+      "id": "daily-22-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Resolve\"?",
+      "options": [
+        "To solve a problem.",
+        "An unrelated meaning"
+      ],
+      "correctIndex": 0,
+      "explanation": "To solve a problem."
+    }
+  },
+  "phrase": {
+    "id": "phrase-022",
+    "text": "We're working on a solution.",
+    "meaning": {
+      "en": "Use this expression in conversation: We're working on a solution.",
+      "taglish": "Gamitin ang expression sa natural na usapan."
+    },
+    "examples": {
+      "work": "We're working on a solution to the delay.",
+      "everyday": "We're working on a solution to the delay."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Can you tell me more?"
+      },
+      {
+        "speaker": "B",
+        "text": "We're working on a solution to the delay."
+      }
+    ],
+    "check": {
+      "id": "daily-22-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "What does this phrase mean?",
+      "options": [
+        "The issue is being addressed",
+        "The issue is definitely solved"
+      ],
+      "correctIndex": 0,
+      "explanation": "The issue is being addressed"
+    }
+  },
+  "grammarTip": {
+    "topic": "present continuous",
+    "explanation": "Practice present continuous: We're working on a solution to the delay."
+  },
+  "speaking": {
+    "id": "daily-22-speaking",
+    "scenario": "Explain a work problem and what is being done.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "We're working on a solution.",
+      "We need to resolve the issue."
+    ],
+    "oneMinuteGoal": "State your main idea and one detail.",
+    "twoMinuteGoal": "Add a reason, example, and conclusion.",
+    "modelResponse": "We're working on a solution to the delay. We need to resolve the issue.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

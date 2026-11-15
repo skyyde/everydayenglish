@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-003",
+  "dayNumber": 3,
+  "week": 1,
+  "weekTheme": "Speaking Clearly at Work",
+  "title": "Update — So far, we've…",
+  "word": {
+    "id": "word-003",
+    "text": "Update",
+    "meaning": {
+      "en": "To give the latest information.",
+      "taglish": "Ibigay ang pinakabagong impormasyon."
+    },
+    "examples": {
+      "work": "I'll update the team this afternoon.",
+      "everyday": "I'll update the team this afternoon."
+    },
+    "check": {
+      "id": "daily-003-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Update\"?",
+      "options": [
+        "To give the latest information.",
+        "A word with the opposite meaning or an unrelated idea"
+      ],
+      "correctIndex": 0,
+      "explanation": "To give the latest information."
+    }
+  },
+  "phrase": {
+    "id": "phrase-003",
+    "text": "So far, we've…",
+    "meaning": {
+      "en": "Use this expression naturally in conversation: So far, we've…",
+      "taglish": "Sabihin ang mga natapos hanggang ngayon."
+    },
+    "examples": {
+      "work": "So far, we've completed the first draft.",
+      "everyday": "So far, we've completed the first draft."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "What do you think we should do?"
+      },
+      {
+        "speaker": "B",
+        "text": "So far, we've completed the first draft."
+      }
+    ],
+    "check": {
+      "id": "daily-003-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "Complete: 'So far, we've ___ the draft.'",
+      "options": [
+        "finished",
+        "finish"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sabihin ang mga natapos hanggang ngayon."
+    }
+  },
+  "grammarTip": {
+    "topic": "present perfect",
+    "explanation": "Practice present perfect using today's example: So far, we've completed the first draft."
+  },
+  "speaking": {
+    "id": "daily-003-speaking",
+    "scenario": "Give a short project update to your manager.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "So far, we've…",
+      "I'll update the team this afternoon."
+    ],
+    "oneMinuteGoal": "State your main idea clearly and add one detail.",
+    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
+    "modelResponse": "So far, we've completed the first draft. I'll update the team this afternoon.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a polite or natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

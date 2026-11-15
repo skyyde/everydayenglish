@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-016",
+  "dayNumber": 16,
+  "week": 3,
+  "weekTheme": "Everyday Conversations",
+  "title": "Usually — Most of the time…",
+  "word": {
+    "id": "word-016",
+    "text": "Usually",
+    "meaning": {
+      "en": "Most of the time.",
+      "taglish": "Madalas, pero hindi palagi."
+    },
+    "examples": {
+      "work": "I usually drink coffee in the morning.",
+      "everyday": "I usually drink coffee in the morning."
+    },
+    "check": {
+      "id": "daily-016-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Usually\"?",
+      "options": [
+        "Most of the time.",
+        "A word with the opposite meaning or an unrelated idea"
+      ],
+      "correctIndex": 0,
+      "explanation": "Most of the time."
+    }
+  },
+  "phrase": {
+    "id": "phrase-016",
+    "text": "Most of the time…",
+    "meaning": {
+      "en": "Use this expression naturally in conversation: Most of the time…",
+      "taglish": "Sabihin kung ano ang karaniwang nangyayari."
+    },
+    "examples": {
+      "work": "Most of the time, I prepare dinner at home.",
+      "everyday": "Most of the time, I prepare dinner at home."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Can you tell me more?"
+      },
+      {
+        "speaker": "B",
+        "text": "Most of the time, I prepare dinner at home."
+      }
+    ],
+    "check": {
+      "id": "daily-016-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "What does 'Most of the time' mean?",
+      "options": [
+        "Usually, not always",
+        "Never"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sabihin kung ano ang karaniwang nangyayari."
+    }
+  },
+  "grammarTip": {
+    "topic": "simple present",
+    "explanation": "Practice simple present using today's example: Most of the time, I prepare dinner at home."
+  },
+  "speaking": {
+    "id": "daily-016-speaking",
+    "scenario": "Describe your usual weekday routine.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "Most of the time…",
+      "I usually drink coffee in the morning."
+    ],
+    "oneMinuteGoal": "State your main idea clearly and add one detail.",
+    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
+    "modelResponse": "Most of the time, I prepare dinner at home. I usually drink coffee in the morning.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a polite or natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

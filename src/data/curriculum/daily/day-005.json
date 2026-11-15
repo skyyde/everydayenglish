@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-005",
+  "dayNumber": 5,
+  "week": 1,
+  "weekTheme": "Speaking Clearly at Work",
+  "title": "Responsibility — I'll take care of…",
+  "word": {
+    "id": "word-005",
+    "text": "Responsibility",
+    "meaning": {
+      "en": "A duty or task that you are expected to handle.",
+      "taglish": "Task o duty na ikaw ang responsible."
+    },
+    "examples": {
+      "work": "Preparing the slides is my responsibility.",
+      "everyday": "Preparing the slides is my responsibility."
+    },
+    "check": {
+      "id": "daily-005-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Responsibility\"?",
+      "options": [
+        "A duty or task that you are expected to handle.",
+        "A word with the opposite meaning or an unrelated idea"
+      ],
+      "correctIndex": 0,
+      "explanation": "A duty or task that you are expected to handle."
+    }
+  },
+  "phrase": {
+    "id": "phrase-005",
+    "text": "I'll take care of…",
+    "meaning": {
+      "en": "Use this expression naturally in conversation: I'll take care of…",
+      "taglish": "Akuin ang isang task."
+    },
+    "examples": {
+      "work": "I'll take care of the presentation.",
+      "everyday": "I'll take care of the presentation."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "What do you think we should do?"
+      },
+      {
+        "speaker": "B",
+        "text": "I'll take care of the presentation."
+      }
+    ],
+    "check": {
+      "id": "daily-005-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "I'll take care the documents.",
+        "I'll take care of the documents."
+      ],
+      "correctIndex": 1,
+      "explanation": "Akuin ang isang task."
+    }
+  },
+  "grammarTip": {
+    "topic": "pronouns",
+    "explanation": "Practice pronouns using today's example: I'll take care of the presentation."
+  },
+  "speaking": {
+    "id": "daily-005-speaking",
+    "scenario": "Explain which work tasks you will handle.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "I'll take care of…",
+      "Preparing the slides is my responsibility."
+    ],
+    "oneMinuteGoal": "State your main idea clearly and add one detail.",
+    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
+    "modelResponse": "I'll take care of the presentation. Preparing the slides is my responsibility.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a polite or natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

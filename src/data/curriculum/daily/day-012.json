@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-012",
+  "dayNumber": 12,
+  "week": 2,
+  "weekTheme": "Participating in Meetings",
+  "title": "Concern — One concern I have is…",
+  "word": {
+    "id": "word-012",
+    "text": "Concern",
+    "meaning": {
+      "en": "Something that makes you worried or uncertain.",
+      "taglish": "Isang bagay na ikinababahala mo."
+    },
+    "examples": {
+      "work": "My main concern is the schedule.",
+      "everyday": "My main concern is the schedule."
+    },
+    "check": {
+      "id": "daily-012-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Concern\"?",
+      "options": [
+        "Something that makes you worried or uncertain.",
+        "A word with the opposite meaning or an unrelated idea"
+      ],
+      "correctIndex": 0,
+      "explanation": "Something that makes you worried or uncertain."
+    }
+  },
+  "phrase": {
+    "id": "phrase-012",
+    "text": "One concern I have is…",
+    "meaning": {
+      "en": "Use this expression naturally in conversation: One concern I have is…",
+      "taglish": "Mag-raise ng concern nang maayos."
+    },
+    "examples": {
+      "work": "One concern I have is that we may need more time.",
+      "everyday": "One concern I have is that we may need more time."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "What do you think we should do?"
+      },
+      {
+        "speaker": "B",
+        "text": "One concern I have is that we may need more time."
+      }
+    ],
+    "check": {
+      "id": "daily-012-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "Complete: 'One concern I have is ___ the schedule is tight.'",
+      "options": [
+        "that",
+        "for"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mag-raise ng concern nang maayos."
+    }
+  },
+  "grammarTip": {
+    "topic": "because and that clauses",
+    "explanation": "Practice because and that clauses using today's example: One concern I have is that we may need more time."
+  },
+  "speaking": {
+    "id": "daily-012-speaking",
+    "scenario": "Raise a concern about an unrealistic deadline.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "One concern I have is…",
+      "My main concern is the schedule."
+    ],
+    "oneMinuteGoal": "State your main idea clearly and add one detail.",
+    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
+    "modelResponse": "One concern I have is that we may need more time. My main concern is the schedule.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a polite or natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

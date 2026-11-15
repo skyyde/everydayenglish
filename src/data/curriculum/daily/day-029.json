@@ -23,10 +23,12 @@
       "prompt": "Which meaning best matches \"Confident\"?",
       "options": [
         "Feeling sure of your ability.",
-        "An unrelated meaning, not \"confident\""
+        "To feel unable to do anything."
       ],
       "correctIndex": 0,
-      "explanation": "Confident: Feeling sure of your ability. Example: I feel more confident during meetings."
+      "explanation": "Confident: Feeling sure of your ability. Example: I feel more confident during meetings.",
+      "hint": "Notice the meaning in this example: I feel more confident during meetings.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "May tiwala sa sarili"
@@ -42,7 +44,7 @@
     "text": "What I'd like to emphasize is…",
     "meaning": {
       "en": "To highlight the main point you want listeners to remember.",
-      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "taglish": "Gamitin ito para bigyang-diin ang pinakamahalagang idea.",
       "fil": "Pagbibigay-diin sa mahalagang mensahe."
     },
     "examples": {
@@ -72,7 +74,9 @@
         "Ask about the weather"
       ],
       "correctIndex": 0,
-      "explanation": "To highlight the main point you want listeners to remember. Example: What I'd like to emphasize is clear communication."
+      "explanation": "To highlight the main point you want listeners to remember. Example: What I'd like to emphasize is clear communication.",
+      "hint": "Read the example: What I'd like to emphasize is clear communication.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

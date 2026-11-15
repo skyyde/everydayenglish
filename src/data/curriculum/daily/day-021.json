@@ -23,10 +23,12 @@
       "prompt": "Which meaning best matches \"Memorable\"?",
       "options": [
         "Worth remembering.",
-        "An unrelated meaning, not \"memorable\""
+        "Something that is immediately forgotten."
       ],
       "correctIndex": 0,
-      "explanation": "Memorable: Worth remembering. Example: Our family vacation was memorable."
+      "explanation": "Memorable: Worth remembering. Example: Our family vacation was memorable.",
+      "hint": "Notice the meaning in this example: Our family vacation was memorable.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Hindi malilimutan"
@@ -42,7 +44,7 @@
     "text": "That reminds me of…",
     "meaning": {
       "en": "To connect a new story with your own memory.",
-      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "taglish": "Kapag may naalala kang related na story, puwede mong sabihin ito.",
       "fil": "Pagkonekta ng narinig sa sarili mong alaala."
     },
     "examples": {
@@ -72,7 +74,9 @@
         "A future deadline"
       ],
       "correctIndex": 0,
-      "explanation": "To connect a new story with your own memory. Example: That reminds me of our trip last year."
+      "explanation": "To connect a new story with your own memory. Example: That reminds me of our trip last year.",
+      "hint": "Read the example: That reminds me of our trip last year.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

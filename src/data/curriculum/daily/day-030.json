@@ -22,11 +22,13 @@
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Accomplish\"?",
       "options": [
-        "To successfully complete something.",
-        "An unrelated meaning, not \"accomplish\""
+        "To abandon a goal before trying.",
+        "To successfully complete something."
       ],
-      "correctIndex": 0,
-      "explanation": "Accomplish: To successfully complete something. Example: I accomplished my learning goal."
+      "correctIndex": 1,
+      "explanation": "Accomplish: To successfully complete something. Example: I accomplished my learning goal.",
+      "hint": "Notice the meaning in this example: I accomplished my learning goal.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Makamit"
@@ -42,7 +44,7 @@
     "text": "I'm proud of the progress I've made.",
     "meaning": {
       "en": "To express satisfaction with progress already achieved.",
-      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "taglish": "Gamitin ito kapag ipinagmamalaki mo ang sarili mong improvement.",
       "fil": "Pagpapahayag ng pagmamalaki sa sariling pag-unlad."
     },
     "examples": {
@@ -72,7 +74,9 @@
         "became"
       ],
       "correctIndex": 0,
-      "explanation": "To express satisfaction with progress already achieved. Example: I'm proud of the progress I've made this month."
+      "explanation": "To express satisfaction with progress already achieved. Example: I'm proud of the progress I've made this month.",
+      "hint": "Read the example: I'm proud of the progress I've made this month.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

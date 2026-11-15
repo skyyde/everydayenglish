@@ -22,11 +22,13 @@
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Reflect\"?",
       "options": [
-        "To think carefully about a past experience.",
-        "An unrelated meaning, not \"reflect\""
+        "To avoid thinking about the past.",
+        "To think carefully about a past experience."
       ],
-      "correctIndex": 0,
-      "explanation": "Reflect: To think carefully about a past experience. Example: I reflect on what I learned."
+      "correctIndex": 1,
+      "explanation": "Reflect: To think carefully about a past experience. Example: I reflect on what I learned.",
+      "hint": "Notice the meaning in this example: I reflect on what I learned.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Pagmuni-munihan"
@@ -42,7 +44,7 @@
     "text": "Looking back…",
     "meaning": {
       "en": "To introduce a thoughtful review of a past experience.",
-      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "taglish": "Simulan ito kapag magbabalik-tanaw ka sa isang experience.",
       "fil": "Pagbabalik-tanaw sa nangyari at natutunan."
     },
     "examples": {
@@ -72,7 +74,9 @@
         "Plans for next year"
       ],
       "correctIndex": 0,
-      "explanation": "To introduce a thoughtful review of a past experience. Example: Looking back, I should have asked more questions."
+      "explanation": "To introduce a thoughtful review of a past experience. Example: Looking back, I should have asked more questions.",
+      "hint": "Read the example: Looking back, I should have asked more questions.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

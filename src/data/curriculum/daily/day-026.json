@@ -22,11 +22,13 @@
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Efficient\"?",
       "options": [
-        "Achieving results without wasting time or effort.",
-        "An unrelated meaning, not \"efficient\""
+        "To waste time and effort unnecessarily.",
+        "Achieving results without wasting time or effort."
       ],
-      "correctIndex": 0,
-      "explanation": "Efficient: Achieving results without wasting time or effort. Example: This is a more efficient process."
+      "correctIndex": 1,
+      "explanation": "Efficient: Achieving results without wasting time or effort. Example: This is a more efficient process.",
+      "hint": "Notice the meaning in this example: This is a more efficient process.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Mahusay sa oras at resources"
@@ -42,7 +44,7 @@
     "text": "A more efficient approach would be…",
     "meaning": {
       "en": "To propose a practical way to save time or effort.",
-      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "taglish": "Mag-suggest ng paraan na mas makakatipid sa oras at effort.",
       "fil": "Pagbibigay ng paraan na makakatipid ng oras o effort."
     },
     "examples": {
@@ -72,7 +74,9 @@
         "organizing"
       ],
       "correctIndex": 0,
-      "explanation": "To propose a practical way to save time or effort. Example: A more efficient approach would be to use a shared template."
+      "explanation": "To propose a practical way to save time or effort. Example: A more efficient approach would be to use a shared template.",
+      "hint": "Read the example: A more efficient approach would be to use a shared template.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

@@ -22,11 +22,13 @@
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Recommend\"?",
       "options": [
-        "To suggest something as a good choice.",
-        "An unrelated action or idea, not \"recommend\""
+        "To forbid someone from trying a choice.",
+        "To suggest something as a good choice."
       ],
-      "correctIndex": 0,
-      "explanation": "Recommend: To suggest something as a good choice. Example: I recommend visiting the museum."
+      "correctIndex": 1,
+      "explanation": "Recommend: To suggest something as a good choice. Example: I recommend visiting the museum.",
+      "hint": "Notice the meaning in this example: I recommend visiting the museum.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Irekomenda"
@@ -72,7 +74,9 @@
         "To give an order"
       ],
       "correctIndex": 0,
-      "explanation": "To make a gentle recommendation without ordering someone. Example: You might want to try the restaurant near the park."
+      "explanation": "To make a gentle recommendation without ordering someone. Example: You might want to try the restaurant near the park.",
+      "hint": "Read the example: You might want to try the restaurant near the park.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

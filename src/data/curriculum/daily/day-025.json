@@ -23,10 +23,12 @@
       "prompt": "Which meaning best matches \"Coordinate\"?",
       "options": [
         "To organize work together.",
-        "An unrelated meaning, not \"coordinate\""
+        "To work separately without communicating."
       ],
       "correctIndex": 0,
-      "explanation": "Coordinate: To organize work together. Example: We need to coordinate our schedules."
+      "explanation": "Coordinate: To organize work together. Example: We need to coordinate our schedules.",
+      "hint": "Notice the meaning in this example: We need to coordinate our schedules.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Makipag-ugnayan"
@@ -42,7 +44,7 @@
     "text": "Let's align on the next steps.",
     "meaning": {
       "en": "To get agreement on responsibilities and next actions.",
-      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "taglish": "Gamitin ito para magkasundo sa responsibilities at next actions.",
       "fil": "Pagkakasundo sa susunod na gagawin."
     },
     "examples": {
@@ -72,7 +74,9 @@
         "to review"
       ],
       "correctIndex": 0,
-      "explanation": "To get agreement on responsibilities and next actions. Example: Let's align on the next steps before we leave."
+      "explanation": "To get agreement on responsibilities and next actions. Example: Let's align on the next steps before we leave.",
+      "hint": "Read the example: Let's align on the next steps before we leave.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

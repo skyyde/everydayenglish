@@ -22,11 +22,13 @@
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Improve\"?",
       "options": [
-        "To make something better.",
-        "An unrelated meaning, not \"improve\""
+        "To leave something exactly as it was.",
+        "To make something better."
       ],
-      "correctIndex": 0,
-      "explanation": "Improve: To make something better. Example: We can improve the process."
+      "correctIndex": 1,
+      "explanation": "Improve: To make something better. Example: We can improve the process.",
+      "hint": "Notice the meaning in this example: We can improve the process.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Pagbutihin"
@@ -42,7 +44,7 @@
     "text": "There's room for improvement.",
     "meaning": {
       "en": "To recognize that a process can be better.",
-      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "taglish": "Polite na paraan para sabihing may puwede pang pagandahin.",
       "fil": "Maingat na pagsasabing may puwede pang pagandahin."
     },
     "examples": {
@@ -72,7 +74,9 @@
         "Nothing can change"
       ],
       "correctIndex": 0,
-      "explanation": "To recognize that a process can be better. Example: The system works, but there's room for improvement."
+      "explanation": "To recognize that a process can be better. Example: The system works, but there's room for improvement.",
+      "hint": "Read the example: The system works, but there's room for improvement.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

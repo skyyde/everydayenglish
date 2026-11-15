@@ -23,10 +23,12 @@
       "prompt": "Which meaning best matches \"Prefer\"?",
       "options": [
         "To like one option more than another.",
-        "An unrelated action or idea, not \"prefer\""
+        "To like all options equally."
       ],
       "correctIndex": 0,
-      "explanation": "Prefer: To like one option more than another. Example: I prefer tea to coffee."
+      "explanation": "Prefer: To like one option more than another. Example: I prefer tea to coffee.",
+      "hint": "Notice the meaning in this example: I prefer tea to coffee.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Mas piliin"
@@ -72,7 +74,9 @@
         "to stay"
       ],
       "correctIndex": 0,
-      "explanation": "To express a preference between choices. Example: I'd rather stay home tonight."
+      "explanation": "To express a preference between choices. Example: I'd rather stay home tonight.",
+      "hint": "Read the example: I'd rather stay home tonight.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

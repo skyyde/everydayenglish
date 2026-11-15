@@ -22,11 +22,13 @@
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Resolve\"?",
       "options": [
-        "To solve a problem.",
-        "An unrelated meaning, not \"resolve\""
+        "To make a problem worse.",
+        "To solve a problem."
       ],
-      "correctIndex": 0,
-      "explanation": "Resolve: To solve a problem. Example: We need to resolve the issue."
+      "correctIndex": 1,
+      "explanation": "Resolve: To solve a problem. Example: We need to resolve the issue.",
+      "hint": "Notice the meaning in this example: We need to resolve the issue.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Lutasin"
@@ -42,7 +44,7 @@
     "text": "We're working on a solution.",
     "meaning": {
       "en": "To reassure others that a problem is being addressed.",
-      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "taglish": "Sabihin ito kapag may ginagawa na kayong paraan para maayos ang problem.",
       "fil": "Pagpapakitang may ginagawa para malutas ang problema."
     },
     "examples": {
@@ -72,7 +74,9 @@
         "The issue is definitely solved"
       ],
       "correctIndex": 0,
-      "explanation": "To reassure others that a problem is being addressed. Example: We're working on a solution to the delay."
+      "explanation": "To reassure others that a problem is being addressed. Example: We're working on a solution to the delay.",
+      "hint": "Read the example: We're working on a solution to the delay.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

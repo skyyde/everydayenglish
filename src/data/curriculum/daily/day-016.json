@@ -22,11 +22,13 @@
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Usually\"?",
       "options": [
-        "Most of the time.",
-        "An unrelated action or idea, not \"usually\""
+        "Something that never happens.",
+        "Most of the time."
       ],
-      "correctIndex": 0,
-      "explanation": "Usually: Most of the time. Example: I usually drink coffee in the morning."
+      "correctIndex": 1,
+      "explanation": "Usually: Most of the time. Example: I usually drink coffee in the morning.",
+      "hint": "Notice the meaning in this example: I usually drink coffee in the morning.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Kadalasan"
@@ -72,7 +74,9 @@
         "Never"
       ],
       "correctIndex": 0,
-      "explanation": "To talk about a regular pattern with exceptions. Example: Most of the time, I prepare dinner at home."
+      "explanation": "To talk about a regular pattern with exceptions. Example: Most of the time, I prepare dinner at home.",
+      "hint": "Read the example: Most of the time, I prepare dinner at home.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

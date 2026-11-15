@@ -23,10 +23,12 @@
       "prompt": "Which meaning best matches \"Experience\"?",
       "options": [
         "Something that happened to you or that you learned by doing.",
-        "An unrelated action or idea, not \"experience\""
+        "An event that has not yet occurred."
       ],
       "correctIndex": 0,
-      "explanation": "Experience: Something that happened to you or that you learned by doing. Example: My first job was a valuable experience."
+      "explanation": "Experience: Something that happened to you or that you learned by doing. Example: My first job was a valuable experience.",
+      "hint": "Notice the meaning in this example: My first job was a valuable experience.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Karanasan"
@@ -72,7 +74,9 @@
         "start"
       ],
       "correctIndex": 0,
-      "explanation": "To introduce a personal memory. Example: I remember when I first started working."
+      "explanation": "To introduce a personal memory. Example: I remember when I first started working.",
+      "hint": "Read the example: I remember when I first started working.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

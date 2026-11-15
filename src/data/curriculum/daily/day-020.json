@@ -22,11 +22,13 @@
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Enjoy\"?",
       "options": [
-        "To take pleasure in something.",
-        "An unrelated action or idea, not \"enjoy\""
+        "To dislike every activity.",
+        "To take pleasure in something."
       ],
-      "correctIndex": 0,
-      "explanation": "Enjoy: To take pleasure in something. Example: I enjoy reading in the evening."
+      "correctIndex": 1,
+      "explanation": "Enjoy: To take pleasure in something. Example: I enjoy reading in the evening.",
+      "hint": "Notice the meaning in this example: I enjoy reading in the evening.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Masiyahan"
@@ -72,7 +74,9 @@
         "read"
       ],
       "correctIndex": 0,
-      "explanation": "To introduce how you like to spend your free time. Example: In my free time, I enjoy gardening."
+      "explanation": "To introduce how you like to spend your free time. Example: In my free time, I enjoy gardening.",
+      "hint": "Read the example: In my free time, I enjoy gardening.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

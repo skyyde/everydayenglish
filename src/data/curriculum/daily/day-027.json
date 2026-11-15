@@ -23,10 +23,12 @@
       "prompt": "Which meaning best matches \"Explain\"?",
       "options": [
         "To make an idea clear by describing it.",
-        "An unrelated meaning, not \"explain\""
+        "To make an idea harder to understand."
       ],
       "correctIndex": 0,
-      "explanation": "Explain: To make an idea clear by describing it. Example: Can you explain how the system works?"
+      "explanation": "Explain: To make an idea clear by describing it. Example: Can you explain how the system works?",
+      "hint": "Notice the meaning in this example: Can you explain how the system works?",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Ipaliwanag"
@@ -42,7 +44,7 @@
     "text": "Let me walk you through…",
     "meaning": {
       "en": "To guide someone through a process step by step.",
-      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "taglish": "Gamitin kapag ipapaliwanag mo ang isang proseso step by step.",
       "fil": "Pagpapaliwanag nang sunod-sunod."
     },
     "examples": {
@@ -72,7 +74,9 @@
         "Avoid explaining"
       ],
       "correctIndex": 0,
-      "explanation": "To guide someone through a process step by step. Example: Let me walk you through the process."
+      "explanation": "To guide someone through a process step by step. Example: Let me walk you through the process.",
+      "hint": "Read the example: Let me walk you through the process.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

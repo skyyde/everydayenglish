@@ -23,10 +23,12 @@
       "prompt": "Which meaning best matches \"Challenge\"?",
       "options": [
         "A difficult task or situation.",
-        "An unrelated meaning, not \"challenge\""
+        "A task that requires no effort."
       ],
       "correctIndex": 0,
-      "explanation": "Challenge: A difficult task or situation. Example: Finishing on time is a challenge."
+      "explanation": "Challenge: A difficult task or situation. Example: Finishing on time is a challenge.",
+      "hint": "Notice the meaning in this example: Finishing on time is a challenge.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Hamon"
@@ -42,7 +44,7 @@
     "text": "One challenge we're facing is…",
     "meaning": {
       "en": "To identify a current obstacle clearly.",
-      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "taglish": "Gamitin ito para malinaw na sabihin ang problemang kinakaharap ng team.",
       "fil": "Pagpapaliwanag ng problemang kasalukuyang hinaharap."
     },
     "examples": {
@@ -72,7 +74,9 @@
         "for"
       ],
       "correctIndex": 0,
-      "explanation": "To identify a current obstacle clearly. Example: One challenge we're facing is limited staff."
+      "explanation": "To identify a current obstacle clearly. Example: One challenge we're facing is limited staff.",
+      "hint": "Read the example: One challenge we're facing is limited staff.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

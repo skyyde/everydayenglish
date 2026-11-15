@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-006",
+  "dayNumber": 6,
+  "week": 1,
+  "weekTheme": "Speaking Clearly at Work",
+  "title": "Progress — We're making progress on…",
+  "word": {
+    "id": "word-006",
+    "text": "Progress",
+    "meaning": {
+      "en": "Movement toward completing a goal.",
+      "taglish": "Pag-usad patungo sa goal."
+    },
+    "examples": {
+      "work": "We've made good progress on the project.",
+      "everyday": "We've made good progress on the project."
+    },
+    "check": {
+      "id": "daily-006-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Progress\"?",
+      "options": [
+        "Movement toward completing a goal.",
+        "A word with the opposite meaning or an unrelated idea"
+      ],
+      "correctIndex": 0,
+      "explanation": "Movement toward completing a goal."
+    }
+  },
+  "phrase": {
+    "id": "phrase-006",
+    "text": "We're making progress on…",
+    "meaning": {
+      "en": "Use this expression naturally in conversation: We're making progress on…",
+      "taglish": "Sabihing umuusad ang trabaho."
+    },
+    "examples": {
+      "work": "We're making progress on the testing.",
+      "everyday": "We're making progress on the testing."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "What do you think we should do?"
+      },
+      {
+        "speaker": "B",
+        "text": "We're making progress on the testing."
+      }
+    ],
+    "check": {
+      "id": "daily-006-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "Choose the natural sentence.",
+      "options": [
+        "We're making progress on the project.",
+        "We're making progress in the project on."
+      ],
+      "correctIndex": 0,
+      "explanation": "Sabihing umuusad ang trabaho."
+    }
+  },
+  "grammarTip": {
+    "topic": "present continuous",
+    "explanation": "Practice present continuous using today's example: We're making progress on the testing."
+  },
+  "speaking": {
+    "id": "daily-006-speaking",
+    "scenario": "Describe the progress of an ongoing project.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "We're making progress on…",
+      "We've made good progress on the project."
+    ],
+    "oneMinuteGoal": "State your main idea clearly and add one detail.",
+    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
+    "modelResponse": "We're making progress on the testing. We've made good progress on the project.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a polite or natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

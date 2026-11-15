@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "week-02",
+  "title": "Participating in Meetings",
+  "optional": true,
+  "questions": [
+    {
+      "id": "week-02-q1",
+      "type": "multiple_choice",
+      "prompt": "I'd like to suggest ___ the schedule.",
+      "options": [
+        "changing",
+        "to change"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: changing"
+    },
+    {
+      "id": "week-02-q2",
+      "type": "multiple_choice",
+      "prompt": "Have we ___ another option?",
+      "options": [
+        "consider",
+        "considered"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct: considered"
+    },
+    {
+      "id": "week-02-q3",
+      "type": "multiple_choice",
+      "prompt": "Which introduces your opinion?",
+      "options": [
+        "From my perspective…",
+        "To sum things up…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: From my perspective…"
+    },
+    {
+      "id": "week-02-q4",
+      "type": "multiple_choice",
+      "prompt": "One concern I have is ___ we may need more time.",
+      "options": [
+        "that",
+        "for"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: that"
+    },
+    {
+      "id": "week-02-q5",
+      "type": "multiple_choice",
+      "prompt": "Choose the natural sentence.",
+      "options": [
+        "Another option would be to extend the deadline.",
+        "Another option would be to extending the deadline."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: Another option would be to extend the deadline."
+    }
+  ],
+  "application": {
+    "type": "self_review",
+    "prompt": "State a concern about a deadline and suggest an alternative."
+  },
+  "completionRule": "Attempt all five questions and review explanations"
+}

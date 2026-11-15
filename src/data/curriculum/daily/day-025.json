@@ -10,11 +10,12 @@
     "text": "Coordinate",
     "meaning": {
       "en": "To organize work together.",
-      "taglish": "Ayusin ang trabaho nang magkakasama."
+      "taglish": "Ayusin ang trabaho nang magkakasama.",
+      "fil": "Ayusin ang gawain kasama ang ibang tao."
     },
     "examples": {
       "work": "We need to coordinate our schedules.",
-      "everyday": "We need to coordinate our schedules."
+      "everyday": "Let's coordinate our schedules before booking."
     },
     "check": {
       "id": "daily-25-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Coordinate\"?",
       "options": [
         "To organize work together.",
-        "An unrelated meaning"
+        "An unrelated meaning, not \"coordinate\""
       ],
       "correctIndex": 0,
-      "explanation": "To organize work together."
+      "explanation": "Coordinate: To organize work together. Example: We need to coordinate our schedules."
+    },
+    "translation": {
+      "fil": "Makipag-ugnayan"
+    },
+    "explanation": {
+      "en": "Coordinate means organizing people or activities together.",
+      "taglish": "Coordinate means organizing people or activities together.",
+      "fil": "Ayusin ang gawain kasama ang ibang tao."
     }
   },
   "phrase": {
     "id": "phrase-025",
     "text": "Let's align on the next steps.",
     "meaning": {
-      "en": "Use this expression in conversation: Let's align on the next steps.",
-      "taglish": "Gamitin ang expression sa natural na usapan."
+      "en": "To get agreement on responsibilities and next actions.",
+      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "fil": "Pagkakasundo sa susunod na gagawin."
     },
     "examples": {
       "work": "Let's align on the next steps before we leave.",
-      "everyday": "Let's align on the next steps before we leave."
+      "everyday": "Let's align on the next steps after the meeting."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "Can you tell me more?"
+        "speaker": "Friend or coworker",
+        "text": "Can you explain a little more?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "Let's align on the next steps before we leave."
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks, that makes sense."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "to review"
       ],
       "correctIndex": 0,
-      "explanation": "review"
+      "explanation": "To get agreement on responsibilities and next actions. Example: Let's align on the next steps before we leave."
     }
   },
   "grammarTip": {
     "topic": "let's plus base verb",
-    "explanation": "Practice let's plus base verb: Let's align on the next steps before we leave."
+    "explanation": "Grammar focus: let's plus base verb. Read: \"Let's align on the next steps before we leave.\" Then make your own example."
   },
   "speaking": {
     "id": "daily-25-speaking",
-    "scenario": "Assign next steps during a team discussion.",
+    "scenario": "Lead a short discussion to assign responsibilities and deadlines.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "Let's align on the next steps so everyone knows their task.",
       "Let's align on the next steps.",
-      "We need to coordinate our schedules."
+      "Give one real-life example.",
+      "Explain what happens next."
     ],
-    "oneMinuteGoal": "State your main idea and one detail.",
-    "twoMinuteGoal": "Add a reason, example, and conclusion.",
-    "modelResponse": "Let's align on the next steps before we leave. We need to coordinate our schedules.",
+    "oneMinuteGoal": "Describe the situation, your main point, and one example.",
+    "twoMinuteGoal": "Add a reason, another example, and a clear conclusion.",
+    "modelResponse": "Let's align on the next steps. I'll contact the supplier, and Maria will update the schedule. We'll check in again on Wednesday to see what still needs attention.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "What situation are you describing?",
+      "What main point do you want to share?",
+      "What example supports it?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

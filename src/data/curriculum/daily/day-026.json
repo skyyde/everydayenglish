@@ -10,11 +10,12 @@
     "text": "Efficient",
     "meaning": {
       "en": "Achieving results without wasting time or effort.",
-      "taglish": "Magandang result nang hindi sayang ang oras."
+      "taglish": "Magandang result nang hindi sayang ang oras.",
+      "fil": "Makakuha ng magandang resulta nang hindi nagsasayang ng oras o gamit."
     },
     "examples": {
       "work": "This is a more efficient process.",
-      "everyday": "This is a more efficient process."
+      "everyday": "A shared calendar is more efficient than separate lists."
     },
     "check": {
       "id": "daily-26-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Efficient\"?",
       "options": [
         "Achieving results without wasting time or effort.",
-        "An unrelated meaning"
+        "An unrelated meaning, not \"efficient\""
       ],
       "correctIndex": 0,
-      "explanation": "Achieving results without wasting time or effort."
+      "explanation": "Efficient: Achieving results without wasting time or effort. Example: This is a more efficient process."
+    },
+    "translation": {
+      "fil": "Mahusay sa oras at resources"
+    },
+    "explanation": {
+      "en": "Efficient describes getting results with less wasted time or effort.",
+      "taglish": "Efficient describes getting results with less wasted time or effort.",
+      "fil": "Makakuha ng magandang resulta nang hindi nagsasayang ng oras o gamit."
     }
   },
   "phrase": {
     "id": "phrase-026",
     "text": "A more efficient approach would be…",
     "meaning": {
-      "en": "Use this expression in conversation: A more efficient approach would be…",
-      "taglish": "Gamitin ang expression sa natural na usapan."
+      "en": "To propose a practical way to save time or effort.",
+      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "fil": "Pagbibigay ng paraan na makakatipid ng oras o effort."
     },
     "examples": {
       "work": "A more efficient approach would be to use a shared template.",
-      "everyday": "A more efficient approach would be to use a shared template."
+      "everyday": "A more efficient approach would be to use one checklist."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "Can you tell me more?"
+        "speaker": "Friend or coworker",
+        "text": "Can you explain a little more?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "A more efficient approach would be to use a shared template."
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks, that makes sense."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "organizing"
       ],
       "correctIndex": 0,
-      "explanation": "organize"
+      "explanation": "To propose a practical way to save time or effort. Example: A more efficient approach would be to use a shared template."
     }
   },
   "grammarTip": {
     "topic": "comparisons and conditionals",
-    "explanation": "Practice comparisons and conditionals: A more efficient approach would be to use a shared template."
+    "explanation": "Grammar focus: comparisons and conditionals. Read: \"A more efficient approach would be to use a shared template.\" Then make your own example."
   },
   "speaking": {
     "id": "daily-26-speaking",
-    "scenario": "Recommend a more efficient way to complete a task.",
+    "scenario": "Recommend a more efficient way to organize team updates.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "A more efficient approach would be to prepare a shared template.",
       "A more efficient approach would be…",
-      "This is a more efficient process."
+      "Give one real-life example.",
+      "Explain what happens next."
     ],
-    "oneMinuteGoal": "State your main idea and one detail.",
-    "twoMinuteGoal": "Add a reason, example, and conclusion.",
-    "modelResponse": "A more efficient approach would be to use a shared template. This is a more efficient process.",
+    "oneMinuteGoal": "Describe the situation, your main point, and one example.",
+    "twoMinuteGoal": "Add a reason, another example, and a clear conclusion.",
+    "modelResponse": "A more efficient approach would be to use a shared spreadsheet. Everyone could update their own tasks, and we would no longer need to ask for separate status reports. That could save us time each week.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "What situation are you describing?",
+      "What main point do you want to share?",
+      "What example supports it?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

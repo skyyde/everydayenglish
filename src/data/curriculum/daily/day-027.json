@@ -10,11 +10,12 @@
     "text": "Explain",
     "meaning": {
       "en": "To make an idea clear by describing it.",
-      "taglish": "Gawing malinaw ang isang idea."
+      "taglish": "Gawing malinaw ang isang idea.",
+      "fil": "Gawing malinaw ang isang ideya o proseso."
     },
     "examples": {
       "work": "Can you explain how the system works?",
-      "everyday": "Can you explain how the system works?"
+      "everyday": "Could you explain the new procedure?"
     },
     "check": {
       "id": "daily-27-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Explain\"?",
       "options": [
         "To make an idea clear by describing it.",
-        "An unrelated meaning"
+        "An unrelated meaning, not \"explain\""
       ],
       "correctIndex": 0,
-      "explanation": "To make an idea clear by describing it."
+      "explanation": "Explain: To make an idea clear by describing it. Example: Can you explain how the system works?"
+    },
+    "translation": {
+      "fil": "Ipaliwanag"
+    },
+    "explanation": {
+      "en": "Explain means giving enough information for someone to understand.",
+      "taglish": "Explain means giving enough information for someone to understand.",
+      "fil": "Gawing malinaw ang isang ideya o proseso."
     }
   },
   "phrase": {
     "id": "phrase-027",
     "text": "Let me walk you through…",
     "meaning": {
-      "en": "Use this expression in conversation: Let me walk you through…",
-      "taglish": "Gamitin ang expression sa natural na usapan."
+      "en": "To guide someone through a process step by step.",
+      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "fil": "Pagpapaliwanag nang sunod-sunod."
     },
     "examples": {
       "work": "Let me walk you through the process.",
-      "everyday": "Let me walk you through the process."
+      "everyday": "Let me walk you through the steps."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "Can you tell me more?"
+        "speaker": "Friend or coworker",
+        "text": "Can you explain a little more?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "Let me walk you through the process."
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks, that makes sense."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "Avoid explaining"
       ],
       "correctIndex": 0,
-      "explanation": "Explain step by step"
+      "explanation": "To guide someone through a process step by step. Example: Let me walk you through the process."
     }
   },
   "grammarTip": {
     "topic": "sequencing",
-    "explanation": "Practice sequencing: Let me walk you through the process."
+    "explanation": "Grammar focus: sequencing. Read: \"Let me walk you through the process.\" Then make your own example."
   },
   "speaking": {
     "id": "daily-27-speaking",
-    "scenario": "Explain a familiar process step by step.",
+    "scenario": "Teach a new coworker a familiar process in three clear steps.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "Let me walk you through how we prepare the report.",
       "Let me walk you through…",
-      "Can you explain how the system works?"
+      "Give one real-life example.",
+      "Explain what happens next."
     ],
-    "oneMinuteGoal": "State your main idea and one detail.",
-    "twoMinuteGoal": "Add a reason, example, and conclusion.",
-    "modelResponse": "Let me walk you through the process. Can you explain how the system works?",
+    "oneMinuteGoal": "Describe the situation, your main point, and one example.",
+    "twoMinuteGoal": "Add a reason, another example, and a clear conclusion.",
+    "modelResponse": "Let me walk you through the process. First, open the form and enter the customer's details. Next, review the information carefully. Finally, save the record and confirm that it appears in the list.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "What situation are you describing?",
+      "What main point do you want to share?",
+      "What example supports it?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

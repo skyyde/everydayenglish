@@ -10,11 +10,12 @@
     "text": "Improve",
     "meaning": {
       "en": "To make something better.",
-      "taglish": "Gawing mas maayos ang isang bagay."
+      "taglish": "Gawing mas maayos ang isang bagay.",
+      "fil": "Gawing mas maayos o epektibo ang isang bagay."
     },
     "examples": {
       "work": "We can improve the process.",
-      "everyday": "We can improve the process."
+      "everyday": "We can improve communication by sharing updates."
     },
     "check": {
       "id": "daily-24-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Improve\"?",
       "options": [
         "To make something better.",
-        "An unrelated meaning"
+        "An unrelated meaning, not \"improve\""
       ],
       "correctIndex": 0,
-      "explanation": "To make something better."
+      "explanation": "Improve: To make something better. Example: We can improve the process."
+    },
+    "translation": {
+      "fil": "Pagbutihin"
+    },
+    "explanation": {
+      "en": "Improve means making something better than before.",
+      "taglish": "Improve means making something better than before.",
+      "fil": "Gawing mas maayos o epektibo ang isang bagay."
     }
   },
   "phrase": {
     "id": "phrase-024",
     "text": "There's room for improvement.",
     "meaning": {
-      "en": "Use this expression in conversation: There's room for improvement.",
-      "taglish": "Gamitin ang expression sa natural na usapan."
+      "en": "To recognize that a process can be better.",
+      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "fil": "Maingat na pagsasabing may puwede pang pagandahin."
     },
     "examples": {
       "work": "The system works, but there's room for improvement.",
-      "everyday": "The system works, but there's room for improvement."
+      "everyday": "There's room for improvement in our filing system."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "Can you tell me more?"
+        "speaker": "Friend or coworker",
+        "text": "Can you explain a little more?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "The system works, but there's room for improvement."
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks, that makes sense."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "Nothing can change"
       ],
       "correctIndex": 0,
-      "explanation": "Something can be better"
+      "explanation": "To recognize that a process can be better. Example: The system works, but there's room for improvement."
     }
   },
   "grammarTip": {
     "topic": "comparatives",
-    "explanation": "Practice comparatives: The system works, but there's room for improvement."
+    "explanation": "Grammar focus: comparatives. Read: \"The system works, but there's room for improvement.\" Then make your own example."
   },
   "speaking": {
     "id": "daily-24-speaking",
-    "scenario": "Explain how to improve a routine or process.",
+    "scenario": "Suggest one practical improvement to a routine without criticizing people.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "There's room for improvement, especially in our communication.",
       "There's room for improvement.",
-      "We can improve the process."
+      "Give one real-life example.",
+      "Explain what happens next."
     ],
-    "oneMinuteGoal": "State your main idea and one detail.",
-    "twoMinuteGoal": "Add a reason, example, and conclusion.",
-    "modelResponse": "The system works, but there's room for improvement. We can improve the process.",
+    "oneMinuteGoal": "Describe the situation, your main point, and one example.",
+    "twoMinuteGoal": "Add a reason, another example, and a clear conclusion.",
+    "modelResponse": "There's room for improvement in how we share project updates. Sometimes information arrives too late. I suggest a short summary at the end of each meeting.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "What situation are you describing?",
+      "What main point do you want to share?",
+      "What example supports it?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

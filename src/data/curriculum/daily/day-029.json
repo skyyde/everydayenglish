@@ -10,11 +10,12 @@
     "text": "Confident",
     "meaning": {
       "en": "Feeling sure of your ability.",
-      "taglish": "May tiwala sa sariling kakayahan."
+      "taglish": "May tiwala sa sariling kakayahan.",
+      "fil": "Naniniwala sa sariling kakayahan."
     },
     "examples": {
       "work": "I feel more confident during meetings.",
-      "everyday": "I feel more confident during meetings."
+      "everyday": "I feel more confident speaking in meetings."
     },
     "check": {
       "id": "daily-29-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Confident\"?",
       "options": [
         "Feeling sure of your ability.",
-        "An unrelated meaning"
+        "An unrelated meaning, not \"confident\""
       ],
       "correctIndex": 0,
-      "explanation": "Feeling sure of your ability."
+      "explanation": "Confident: Feeling sure of your ability. Example: I feel more confident during meetings."
+    },
+    "translation": {
+      "fil": "May tiwala sa sarili"
+    },
+    "explanation": {
+      "en": "Confident means feeling capable, not needing to be perfect.",
+      "taglish": "Confident means feeling capable, not needing to be perfect.",
+      "fil": "Naniniwala sa sariling kakayahan."
     }
   },
   "phrase": {
     "id": "phrase-029",
     "text": "What I'd like to emphasize is…",
     "meaning": {
-      "en": "Use this expression in conversation: What I'd like to emphasize is…",
-      "taglish": "Gamitin ang expression sa natural na usapan."
+      "en": "To highlight the main point you want listeners to remember.",
+      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "fil": "Pagbibigay-diin sa mahalagang mensahe."
     },
     "examples": {
       "work": "What I'd like to emphasize is clear communication.",
-      "everyday": "What I'd like to emphasize is clear communication."
+      "everyday": "What I'd like to emphasize is teamwork."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "Can you tell me more?"
+        "speaker": "Friend or coworker",
+        "text": "Can you explain a little more?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "What I'd like to emphasize is clear communication."
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks, that makes sense."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "Ask about the weather"
       ],
       "correctIndex": 0,
-      "explanation": "Highlight a main point"
+      "explanation": "To highlight the main point you want listeners to remember. Example: What I'd like to emphasize is clear communication."
     }
   },
   "grammarTip": {
     "topic": "emphasis",
-    "explanation": "Practice emphasis: What I'd like to emphasize is clear communication."
+    "explanation": "Grammar focus: emphasis. Read: \"What I'd like to emphasize is clear communication.\" Then make your own example."
   },
   "speaking": {
     "id": "daily-29-speaking",
-    "scenario": "Give a short presentation emphasizing one key idea.",
+    "scenario": "Give a short presentation and emphasize your most important message.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "What I'd like to emphasize is that everyone can contribute.",
       "What I'd like to emphasize is…",
-      "I feel more confident during meetings."
+      "Give one real-life example.",
+      "Explain what happens next."
     ],
-    "oneMinuteGoal": "State your main idea and one detail.",
-    "twoMinuteGoal": "Add a reason, example, and conclusion.",
-    "modelResponse": "What I'd like to emphasize is clear communication. I feel more confident during meetings.",
+    "oneMinuteGoal": "Describe the situation, your main point, and one example.",
+    "twoMinuteGoal": "Add a reason, another example, and a clear conclusion.",
+    "modelResponse": "What I'd like to emphasize is the importance of clear communication. When we share updates early, everyone can plan better. Even small improvements can make a big difference to the team.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "What situation are you describing?",
+      "What main point do you want to share?",
+      "What example supports it?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

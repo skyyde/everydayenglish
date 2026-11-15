@@ -10,11 +10,12 @@
     "text": "Memorable",
     "meaning": {
       "en": "Worth remembering.",
-      "taglish": "Isang experience na hindi madaling makalimutan."
+      "taglish": "Isang experience na hindi madaling makalimutan.",
+      "fil": "Isang pangyayaring mahalagang alalahanin."
     },
     "examples": {
       "work": "Our family vacation was memorable.",
-      "everyday": "Our family vacation was memorable."
+      "everyday": "My graduation day was memorable."
     },
     "check": {
       "id": "daily-21-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Memorable\"?",
       "options": [
         "Worth remembering.",
-        "An unrelated meaning"
+        "An unrelated meaning, not \"memorable\""
       ],
       "correctIndex": 0,
-      "explanation": "Worth remembering."
+      "explanation": "Memorable: Worth remembering. Example: Our family vacation was memorable."
+    },
+    "translation": {
+      "fil": "Hindi malilimutan"
+    },
+    "explanation": {
+      "en": "Memorable describes something that stays in your memory.",
+      "taglish": "Memorable describes something that stays in your memory.",
+      "fil": "Isang pangyayaring mahalagang alalahanin."
     }
   },
   "phrase": {
     "id": "phrase-021",
     "text": "That reminds me of…",
     "meaning": {
-      "en": "Use this expression in conversation: That reminds me of…",
-      "taglish": "Gamitin ang expression sa natural na usapan."
+      "en": "To connect a new story with your own memory.",
+      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "fil": "Pagkonekta ng narinig sa sarili mong alaala."
     },
     "examples": {
       "work": "That reminds me of our trip last year.",
-      "everyday": "That reminds me of our trip last year."
+      "everyday": "That reminds me of our family picnic."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "Can you tell me more?"
+        "speaker": "Friend or coworker",
+        "text": "Can you explain a little more?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "That reminds me of our trip last year."
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks, that makes sense."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "A future deadline"
       ],
       "correctIndex": 0,
-      "explanation": "A related memory"
+      "explanation": "To connect a new story with your own memory. Example: That reminds me of our trip last year."
     }
   },
   "grammarTip": {
     "topic": "story sequencing",
-    "explanation": "Practice story sequencing: That reminds me of our trip last year."
+    "explanation": "Grammar focus: story sequencing. Read: \"That reminds me of our trip last year.\" Then make your own example."
   },
   "speaking": {
     "id": "daily-21-speaking",
-    "scenario": "Tell a memorable story from your life.",
+    "scenario": "A friend describes a trip. Share a related memory and explain why it stayed with you.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "That reminds me of a funny moment from last year.",
       "That reminds me of…",
-      "Our family vacation was memorable."
+      "Give one real-life example.",
+      "Explain what happens next."
     ],
-    "oneMinuteGoal": "State your main idea and one detail.",
-    "twoMinuteGoal": "Add a reason, example, and conclusion.",
-    "modelResponse": "That reminds me of our trip last year. Our family vacation was memorable.",
+    "oneMinuteGoal": "Describe the situation, your main point, and one example.",
+    "twoMinuteGoal": "Add a reason, another example, and a clear conclusion.",
+    "modelResponse": "That reminds me of a family trip we took years ago. We got lost on the way, but we discovered a beautiful little town. We still laugh about that day whenever we get together.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "What situation are you describing?",
+      "What main point do you want to share?",
+      "What example supports it?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

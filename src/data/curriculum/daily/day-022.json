@@ -10,11 +10,12 @@
     "text": "Resolve",
     "meaning": {
       "en": "To solve a problem.",
-      "taglish": "Ayusin o solusyunan ang problema."
+      "taglish": "Ayusin o solusyunan ang problema.",
+      "fil": "Ayusin o tapusin ang isang problema."
     },
     "examples": {
       "work": "We need to resolve the issue.",
-      "everyday": "We need to resolve the issue."
+      "everyday": "We need to resolve the delivery issue."
     },
     "check": {
       "id": "daily-22-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Resolve\"?",
       "options": [
         "To solve a problem.",
-        "An unrelated meaning"
+        "An unrelated meaning, not \"resolve\""
       ],
       "correctIndex": 0,
-      "explanation": "To solve a problem."
+      "explanation": "Resolve: To solve a problem. Example: We need to resolve the issue."
+    },
+    "translation": {
+      "fil": "Lutasin"
+    },
+    "explanation": {
+      "en": "Resolve focuses on finding a solution to a problem.",
+      "taglish": "Resolve focuses on finding a solution to a problem.",
+      "fil": "Ayusin o tapusin ang isang problema."
     }
   },
   "phrase": {
     "id": "phrase-022",
     "text": "We're working on a solution.",
     "meaning": {
-      "en": "Use this expression in conversation: We're working on a solution.",
-      "taglish": "Gamitin ang expression sa natural na usapan."
+      "en": "To reassure others that a problem is being addressed.",
+      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "fil": "Pagpapakitang may ginagawa para malutas ang problema."
     },
     "examples": {
       "work": "We're working on a solution to the delay.",
-      "everyday": "We're working on a solution to the delay."
+      "everyday": "We're working on a solution to the missing files."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "Can you tell me more?"
+        "speaker": "Friend or coworker",
+        "text": "Can you explain a little more?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "We're working on a solution to the delay."
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks, that makes sense."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "The issue is definitely solved"
       ],
       "correctIndex": 0,
-      "explanation": "The issue is being addressed"
+      "explanation": "To reassure others that a problem is being addressed. Example: We're working on a solution to the delay."
     }
   },
   "grammarTip": {
     "topic": "present continuous",
-    "explanation": "Practice present continuous: We're working on a solution to the delay."
+    "explanation": "Grammar focus: present continuous. Read: \"We're working on a solution to the delay.\" Then make your own example."
   },
   "speaking": {
     "id": "daily-22-speaking",
-    "scenario": "Explain a work problem and what is being done.",
+    "scenario": "Explain a problem at work, what the team is doing, and when an update will come.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "We're working on a solution and will update you soon.",
       "We're working on a solution.",
-      "We need to resolve the issue."
+      "Give one real-life example.",
+      "Explain what happens next."
     ],
-    "oneMinuteGoal": "State your main idea and one detail.",
-    "twoMinuteGoal": "Add a reason, example, and conclusion.",
-    "modelResponse": "We're working on a solution to the delay. We need to resolve the issue.",
+    "oneMinuteGoal": "Describe the situation, your main point, and one example.",
+    "twoMinuteGoal": "Add a reason, another example, and a clear conclusion.",
+    "modelResponse": "We're working on a solution to the delay. First, we're checking which materials are missing. Then, we'll contact the supplier and update the schedule. I'll share an update tomorrow.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "What situation are you describing?",
+      "What main point do you want to share?",
+      "What example supports it?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

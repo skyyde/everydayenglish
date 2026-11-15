@@ -10,11 +10,12 @@
     "text": "Accomplish",
     "meaning": {
       "en": "To successfully complete something.",
-      "taglish": "Matagumpay na matapos ang isang gawain."
+      "taglish": "Matagumpay na matapos ang isang gawain.",
+      "fil": "Matagumpay na matapos ang isang layunin."
     },
     "examples": {
       "work": "I accomplished my learning goal.",
-      "everyday": "I accomplished my learning goal."
+      "everyday": "I accomplished something new this month."
     },
     "check": {
       "id": "daily-30-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Accomplish\"?",
       "options": [
         "To successfully complete something.",
-        "An unrelated meaning"
+        "An unrelated meaning, not \"accomplish\""
       ],
       "correctIndex": 0,
-      "explanation": "To successfully complete something."
+      "explanation": "Accomplish: To successfully complete something. Example: I accomplished my learning goal."
+    },
+    "translation": {
+      "fil": "Makamit"
+    },
+    "explanation": {
+      "en": "Accomplish means completing something meaningful through effort.",
+      "taglish": "Accomplish means completing something meaningful through effort.",
+      "fil": "Matagumpay na matapos ang isang layunin."
     }
   },
   "phrase": {
     "id": "phrase-030",
     "text": "I'm proud of the progress I've made.",
     "meaning": {
-      "en": "Use this expression in conversation: I'm proud of the progress I've made.",
-      "taglish": "Gamitin ang expression sa natural na usapan."
+      "en": "To express satisfaction with progress already achieved.",
+      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "fil": "Pagpapahayag ng pagmamalaki sa sariling pag-unlad."
     },
     "examples": {
       "work": "I'm proud of the progress I've made this month.",
-      "everyday": "I'm proud of the progress I've made this month."
+      "everyday": "I'm proud of the progress I've made in English."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "Can you tell me more?"
+        "speaker": "Friend or coworker",
+        "text": "Can you explain a little more?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "I'm proud of the progress I've made this month."
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks, that makes sense."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "became"
       ],
       "correctIndex": 0,
-      "explanation": "become"
+      "explanation": "To express satisfaction with progress already achieved. Example: I'm proud of the progress I've made this month."
     }
   },
   "grammarTip": {
     "topic": "present perfect",
-    "explanation": "Practice present perfect: I'm proud of the progress I've made this month."
+    "explanation": "Grammar focus: present perfect. Read: \"I'm proud of the progress I've made this month.\" Then make your own example."
   },
   "speaking": {
     "id": "daily-30-speaking",
-    "scenario": "Reflect on your English-learning progress and future goals.",
+    "scenario": "Reflect on your English journey: one achievement, one challenge, and your next goal.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "I'm proud of the progress I've made, and I'll keep practicing.",
       "I'm proud of the progress I've made.",
-      "I accomplished my learning goal."
+      "Give one real-life example.",
+      "Explain what happens next."
     ],
-    "oneMinuteGoal": "State your main idea and one detail.",
-    "twoMinuteGoal": "Add a reason, example, and conclusion.",
-    "modelResponse": "I'm proud of the progress I've made this month. I accomplished my learning goal.",
+    "oneMinuteGoal": "Describe the situation, your main point, and one example.",
+    "twoMinuteGoal": "Add a reason, another example, and a clear conclusion.",
+    "modelResponse": "I'm proud of the progress I've made. At first, I found it difficult to speak for even one minute, but now I can explain my ideas more clearly. I still make mistakes, and that's okay. My next goal is to speak more confidently in meetings.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "What situation are you describing?",
+      "What main point do you want to share?",
+      "What example supports it?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

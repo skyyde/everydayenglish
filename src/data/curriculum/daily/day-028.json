@@ -10,11 +10,12 @@
     "text": "Reflect",
     "meaning": {
       "en": "To think carefully about a past experience.",
-      "taglish": "Pag-isipan ang nakaraang experience."
+      "taglish": "Pag-isipan ang nakaraang experience.",
+      "fil": "Pag-isipan ang isang nakaraang karanasan at aral nito."
     },
     "examples": {
       "work": "I reflect on what I learned.",
-      "everyday": "I reflect on what I learned."
+      "everyday": "I like to reflect on what went well."
     },
     "check": {
       "id": "daily-28-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Reflect\"?",
       "options": [
         "To think carefully about a past experience.",
-        "An unrelated meaning"
+        "An unrelated meaning, not \"reflect\""
       ],
       "correctIndex": 0,
-      "explanation": "To think carefully about a past experience."
+      "explanation": "Reflect: To think carefully about a past experience. Example: I reflect on what I learned."
+    },
+    "translation": {
+      "fil": "Pagmuni-munihan"
+    },
+    "explanation": {
+      "en": "Reflect means looking back to learn from experience.",
+      "taglish": "Reflect means looking back to learn from experience.",
+      "fil": "Pag-isipan ang isang nakaraang karanasan at aral nito."
     }
   },
   "phrase": {
     "id": "phrase-028",
     "text": "Looking back…",
     "meaning": {
-      "en": "Use this expression in conversation: Looking back…",
-      "taglish": "Gamitin ang expression sa natural na usapan."
+      "en": "To introduce a thoughtful review of a past experience.",
+      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "fil": "Pagbabalik-tanaw sa nangyari at natutunan."
     },
     "examples": {
       "work": "Looking back, I should have asked more questions.",
-      "everyday": "Looking back, I should have asked more questions."
+      "everyday": "Looking back, I should have prepared earlier."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "Can you tell me more?"
+        "speaker": "Friend or coworker",
+        "text": "Can you explain a little more?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "Looking back, I should have asked more questions."
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks, that makes sense."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "Plans for next year"
       ],
       "correctIndex": 0,
-      "explanation": "Reflection on the past"
+      "explanation": "To introduce a thoughtful review of a past experience. Example: Looking back, I should have asked more questions."
     }
   },
   "grammarTip": {
     "topic": "past tense",
-    "explanation": "Practice past tense: Looking back, I should have asked more questions."
+    "explanation": "Grammar focus: past tense. Read: \"Looking back, I should have asked more questions.\" Then make your own example."
   },
   "speaking": {
     "id": "daily-28-speaking",
-    "scenario": "Reflect on a challenge and what it taught you.",
+    "scenario": "Reflect on something difficult you completed and one thing you would change.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "Looking back, I learned that asking questions helps.",
       "Looking back…",
-      "I reflect on what I learned."
+      "Give one real-life example.",
+      "Explain what happens next."
     ],
-    "oneMinuteGoal": "State your main idea and one detail.",
-    "twoMinuteGoal": "Add a reason, example, and conclusion.",
-    "modelResponse": "Looking back, I should have asked more questions. I reflect on what I learned.",
+    "oneMinuteGoal": "Describe the situation, your main point, and one example.",
+    "twoMinuteGoal": "Add a reason, another example, and a clear conclusion.",
+    "modelResponse": "Looking back, I was nervous during my first presentation, but I prepared carefully and finished it. Next time, I want to speak more slowly and make better eye contact. I'm glad I tried.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "What situation are you describing?",
+      "What main point do you want to share?",
+      "What example supports it?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

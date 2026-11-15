@@ -10,11 +10,12 @@
     "text": "Challenge",
     "meaning": {
       "en": "A difficult task or situation.",
-      "taglish": "Mahirap na task o situation."
+      "taglish": "Mahirap na task o situation.",
+      "fil": "Isang mahirap ngunit maaaring haraping gawain."
     },
     "examples": {
       "work": "Finishing on time is a challenge.",
-      "everyday": "Finishing on time is a challenge."
+      "everyday": "Managing the schedule is our biggest challenge."
     },
     "check": {
       "id": "daily-23-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Challenge\"?",
       "options": [
         "A difficult task or situation.",
-        "An unrelated meaning"
+        "An unrelated meaning, not \"challenge\""
       ],
       "correctIndex": 0,
-      "explanation": "A difficult task or situation."
+      "explanation": "Challenge: A difficult task or situation. Example: Finishing on time is a challenge."
+    },
+    "translation": {
+      "fil": "Hamon"
+    },
+    "explanation": {
+      "en": "A challenge can be difficult without being impossible.",
+      "taglish": "A challenge can be difficult without being impossible.",
+      "fil": "Isang mahirap ngunit maaaring haraping gawain."
     }
   },
   "phrase": {
     "id": "phrase-023",
     "text": "One challenge we're facing is…",
     "meaning": {
-      "en": "Use this expression in conversation: One challenge we're facing is…",
-      "taglish": "Gamitin ang expression sa natural na usapan."
+      "en": "To identify a current obstacle clearly.",
+      "taglish": "Gamitin ang expression sa natural na usapan.",
+      "fil": "Pagpapaliwanag ng problemang kasalukuyang hinaharap."
     },
     "examples": {
       "work": "One challenge we're facing is limited staff.",
-      "everyday": "One challenge we're facing is limited staff."
+      "everyday": "One challenge we're facing is a shortage of time."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "Can you tell me more?"
+        "speaker": "Friend or coworker",
+        "text": "Can you explain a little more?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "One challenge we're facing is limited staff."
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks, that makes sense."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "for"
       ],
       "correctIndex": 0,
-      "explanation": "that"
+      "explanation": "To identify a current obstacle clearly. Example: One challenge we're facing is limited staff."
     }
   },
   "grammarTip": {
     "topic": "problem clauses",
-    "explanation": "Practice problem clauses: One challenge we're facing is limited staff."
+    "explanation": "Grammar focus: problem clauses. Read: \"One challenge we're facing is limited staff.\" Then make your own example."
   },
   "speaking": {
     "id": "daily-23-speaking",
-    "scenario": "Explain a challenge your team is facing.",
+    "scenario": "Tell your team about a challenge without blaming anyone.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "One challenge we're facing is limited time for testing.",
       "One challenge we're facing is…",
-      "Finishing on time is a challenge."
+      "Give one real-life example.",
+      "Explain what happens next."
     ],
-    "oneMinuteGoal": "State your main idea and one detail.",
-    "twoMinuteGoal": "Add a reason, example, and conclusion.",
-    "modelResponse": "One challenge we're facing is limited staff. Finishing on time is a challenge.",
+    "oneMinuteGoal": "Describe the situation, your main point, and one example.",
+    "twoMinuteGoal": "Add a reason, another example, and a clear conclusion.",
+    "modelResponse": "One challenge we're facing is that two people are away this week. We're adjusting the schedule and sharing the urgent tasks among the remaining team members. We hope to catch up by Friday.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "What situation are you describing?",
+      "What main point do you want to share?",
+      "What example supports it?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

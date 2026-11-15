@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-007",
+  "dayNumber": 7,
+  "week": 1,
+  "weekTheme": "Speaking Clearly at Work",
+  "title": "Summarize — To sum things up…",
+  "word": {
+    "id": "word-007",
+    "text": "Summarize",
+    "meaning": {
+      "en": "To express the main points briefly.",
+      "taglish": "Sabihin nang maikli ang main points."
+    },
+    "examples": {
+      "work": "Can you summarize the meeting?",
+      "everyday": "Can you summarize the meeting?"
+    },
+    "check": {
+      "id": "daily-007-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Summarize\"?",
+      "options": [
+        "To express the main points briefly.",
+        "A word with the opposite meaning or an unrelated idea"
+      ],
+      "correctIndex": 0,
+      "explanation": "To express the main points briefly."
+    }
+  },
+  "phrase": {
+    "id": "phrase-007",
+    "text": "To sum things up…",
+    "meaning": {
+      "en": "Use this expression naturally in conversation: To sum things up…",
+      "taglish": "I-summarize ang main points."
+    },
+    "examples": {
+      "work": "To sum things up, we've agreed on the next steps.",
+      "everyday": "To sum things up, we've agreed on the next steps."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "What do you think we should do?"
+      },
+      {
+        "speaker": "B",
+        "text": "To sum things up, we've agreed on the next steps."
+      }
+    ],
+    "check": {
+      "id": "daily-007-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "Which phrase introduces a summary?",
+      "options": [
+        "To sum things up…",
+        "By the way…"
+      ],
+      "correctIndex": 0,
+      "explanation": "I-summarize ang main points."
+    }
+  },
+  "grammarTip": {
+    "topic": "sequencing",
+    "explanation": "Practice sequencing using today's example: To sum things up, we've agreed on the next steps."
+  },
+  "speaking": {
+    "id": "daily-007-speaking",
+    "scenario": "Summarize what your team accomplished this week.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "To sum things up…",
+      "Can you summarize the meeting?"
+    ],
+    "oneMinuteGoal": "State your main idea clearly and add one detail.",
+    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
+    "modelResponse": "To sum things up, we've agreed on the next steps. Can you summarize the meeting?",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a polite or natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-015",
+  "dayNumber": 15,
+  "week": 3,
+  "weekTheme": "Everyday Conversations",
+  "title": "Interesting — That sounds interesting!",
+  "word": {
+    "id": "word-015",
+    "text": "Interesting",
+    "meaning": {
+      "en": "Holding your attention or curiosity.",
+      "taglish": "Nakakakuha ng interest o curiosity."
+    },
+    "examples": {
+      "work": "That sounds like an interesting project.",
+      "everyday": "That sounds like an interesting project."
+    },
+    "check": {
+      "id": "daily-015-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Interesting\"?",
+      "options": [
+        "Holding your attention or curiosity.",
+        "A word with the opposite meaning or an unrelated idea"
+      ],
+      "correctIndex": 0,
+      "explanation": "Holding your attention or curiosity."
+    }
+  },
+  "phrase": {
+    "id": "phrase-015",
+    "text": "That sounds interesting!",
+    "meaning": {
+      "en": "Use this expression naturally in conversation: That sounds interesting!",
+      "taglish": "Ipakita na interesado ka."
+    },
+    "examples": {
+      "work": "That sounds interesting! How did you get started?",
+      "everyday": "That sounds interesting! How did you get started?"
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Can you tell me more?"
+      },
+      {
+        "speaker": "B",
+        "text": "That sounds interesting! How did you get started?"
+      }
+    ],
+    "check": {
+      "id": "daily-015-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "Which response keeps the conversation going?",
+      "options": [
+        "How did you get started?",
+        "Okay."
+      ],
+      "correctIndex": 0,
+      "explanation": "Ipakita na interesado ka."
+    }
+  },
+  "grammarTip": {
+    "topic": "follow-up questions",
+    "explanation": "Practice follow-up questions using today's example: That sounds interesting! How did you get started?"
+  },
+  "speaking": {
+    "id": "daily-015-speaking",
+    "scenario": "Meet someone and ask about their interests.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "That sounds interesting!",
+      "That sounds like an interesting project."
+    ],
+    "oneMinuteGoal": "State your main idea clearly and add one detail.",
+    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
+    "modelResponse": "That sounds interesting! How did you get started? That sounds like an interesting project.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a polite or natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

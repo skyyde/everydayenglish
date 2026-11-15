@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-008",
+  "dayNumber": 8,
+  "week": 2,
+  "weekTheme": "Participating in Meetings",
+  "title": "Suggest — I'd like to suggest…",
+  "word": {
+    "id": "word-008",
+    "text": "Suggest",
+    "meaning": {
+      "en": "To offer an idea for consideration.",
+      "taglish": "Magbigay ng idea na puwedeng pag-isipan."
+    },
+    "examples": {
+      "work": "I suggest a shorter meeting.",
+      "everyday": "I suggest a shorter meeting."
+    },
+    "check": {
+      "id": "daily-008-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Suggest\"?",
+      "options": [
+        "To offer an idea for consideration.",
+        "A word with the opposite meaning or an unrelated idea"
+      ],
+      "correctIndex": 0,
+      "explanation": "To offer an idea for consideration."
+    }
+  },
+  "phrase": {
+    "id": "phrase-008",
+    "text": "I'd like to suggest…",
+    "meaning": {
+      "en": "Use this expression naturally in conversation: I'd like to suggest…",
+      "taglish": "Magbigay ng suggestion nang polite."
+    },
+    "examples": {
+      "work": "I'd like to suggest setting a time limit for each topic.",
+      "everyday": "I'd like to suggest setting a time limit for each topic."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "What do you think we should do?"
+      },
+      {
+        "speaker": "B",
+        "text": "I'd like to suggest setting a time limit for each topic."
+      }
+    ],
+    "check": {
+      "id": "daily-008-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "Complete: 'I'd like to suggest ___ a shorter agenda.'",
+      "options": [
+        "using",
+        "use"
+      ],
+      "correctIndex": 0,
+      "explanation": "Magbigay ng suggestion nang polite."
+    }
+  },
+  "grammarTip": {
+    "topic": "polite suggestions",
+    "explanation": "Practice polite suggestions using today's example: I'd like to suggest setting a time limit for each topic."
+  },
+  "speaking": {
+    "id": "daily-008-speaking",
+    "scenario": "Suggest one improvement during a meeting.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "I'd like to suggest…",
+      "I suggest a shorter meeting."
+    ],
+    "oneMinuteGoal": "State your main idea clearly and add one detail.",
+    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
+    "modelResponse": "I'd like to suggest setting a time limit for each topic. I suggest a shorter meeting.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a polite or natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

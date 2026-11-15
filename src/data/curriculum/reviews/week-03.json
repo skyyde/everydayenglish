@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "week-03",
+  "title": "Everyday Conversations",
+  "optional": true,
+  "questions": [
+    {
+      "id": "week-03-q1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "He usually wakes up early.",
+        "He usually wake up early."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: He usually wakes up early."
+    },
+    {
+      "id": "week-03-q2",
+      "type": "multiple_choice",
+      "prompt": "I remember when I ___ my first job.",
+      "options": [
+        "started",
+        "start"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: started"
+    },
+    {
+      "id": "week-03-q3",
+      "type": "multiple_choice",
+      "prompt": "I enjoy ___ on weekends.",
+      "options": [
+        "cooking",
+        "cook"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: cooking"
+    },
+    {
+      "id": "week-03-q4",
+      "type": "multiple_choice",
+      "prompt": "I'd rather ___ at home.",
+      "options": [
+        "stay",
+        "to stay"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: stay"
+    },
+    {
+      "id": "week-03-q5",
+      "type": "multiple_choice",
+      "prompt": "Which is a better follow-up?",
+      "options": [
+        "How did you get interested in that?",
+        "Okay."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: How did you get interested in that?"
+    }
+  ],
+  "application": {
+    "type": "self_review",
+    "prompt": "Tell a short story about a memorable weekend."
+  },
+  "completionRule": "Attempt all five questions and review explanations"
+}

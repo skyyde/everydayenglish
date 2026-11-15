@@ -23,10 +23,12 @@
       "prompt": "Which meaning best matches \"Responsibility\"?",
       "options": [
         "A duty or task that you are expected to handle.",
-        "A task that nobody is expected to handle."
+        "A task that has no owner."
       ],
       "correctIndex": 0,
-      "explanation": "Responsibility means: A duty or task that you are expected to handle. Example: Preparing the slides is my responsibility."
+      "explanation": "Responsibility means: A duty or task that you are expected to handle. Example: Preparing the slides is my responsibility.",
+      "hint": "Think about how \"responsibility\" is used in this example: Preparing the slides is my responsibility.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Pananagutan"
@@ -72,7 +74,9 @@
         "I'll take care of the documents."
       ],
       "correctIndex": 1,
-      "explanation": "To volunteer to handle a responsibility. Example: I'll take care of the presentation."
+      "explanation": "To volunteer to handle a responsibility. Example: I'll take care of the presentation.",
+      "hint": "Read the complete example aloud: I'll take care of the presentation.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

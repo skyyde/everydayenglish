@@ -22,11 +22,13 @@
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Perspective\"?",
       "options": [
-        "A point of view.",
-        "A task that must be finished by Friday."
+        "A fixed date for completing a task.",
+        "A point of view."
       ],
-      "correctIndex": 0,
-      "explanation": "Perspective means: A point of view. Example: I understand your perspective."
+      "correctIndex": 1,
+      "explanation": "Perspective means: A point of view. Example: I understand your perspective.",
+      "hint": "Think about how \"perspective\" is used in this example: I understand your perspective.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Pananaw"
@@ -72,7 +74,9 @@
         "A deadline"
       ],
       "correctIndex": 0,
-      "explanation": "To introduce your personal point of view. Example: From my perspective, online meetings save travel time."
+      "explanation": "To introduce your personal point of view. Example: From my perspective, online meetings save travel time.",
+      "hint": "Read the complete example aloud: From my perspective, online meetings save travel time.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

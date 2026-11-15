@@ -23,10 +23,12 @@
       "prompt": "Which meaning best matches \"Consider\"?",
       "options": [
         "To think carefully about an option.",
-        "To reject an idea without thinking about it."
+        "To dismiss an idea without thinking about it."
       ],
       "correctIndex": 0,
-      "explanation": "Consider means: To think carefully about an option. Example: We should consider another approach."
+      "explanation": "Consider means: To think carefully about an option. Example: We should consider another approach.",
+      "hint": "Think about how \"consider\" is used in this example: We should consider another approach.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Isaalang-alang"
@@ -72,7 +74,9 @@
         "extend"
       ],
       "correctIndex": 0,
-      "explanation": "To ask whether the group has thought about an option. Example: Have we considered dividing the tasks?"
+      "explanation": "To ask whether the group has thought about an option. Example: Have we considered dividing the tasks?",
+      "hint": "Read the complete example aloud: Have we considered dividing the tasks?",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

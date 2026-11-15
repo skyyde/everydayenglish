@@ -22,11 +22,13 @@
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Deadline\"?",
       "options": [
-        "The date or time when work must be finished.",
-        "An informal idea with no due date."
+        "An optional suggestion with no due date.",
+        "The date or time when work must be finished."
       ],
-      "correctIndex": 0,
-      "explanation": "Deadline means: The date or time when work must be finished. Example: The deadline is Friday afternoon."
+      "correctIndex": 1,
+      "explanation": "Deadline means: The date or time when work must be finished. Example: The deadline is Friday afternoon.",
+      "hint": "Think about how \"deadline\" is used in this example: The deadline is Friday afternoon.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Takdang petsa"
@@ -72,7 +74,9 @@
         "Already finished"
       ],
       "correctIndex": 0,
-      "explanation": "To say that progress is following the schedule. Example: We're on track to finish by Friday."
+      "explanation": "To say that progress is following the schedule. Example: We're on track to finish by Friday.",
+      "hint": "Read the complete example aloud: We're on track to finish by Friday.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

@@ -22,11 +22,13 @@
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Concern\"?",
       "options": [
-        "Something that makes you worried or uncertain.",
-        "An unrelated action or idea, not \"concern\""
+        "Something that can never be discussed.",
+        "Something that makes you worried or uncertain."
       ],
-      "correctIndex": 0,
-      "explanation": "Concern: Something that makes you worried or uncertain. Example: My main concern is the schedule."
+      "correctIndex": 1,
+      "explanation": "Concern: Something that makes you worried or uncertain. Example: My main concern is the schedule.",
+      "hint": "Think about how \"concern\" is used in this example: My main concern is the schedule.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Alalahanin o pangamba"
@@ -72,7 +74,9 @@
         "for"
       ],
       "correctIndex": 0,
-      "explanation": "To raise a potential problem respectfully. Example: One concern I have is that we may need more time."
+      "explanation": "To raise a potential problem respectfully. Example: One concern I have is that we may need more time.",
+      "hint": "Read the complete example aloud: One concern I have is that we may need more time.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

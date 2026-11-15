@@ -23,10 +23,12 @@
       "prompt": "Which meaning best matches \"Clarify\"?",
       "options": [
         "To make something easier to understand.",
-        "To make information harder to understand."
+        "To make something more confusing."
       ],
       "correctIndex": 0,
-      "explanation": "Clarify means: To make something easier to understand. Example: Could you clarify the deadline?"
+      "explanation": "Clarify means: To make something easier to understand. Example: Could you clarify the deadline?",
+      "hint": "Think about how \"clarify\" is used in this example: Could you clarify the deadline?",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Paki-linaw"
@@ -72,7 +74,9 @@
         "To end an unrelated conversation"
       ],
       "correctIndex": 0,
-      "explanation": "To politely confirm that everyone understands the same plan. Example: Just to make sure we're on the same page, the report is due Friday, right?"
+      "explanation": "To politely confirm that everyone understands the same plan. Example: Just to make sure we're on the same page, the report is due Friday, right?",
+      "hint": "Read the complete example aloud: Just to make sure we're on the same page, the report is due Friday, right?",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

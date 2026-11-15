@@ -22,11 +22,13 @@
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Prioritize\"?",
       "options": [
-        "To decide which tasks are most important.",
-        "To ignore important tasks."
+        "To do all tasks without deciding which matters.",
+        "To decide which tasks are most important."
       ],
-      "correctIndex": 0,
-      "explanation": "Prioritize means: To decide which tasks are most important. Example: We need to prioritize urgent requests."
+      "correctIndex": 1,
+      "explanation": "Prioritize means: To decide which tasks are most important. Example: We need to prioritize urgent requests.",
+      "hint": "Think about how \"prioritize\" is used in this example: We need to prioritize urgent requests.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Unahin ayon sa halaga"
@@ -72,7 +74,9 @@
         "A future plan"
       ],
       "correctIndex": 1,
-      "explanation": "To introduce a plan or change that applies from now on. Example: Moving forward, let's review our priorities every Monday."
+      "explanation": "To introduce a plan or change that applies from now on. Example: Moving forward, let's review our priorities every Monday.",
+      "hint": "Read the complete example aloud: Moving forward, let's review our priorities every Monday.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

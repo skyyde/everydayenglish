@@ -23,10 +23,12 @@
       "prompt": "Which meaning best matches \"Alternative\"?",
       "options": [
         "A different possible choice.",
-        "An unrelated action or idea, not \"alternative\""
+        "The only choice that exists."
       ],
       "correctIndex": 0,
-      "explanation": "Alternative: A different possible choice. Example: We need an alternative plan."
+      "explanation": "Alternative: A different possible choice. Example: We need an alternative plan.",
+      "hint": "Think about how \"alternative\" is used in this example: We need an alternative plan.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Ibang pagpipilian"
@@ -72,7 +74,9 @@
         "simplifying"
       ],
       "correctIndex": 0,
-      "explanation": "To introduce another possible choice. Example: Another option would be to use our existing equipment."
+      "explanation": "To introduce another possible choice. Example: Another option would be to use our existing equipment.",
+      "hint": "Read the complete example aloud: Another option would be to use our existing equipment.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

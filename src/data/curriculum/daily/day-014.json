@@ -22,11 +22,13 @@
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Confirm\"?",
       "options": [
-        "To check that something is correct.",
-        "An unrelated action or idea, not \"confirm\""
+        "To assume something without checking.",
+        "To check that something is correct."
       ],
-      "correctIndex": 0,
-      "explanation": "Confirm: To check that something is correct. Example: Please confirm the meeting time."
+      "correctIndex": 1,
+      "explanation": "Confirm: To check that something is correct. Example: Please confirm the meeting time.",
+      "hint": "Think about how \"confirm\" is used in this example: Please confirm the meeting time.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Kumpirmahin"
@@ -72,7 +74,9 @@
         "To change the subject"
       ],
       "correctIndex": 0,
-      "explanation": "To pause briefly and verify important details. Example: Before we proceed, could we confirm everyone's tasks?"
+      "explanation": "To pause briefly and verify important details. Example: Before we proceed, could we confirm everyone's tasks?",
+      "hint": "Read the complete example aloud: Before we proceed, could we confirm everyone's tasks?",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

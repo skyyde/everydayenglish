@@ -22,11 +22,13 @@
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Progress\"?",
       "options": [
-        "Movement toward completing a goal.",
-        "A complete lack of movement toward a goal."
+        "The complete absence of progress.",
+        "Movement toward completing a goal."
       ],
-      "correctIndex": 0,
-      "explanation": "Progress means: Movement toward completing a goal. Example: We've made good progress on the project."
+      "correctIndex": 1,
+      "explanation": "Progress means: Movement toward completing a goal. Example: We've made good progress on the project.",
+      "hint": "Think about how \"progress\" is used in this example: We've made good progress on the project.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Pag-usad"
@@ -72,7 +74,9 @@
         "We're making progress in the project on."
       ],
       "correctIndex": 0,
-      "explanation": "To describe work that is moving forward but is not finished. Example: We're making progress on the testing."
+      "explanation": "To describe work that is moving forward but is not finished. Example: We're making progress on the testing.",
+      "hint": "Read the complete example aloud: We're making progress on the testing.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

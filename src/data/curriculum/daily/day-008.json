@@ -22,11 +22,13 @@
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Suggest\"?",
       "options": [
-        "To offer an idea for consideration.",
-        "To force others to follow an order."
+        "To demand that everyone follow an order.",
+        "To offer an idea for consideration."
       ],
-      "correctIndex": 0,
-      "explanation": "Suggest means: To offer an idea for consideration. Example: I suggest a shorter meeting."
+      "correctIndex": 1,
+      "explanation": "Suggest means: To offer an idea for consideration. Example: I suggest a shorter meeting.",
+      "hint": "Think about how \"suggest\" is used in this example: I suggest a shorter meeting.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Magmungkahi"
@@ -72,7 +74,9 @@
         "use"
       ],
       "correctIndex": 0,
-      "explanation": "To offer an idea politely without ordering others. Example: I'd like to suggest setting a time limit for each topic."
+      "explanation": "To offer an idea politely without ordering others. Example: I'd like to suggest setting a time limit for each topic.",
+      "hint": "Read the complete example aloud: I'd like to suggest setting a time limit for each topic.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

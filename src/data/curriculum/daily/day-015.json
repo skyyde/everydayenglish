@@ -23,10 +23,12 @@
       "prompt": "Which meaning best matches \"Interesting\"?",
       "options": [
         "Holding your attention or curiosity.",
-        "An unrelated action or idea, not \"interesting\""
+        "Something that cannot hold your attention."
       ],
       "correctIndex": 0,
-      "explanation": "Interesting: Holding your attention or curiosity. Example: That sounds like an interesting project."
+      "explanation": "Interesting: Holding your attention or curiosity. Example: That sounds like an interesting project.",
+      "hint": "Think about how \"interesting\" is used in this example: That sounds like an interesting project.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Kawili-wili"
@@ -72,7 +74,9 @@
         "Okay."
       ],
       "correctIndex": 0,
-      "explanation": "To show genuine curiosity and invite someone to continue. Example: That sounds interesting! How did you get started?"
+      "explanation": "To show genuine curiosity and invite someone to continue. Example: That sounds interesting! How did you get started?",
+      "hint": "Read the complete example aloud: That sounds interesting! How did you get started?",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

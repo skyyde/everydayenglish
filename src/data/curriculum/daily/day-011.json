@@ -23,10 +23,12 @@
       "prompt": "Which meaning best matches \"Agree\"?",
       "options": [
         "To have the same opinion.",
-        "An unrelated action or idea, not \"agree\""
+        "To refuse to listen to another opinion."
       ],
       "correctIndex": 0,
-      "explanation": "Agree: To have the same opinion. Example: I agree with your suggestion."
+      "explanation": "Agree: To have the same opinion. Example: I agree with your suggestion.",
+      "hint": "Think about how \"agree\" is used in this example: I agree with your suggestion.",
+      "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
       "fil": "Sumang-ayon"
@@ -72,7 +74,9 @@
         "To reject the conversation"
       ],
       "correctIndex": 0,
-      "explanation": "To acknowledge someone else's view and build on it. Example: I see your point, and I think we should prepare earlier."
+      "explanation": "To acknowledge someone else's view and build on it. Example: I see your point, and I think we should prepare earlier.",
+      "hint": "Read the complete example aloud: I see your point, and I think we should prepare earlier.",
+      "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {

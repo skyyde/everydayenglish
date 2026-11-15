@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-025",
+  "dayNumber": 25,
+  "week": 4,
+  "weekTheme": "Speaking with Confidence",
+  "title": "Coordinate — Let's align on the next steps.",
+  "word": {
+    "id": "word-025",
+    "text": "Coordinate",
+    "meaning": {
+      "en": "To organize work together.",
+      "taglish": "Ayusin ang trabaho nang magkakasama."
+    },
+    "examples": {
+      "work": "We need to coordinate our schedules.",
+      "everyday": "We need to coordinate our schedules."
+    },
+    "check": {
+      "id": "daily-25-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Coordinate\"?",
+      "options": [
+        "To organize work together.",
+        "An unrelated meaning"
+      ],
+      "correctIndex": 0,
+      "explanation": "To organize work together."
+    }
+  },
+  "phrase": {
+    "id": "phrase-025",
+    "text": "Let's align on the next steps.",
+    "meaning": {
+      "en": "Use this expression in conversation: Let's align on the next steps.",
+      "taglish": "Gamitin ang expression sa natural na usapan."
+    },
+    "examples": {
+      "work": "Let's align on the next steps before we leave.",
+      "everyday": "Let's align on the next steps before we leave."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Can you tell me more?"
+      },
+      {
+        "speaker": "B",
+        "text": "Let's align on the next steps before we leave."
+      }
+    ],
+    "check": {
+      "id": "daily-25-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "Complete: 'Let's ___ the next steps.'",
+      "options": [
+        "review",
+        "to review"
+      ],
+      "correctIndex": 0,
+      "explanation": "review"
+    }
+  },
+  "grammarTip": {
+    "topic": "let's plus base verb",
+    "explanation": "Practice let's plus base verb: Let's align on the next steps before we leave."
+  },
+  "speaking": {
+    "id": "daily-25-speaking",
+    "scenario": "Assign next steps during a team discussion.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "Let's align on the next steps.",
+      "We need to coordinate our schedules."
+    ],
+    "oneMinuteGoal": "State your main idea and one detail.",
+    "twoMinuteGoal": "Add a reason, example, and conclusion.",
+    "modelResponse": "Let's align on the next steps before we leave. We need to coordinate our schedules.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0-draft",
+  "title": "Everyday English",
+  "timezone": "Asia/Manila",
+  "dailyLessons": 30,
+  "availableGrammarModules": [
+    1
+  ],
+  "grammarRoadmap": [
+    {
+      "id": 1,
+      "title": "Sentence Foundations",
+      "lessons": 6,
+      "status": "available"
+    },
+    {
+      "id": 2,
+      "title": "Verb Tenses",
+      "lessons": 6,
+      "status": "coming_soon"
+    },
+    {
+      "id": 3,
+      "title": "Questions and Responses",
+      "lessons": 5,
+      "status": "coming_soon"
+    },
+    {
+      "id": 4,
+      "title": "Connecting Ideas",
+      "lessons": 6,
+      "status": "coming_soon"
+    },
+    {
+      "id": 5,
+      "title": "Expressing Opinions",
+      "lessons": 6,
+      "status": "coming_soon"
+    },
+    {
+      "id": 6,
+      "title": "Professional Communication",
+      "lessons": 6,
+      "status": "coming_soon"
+    },
+    {
+      "id": 7,
+      "title": "Meetings and Presentations",
+      "lessons": 6,
+      "status": "coming_soon"
+    },
+    {
+      "id": 8,
+      "title": "Natural Spoken English",
+      "lessons": 5,
+      "status": "coming_soon"
+    }
+  ],
+  "weeklyReviews": 4,
+  "placementAssessment": true,
+  "editorialStatus": "draft_review_required"
+}

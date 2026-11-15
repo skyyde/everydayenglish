@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-029",
+  "dayNumber": 29,
+  "week": 4,
+  "weekTheme": "Speaking with Confidence",
+  "title": "Confident — What I'd like to emphasize is…",
+  "word": {
+    "id": "word-029",
+    "text": "Confident",
+    "meaning": {
+      "en": "Feeling sure of your ability.",
+      "taglish": "May tiwala sa sariling kakayahan."
+    },
+    "examples": {
+      "work": "I feel more confident during meetings.",
+      "everyday": "I feel more confident during meetings."
+    },
+    "check": {
+      "id": "daily-29-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Confident\"?",
+      "options": [
+        "Feeling sure of your ability.",
+        "An unrelated meaning"
+      ],
+      "correctIndex": 0,
+      "explanation": "Feeling sure of your ability."
+    }
+  },
+  "phrase": {
+    "id": "phrase-029",
+    "text": "What I'd like to emphasize is…",
+    "meaning": {
+      "en": "Use this expression in conversation: What I'd like to emphasize is…",
+      "taglish": "Gamitin ang expression sa natural na usapan."
+    },
+    "examples": {
+      "work": "What I'd like to emphasize is clear communication.",
+      "everyday": "What I'd like to emphasize is clear communication."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Can you tell me more?"
+      },
+      {
+        "speaker": "B",
+        "text": "What I'd like to emphasize is clear communication."
+      }
+    ],
+    "check": {
+      "id": "daily-29-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "What does 'I'd like to emphasize' do?",
+      "options": [
+        "Highlight a main point",
+        "Ask about the weather"
+      ],
+      "correctIndex": 0,
+      "explanation": "Highlight a main point"
+    }
+  },
+  "grammarTip": {
+    "topic": "emphasis",
+    "explanation": "Practice emphasis: What I'd like to emphasize is clear communication."
+  },
+  "speaking": {
+    "id": "daily-29-speaking",
+    "scenario": "Give a short presentation emphasizing one key idea.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "What I'd like to emphasize is…",
+      "I feel more confident during meetings."
+    ],
+    "oneMinuteGoal": "State your main idea and one detail.",
+    "twoMinuteGoal": "Add a reason, example, and conclusion.",
+    "modelResponse": "What I'd like to emphasize is clear communication. I feel more confident during meetings.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

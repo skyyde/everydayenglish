@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-009",
+  "dayNumber": 9,
+  "week": 2,
+  "weekTheme": "Participating in Meetings",
+  "title": "Consider — Have we considered…?",
+  "word": {
+    "id": "word-009",
+    "text": "Consider",
+    "meaning": {
+      "en": "To think carefully about an option.",
+      "taglish": "Pag-isipang mabuti ang isang option."
+    },
+    "examples": {
+      "work": "We should consider another approach.",
+      "everyday": "We should consider another approach."
+    },
+    "check": {
+      "id": "daily-009-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Consider\"?",
+      "options": [
+        "To think carefully about an option.",
+        "A word with the opposite meaning or an unrelated idea"
+      ],
+      "correctIndex": 0,
+      "explanation": "To think carefully about an option."
+    }
+  },
+  "phrase": {
+    "id": "phrase-009",
+    "text": "Have we considered…?",
+    "meaning": {
+      "en": "Use this expression naturally in conversation: Have we considered…?",
+      "taglish": "Itanong kung na-consider na ang option."
+    },
+    "examples": {
+      "work": "Have we considered dividing the tasks?",
+      "everyday": "Have we considered dividing the tasks?"
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "What do you think we should do?"
+      },
+      {
+        "speaker": "B",
+        "text": "Have we considered dividing the tasks?"
+      }
+    ],
+    "check": {
+      "id": "daily-009-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "Complete: 'Have we considered ___ the deadline?'",
+      "options": [
+        "extending",
+        "extend"
+      ],
+      "correctIndex": 0,
+      "explanation": "Itanong kung na-consider na ang option."
+    }
+  },
+  "grammarTip": {
+    "topic": "present perfect questions",
+    "explanation": "Practice present perfect questions using today's example: Have we considered dividing the tasks?"
+  },
+  "speaking": {
+    "id": "daily-009-speaking",
+    "scenario": "Ask your team to consider an alternative.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "Have we considered…?",
+      "We should consider another approach."
+    ],
+    "oneMinuteGoal": "State your main idea clearly and add one detail.",
+    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
+    "modelResponse": "Have we considered dividing the tasks? We should consider another approach.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a polite or natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

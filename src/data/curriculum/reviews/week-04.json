@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "week-04",
+  "title": "Explaining Ideas and Solving Problems",
+  "optional": true,
+  "questions": [
+    {
+      "id": "week-04-q1",
+      "type": "multiple_choice",
+      "prompt": "We're ___ on a solution.",
+      "options": [
+        "working",
+        "work"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: working"
+    },
+    {
+      "id": "week-04-q2",
+      "type": "multiple_choice",
+      "prompt": "There's room for ___.",
+      "options": [
+        "improve",
+        "improvement"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correct: improvement"
+    },
+    {
+      "id": "week-04-q3",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct sentence.",
+      "options": [
+        "Let's review the next steps.",
+        "Let's to review the next steps."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: Let's review the next steps."
+    },
+    {
+      "id": "week-04-q4",
+      "type": "multiple_choice",
+      "prompt": "A more efficient approach would be to ___ the process.",
+      "options": [
+        "simplify",
+        "simplifying"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: simplify"
+    },
+    {
+      "id": "week-04-q5",
+      "type": "multiple_choice",
+      "prompt": "Which introduces reflection?",
+      "options": [
+        "Looking back…",
+        "Moving forward…"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct: Looking back…"
+    }
+  ],
+  "application": {
+    "type": "self_review",
+    "prompt": "Explain one problem, its cause, a possible solution, and what you learned."
+  },
+  "completionRule": "Attempt all five questions and review explanations"
+}

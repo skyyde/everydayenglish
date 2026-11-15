@@ -10,11 +10,12 @@
     "text": "Concern",
     "meaning": {
       "en": "Something that makes you worried or uncertain.",
-      "taglish": "Isang bagay na ikinababahala mo."
+      "taglish": "Isang bagay na ikinababahala mo.",
+      "fil": "Isang bagay na maaaring maging problema."
     },
     "examples": {
       "work": "My main concern is the schedule.",
-      "everyday": "My main concern is the schedule."
+      "everyday": "I have a concern about the delivery date."
     },
     "check": {
       "id": "daily-012-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Concern\"?",
       "options": [
         "Something that makes you worried or uncertain.",
-        "A word with the opposite meaning or an unrelated idea"
+        "An unrelated action or idea, not \"concern\""
       ],
       "correctIndex": 0,
-      "explanation": "Something that makes you worried or uncertain."
+      "explanation": "Concern: Something that makes you worried or uncertain. Example: My main concern is the schedule."
+    },
+    "translation": {
+      "fil": "Alalahanin o pangamba"
+    },
+    "explanation": {
+      "en": "A concern is something worth discussing before it becomes a bigger issue.",
+      "taglish": "A concern is something worth discussing before it becomes a bigger issue.",
+      "fil": "Isang bagay na maaaring maging problema."
     }
   },
   "phrase": {
     "id": "phrase-012",
     "text": "One concern I have is…",
     "meaning": {
-      "en": "Use this expression naturally in conversation: One concern I have is…",
-      "taglish": "Mag-raise ng concern nang maayos."
+      "en": "To raise a potential problem respectfully.",
+      "taglish": "Mag-raise ng concern nang maayos.",
+      "fil": "Maayos na pagbanggit ng isang problemang nakikita mo."
     },
     "examples": {
       "work": "One concern I have is that we may need more time.",
-      "everyday": "One concern I have is that we may need more time."
+      "everyday": "One concern I have is that the timeline is too short."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "What do you think we should do?"
+        "speaker": "Friend or coworker",
+        "text": "What do you think?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "One concern I have is that we may need more time."
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks for sharing."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "for"
       ],
       "correctIndex": 0,
-      "explanation": "Mag-raise ng concern nang maayos."
+      "explanation": "To raise a potential problem respectfully. Example: One concern I have is that we may need more time."
     }
   },
   "grammarTip": {
     "topic": "because and that clauses",
-    "explanation": "Practice because and that clauses using today's example: One concern I have is that we may need more time."
+    "explanation": "Grammar focus: because and that clauses. Read: \"One concern I have is that we may need more time.\" Then create your own sentence."
   },
   "speaking": {
     "id": "daily-012-speaking",
-    "scenario": "Raise a concern about an unrealistic deadline.",
+    "scenario": "A project is moving too fast. Raise a concern respectfully and propose a solution.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "I'm concerned that we may miss a detail.",
       "One concern I have is…",
-      "My main concern is the schedule."
+      "Add a specific example.",
+      "Ask a follow-up question or end politely."
     ],
-    "oneMinuteGoal": "State your main idea clearly and add one detail.",
-    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
-    "modelResponse": "One concern I have is that we may need more time. My main concern is the schedule.",
+    "oneMinuteGoal": "Introduce your point and support it with one example.",
+    "twoMinuteGoal": "Add a second example, a reason, and a friendly closing.",
+    "modelResponse": "One concern I have is that we may not have enough time to test everything. Could we finish the most important checks first and schedule the rest for next week?",
     "selfReview": [
       "I communicated my main idea.",
       "I used a polite or natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "Who are you talking with?",
+      "What is the main point?",
+      "What example can you add?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

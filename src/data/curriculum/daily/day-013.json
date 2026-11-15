@@ -10,11 +10,12 @@
     "text": "Alternative",
     "meaning": {
       "en": "A different possible choice.",
-      "taglish": "Ibang puwedeng piliin."
+      "taglish": "Ibang puwedeng piliin.",
+      "fil": "Isang posibleng ibang paraan."
     },
     "examples": {
       "work": "We need an alternative plan.",
-      "everyday": "We need an alternative plan."
+      "everyday": "We need an alternative if the supplier is unavailable."
     },
     "check": {
       "id": "daily-013-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Alternative\"?",
       "options": [
         "A different possible choice.",
-        "A word with the opposite meaning or an unrelated idea"
+        "An unrelated action or idea, not \"alternative\""
       ],
       "correctIndex": 0,
-      "explanation": "A different possible choice."
+      "explanation": "Alternative: A different possible choice. Example: We need an alternative plan."
+    },
+    "translation": {
+      "fil": "Ibang pagpipilian"
+    },
+    "explanation": {
+      "en": "An alternative gives people another way to reach the same goal.",
+      "taglish": "An alternative gives people another way to reach the same goal.",
+      "fil": "Isang posibleng ibang paraan."
     }
   },
   "phrase": {
     "id": "phrase-013",
     "text": "Another option would be…",
     "meaning": {
-      "en": "Use this expression naturally in conversation: Another option would be…",
-      "taglish": "Magbigay ng ibang option."
+      "en": "To introduce another possible choice.",
+      "taglish": "Magbigay ng ibang option.",
+      "fil": "Pag-aalok ng ibang puwedeng gawin."
     },
     "examples": {
       "work": "Another option would be to use our existing equipment.",
-      "everyday": "Another option would be to use our existing equipment."
+      "everyday": "Another option would be to meet online."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "What do you think we should do?"
+        "speaker": "Friend or coworker",
+        "text": "What do you think?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "Another option would be to use our existing equipment."
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks for sharing."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "simplifying"
       ],
       "correctIndex": 0,
-      "explanation": "Magbigay ng ibang option."
+      "explanation": "To introduce another possible choice. Example: Another option would be to use our existing equipment."
     }
   },
   "grammarTip": {
     "topic": "would plus base verb",
-    "explanation": "Practice would plus base verb using today's example: Another option would be to use our existing equipment."
+    "explanation": "Grammar focus: would plus base verb. Read: \"Another option would be to use our existing equipment.\" Then create your own sentence."
   },
   "speaking": {
     "id": "daily-013-speaking",
-    "scenario": "Offer two ways to solve a meeting problem.",
+    "scenario": "Offer a different way to complete a project when the first plan is too expensive.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "Another option would be to use the tools we already have.",
       "Another option would be…",
-      "We need an alternative plan."
+      "Add a specific example.",
+      "Ask a follow-up question or end politely."
     ],
-    "oneMinuteGoal": "State your main idea clearly and add one detail.",
-    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
-    "modelResponse": "Another option would be to use our existing equipment. We need an alternative plan.",
+    "oneMinuteGoal": "Introduce your point and support it with one example.",
+    "twoMinuteGoal": "Add a second example, a reason, and a friendly closing.",
+    "modelResponse": "Another option would be to divide the presentation into shorter sections. That would make it easier to prepare and easier for everyone to follow. We could try it at the next meeting.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a polite or natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "Who are you talking with?",
+      "What is the main point?",
+      "What example can you add?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

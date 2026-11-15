@@ -10,11 +10,12 @@
     "text": "Confirm",
     "meaning": {
       "en": "To check that something is correct.",
-      "taglish": "I-check kung tama ang details."
+      "taglish": "I-check kung tama ang details.",
+      "fil": "Tiyaking tama ang isang detalye o napagkasunduan."
     },
     "examples": {
       "work": "Please confirm the meeting time.",
-      "everyday": "Please confirm the meeting time."
+      "everyday": "Can you confirm the reservation time?"
     },
     "check": {
       "id": "daily-014-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Confirm\"?",
       "options": [
         "To check that something is correct.",
-        "A word with the opposite meaning or an unrelated idea"
+        "An unrelated action or idea, not \"confirm\""
       ],
       "correctIndex": 0,
-      "explanation": "To check that something is correct."
+      "explanation": "Confirm: To check that something is correct. Example: Please confirm the meeting time."
+    },
+    "translation": {
+      "fil": "Kumpirmahin"
+    },
+    "explanation": {
+      "en": "Confirm means checking a detail, not simply guessing.",
+      "taglish": "Confirm means checking a detail, not simply guessing.",
+      "fil": "Tiyaking tama ang isang detalye o napagkasunduan."
     }
   },
   "phrase": {
     "id": "phrase-014",
     "text": "Before we proceed…",
     "meaning": {
-      "en": "Use this expression naturally in conversation: Before we proceed…",
-      "taglish": "I-check muna bago mag-proceed."
+      "en": "To pause briefly and verify important details.",
+      "taglish": "I-check muna bago mag-proceed.",
+      "fil": "Pagtatanong muna para malinaw ang susunod na gagawin."
     },
     "examples": {
       "work": "Before we proceed, could we confirm everyone's tasks?",
-      "everyday": "Before we proceed, could we confirm everyone's tasks?"
+      "everyday": "Before we proceed, could we confirm the budget?"
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "What do you think we should do?"
+        "speaker": "Friend or coworker",
+        "text": "What do you think?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "Before we proceed, could we confirm everyone's tasks?"
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks for sharing."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "To change the subject"
       ],
       "correctIndex": 0,
-      "explanation": "I-check muna bago mag-proceed."
+      "explanation": "To pause briefly and verify important details. Example: Before we proceed, could we confirm everyone's tasks?"
     }
   },
   "grammarTip": {
     "topic": "indirect questions",
-    "explanation": "Practice indirect questions using today's example: Before we proceed, could we confirm everyone's tasks?"
+    "explanation": "Grammar focus: indirect questions. Read: \"Before we proceed, could we confirm everyone's tasks?\" Then create your own sentence."
   },
   "speaking": {
     "id": "daily-014-speaking",
-    "scenario": "Confirm a decision before your team starts working.",
+    "scenario": "Before beginning a new task, confirm the deadline and assigned responsibilities.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "Before we proceed, may I confirm the deadline?",
       "Before we proceed…",
-      "Please confirm the meeting time."
+      "Add a specific example.",
+      "Ask a follow-up question or end politely."
     ],
-    "oneMinuteGoal": "State your main idea clearly and add one detail.",
-    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
-    "modelResponse": "Before we proceed, could we confirm everyone's tasks? Please confirm the meeting time.",
+    "oneMinuteGoal": "Introduce your point and support it with one example.",
+    "twoMinuteGoal": "Add a second example, a reason, and a friendly closing.",
+    "modelResponse": "Before we proceed, could we confirm who is responsible for each task? I will handle the report, and Ana will prepare the slides. If that's correct, we can start today.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a polite or natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "Who are you talking with?",
+      "What is the main point?",
+      "What example can you add?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

@@ -10,11 +10,12 @@
     "text": "Interesting",
     "meaning": {
       "en": "Holding your attention or curiosity.",
-      "taglish": "Nakakakuha ng interest o curiosity."
+      "taglish": "Nakakakuha ng interest o curiosity.",
+      "fil": "Isang bagay na nakakapukaw ng interes."
     },
     "examples": {
       "work": "That sounds like an interesting project.",
-      "everyday": "That sounds like an interesting project."
+      "everyday": "That's an interesting idea for a weekend trip."
     },
     "check": {
       "id": "daily-015-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Interesting\"?",
       "options": [
         "Holding your attention or curiosity.",
-        "A word with the opposite meaning or an unrelated idea"
+        "An unrelated action or idea, not \"interesting\""
       ],
       "correctIndex": 0,
-      "explanation": "Holding your attention or curiosity."
+      "explanation": "Interesting: Holding your attention or curiosity. Example: That sounds like an interesting project."
+    },
+    "translation": {
+      "fil": "Kawili-wili"
+    },
+    "explanation": {
+      "en": "Interesting shows curiosity, especially when followed by a question.",
+      "taglish": "Interesting shows curiosity, especially when followed by a question.",
+      "fil": "Isang bagay na nakakapukaw ng interes."
     }
   },
   "phrase": {
     "id": "phrase-015",
     "text": "That sounds interesting!",
     "meaning": {
-      "en": "Use this expression naturally in conversation: That sounds interesting!",
-      "taglish": "Ipakita na interesado ka."
+      "en": "To show genuine curiosity and invite someone to continue.",
+      "taglish": "Ipakita na interesado ka.",
+      "fil": "Pagpapakita ng interes sa kuwento ng iba."
     },
     "examples": {
       "work": "That sounds interesting! How did you get started?",
-      "everyday": "That sounds interesting! How did you get started?"
+      "everyday": "That sounds interesting! How did you learn about it?"
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "Can you tell me more?"
+        "speaker": "Friend or coworker",
+        "text": "What do you think?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "That sounds interesting! How did you get started?"
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks for sharing."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "Okay."
       ],
       "correctIndex": 0,
-      "explanation": "Ipakita na interesado ka."
+      "explanation": "To show genuine curiosity and invite someone to continue. Example: That sounds interesting! How did you get started?"
     }
   },
   "grammarTip": {
     "topic": "follow-up questions",
-    "explanation": "Practice follow-up questions using today's example: That sounds interesting! How did you get started?"
+    "explanation": "Grammar focus: follow-up questions. Read: \"That sounds interesting! How did you get started?\" Then create your own sentence."
   },
   "speaking": {
     "id": "daily-015-speaking",
-    "scenario": "Meet someone and ask about their interests.",
+    "scenario": "Someone tells you about a new hobby. Show interest and ask two follow-up questions.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "That sounds interesting! What do you enjoy most about it?",
       "That sounds interesting!",
-      "That sounds like an interesting project."
+      "Add a specific example.",
+      "Ask a follow-up question or end politely."
     ],
-    "oneMinuteGoal": "State your main idea clearly and add one detail.",
-    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
-    "modelResponse": "That sounds interesting! How did you get started? That sounds like an interesting project.",
+    "oneMinuteGoal": "Introduce your point and support it with one example.",
+    "twoMinuteGoal": "Add a second example, a reason, and a friendly closing.",
+    "modelResponse": "That sounds interesting! I've never tried gardening before. What plants would you recommend for someone who is just starting? I'd love to learn more.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a polite or natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "Who are you talking with?",
+      "What is the main point?",
+      "What example can you add?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

@@ -10,11 +10,12 @@
     "text": "Prefer",
     "meaning": {
       "en": "To like one option more than another.",
-      "taglish": "Mas gusto ang isang option."
+      "taglish": "Mas gusto ang isang option.",
+      "fil": "Mas gustuhin ang isang bagay kaysa sa iba."
     },
     "examples": {
       "work": "I prefer tea to coffee.",
-      "everyday": "I prefer tea to coffee."
+      "everyday": "I prefer quiet cafés to crowded ones."
     },
     "check": {
       "id": "daily-019-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Prefer\"?",
       "options": [
         "To like one option more than another.",
-        "A word with the opposite meaning or an unrelated idea"
+        "An unrelated action or idea, not \"prefer\""
       ],
       "correctIndex": 0,
-      "explanation": "To like one option more than another."
+      "explanation": "Prefer: To like one option more than another. Example: I prefer tea to coffee."
+    },
+    "translation": {
+      "fil": "Mas piliin"
+    },
+    "explanation": {
+      "en": "Prefer compares choices and helps explain what suits you.",
+      "taglish": "Prefer compares choices and helps explain what suits you.",
+      "fil": "Mas gustuhin ang isang bagay kaysa sa iba."
     }
   },
   "phrase": {
     "id": "phrase-019",
     "text": "I'd rather…",
     "meaning": {
-      "en": "Use this expression naturally in conversation: I'd rather…",
-      "taglish": "Sabihin ang mas gusto mong gawin."
+      "en": "To express a preference between choices.",
+      "taglish": "Sabihin ang mas gusto mong gawin.",
+      "fil": "Pagsasabi ng personal na preference."
     },
     "examples": {
       "work": "I'd rather stay home tonight.",
-      "everyday": "I'd rather stay home tonight."
+      "everyday": "I'd rather take the train than drive."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "Can you tell me more?"
+        "speaker": "Friend or coworker",
+        "text": "What do you think?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "I'd rather stay home tonight."
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks for sharing."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "to stay"
       ],
       "correctIndex": 0,
-      "explanation": "Sabihin ang mas gusto mong gawin."
+      "explanation": "To express a preference between choices. Example: I'd rather stay home tonight."
     }
   },
   "grammarTip": {
     "topic": "comparisons",
-    "explanation": "Practice comparisons using today's example: I'd rather stay home tonight."
+    "explanation": "Grammar focus: comparisons. Read: \"I'd rather stay home tonight.\" Then create your own sentence."
   },
   "speaking": {
     "id": "daily-019-speaking",
-    "scenario": "Explain your preference between two weekend activities.",
+    "scenario": "A friend asks whether you want to go out or stay home. Explain your preference politely.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "I'd rather go in the morning because it's cooler.",
       "I'd rather…",
-      "I prefer tea to coffee."
+      "Add a specific example.",
+      "Ask a follow-up question or end politely."
     ],
-    "oneMinuteGoal": "State your main idea clearly and add one detail.",
-    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
-    "modelResponse": "I'd rather stay home tonight. I prefer tea to coffee.",
+    "oneMinuteGoal": "Introduce your point and support it with one example.",
+    "twoMinuteGoal": "Add a second example, a reason, and a friendly closing.",
+    "modelResponse": "I'd rather stay home this weekend because I need to rest. We could watch a movie and cook dinner together. Maybe we can go out next weekend instead.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a polite or natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "Who are you talking with?",
+      "What is the main point?",
+      "What example can you add?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

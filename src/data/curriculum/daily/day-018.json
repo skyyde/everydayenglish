@@ -10,11 +10,12 @@
     "text": "Recommend",
     "meaning": {
       "en": "To suggest something as a good choice.",
-      "taglish": "Mag-suggest ng magandang option."
+      "taglish": "Mag-suggest ng magandang option.",
+      "fil": "Magmungkahi ng magandang pagpipilian."
     },
     "examples": {
       "work": "I recommend visiting the museum.",
-      "everyday": "I recommend visiting the museum."
+      "everyday": "I'd recommend the soup at that restaurant."
     },
     "check": {
       "id": "daily-018-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Recommend\"?",
       "options": [
         "To suggest something as a good choice.",
-        "A word with the opposite meaning or an unrelated idea"
+        "An unrelated action or idea, not \"recommend\""
       ],
       "correctIndex": 0,
-      "explanation": "To suggest something as a good choice."
+      "explanation": "Recommend: To suggest something as a good choice. Example: I recommend visiting the museum."
+    },
+    "translation": {
+      "fil": "Irekomenda"
+    },
+    "explanation": {
+      "en": "A recommendation is a suggestion, not a command.",
+      "taglish": "A recommendation is a suggestion, not a command.",
+      "fil": "Magmungkahi ng magandang pagpipilian."
     }
   },
   "phrase": {
     "id": "phrase-018",
     "text": "You might want to try…",
     "meaning": {
-      "en": "Use this expression naturally in conversation: You might want to try…",
-      "taglish": "Mag-recommend nang hindi nag-uutos."
+      "en": "To make a gentle recommendation without ordering someone.",
+      "taglish": "Mag-recommend nang hindi nag-uutos.",
+      "fil": "Magbigay ng friendly suggestion."
     },
     "examples": {
       "work": "You might want to try the restaurant near the park.",
-      "everyday": "You might want to try the restaurant near the park."
+      "everyday": "You might want to try the new café nearby."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "Can you tell me more?"
+        "speaker": "Friend or coworker",
+        "text": "What do you think?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "You might want to try the restaurant near the park."
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks for sharing."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "To give an order"
       ],
       "correctIndex": 0,
-      "explanation": "Mag-recommend nang hindi nag-uutos."
+      "explanation": "To make a gentle recommendation without ordering someone. Example: You might want to try the restaurant near the park."
     }
   },
   "grammarTip": {
     "topic": "might and could",
-    "explanation": "Practice might and could using today's example: You might want to try the restaurant near the park."
+    "explanation": "Grammar focus: might and could. Read: \"You might want to try the restaurant near the park.\" Then create your own sentence."
   },
   "speaking": {
     "id": "daily-018-speaking",
-    "scenario": "Recommend a place to visit to a friend.",
+    "scenario": "A friend is visiting your neighborhood. Recommend somewhere to eat or relax.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "You might want to try the place near the market.",
       "You might want to try…",
-      "I recommend visiting the museum."
+      "Add a specific example.",
+      "Ask a follow-up question or end politely."
     ],
-    "oneMinuteGoal": "State your main idea clearly and add one detail.",
-    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
-    "modelResponse": "You might want to try the restaurant near the park. I recommend visiting the museum.",
+    "oneMinuteGoal": "Introduce your point and support it with one example.",
+    "twoMinuteGoal": "Add a second example, a reason, and a friendly closing.",
+    "modelResponse": "You might want to try the walking trail near the park. It's peaceful in the morning, and the path is easy to follow. I usually go there on weekends.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a polite or natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "Who are you talking with?",
+      "What is the main point?",
+      "What example can you add?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

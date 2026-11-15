@@ -10,11 +10,12 @@
     "text": "Agree",
     "meaning": {
       "en": "To have the same opinion.",
-      "taglish": "Pareho kayo ng opinion."
+      "taglish": "Pareho kayo ng opinion.",
+      "fil": "Magkaroon ng kaparehong opinyon."
     },
     "examples": {
       "work": "I agree with your suggestion.",
-      "everyday": "I agree with your suggestion."
+      "everyday": "I agree that we should check the figures."
     },
     "check": {
       "id": "daily-011-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Agree\"?",
       "options": [
         "To have the same opinion.",
-        "A word with the opposite meaning or an unrelated idea"
+        "An unrelated action or idea, not \"agree\""
       ],
       "correctIndex": 0,
-      "explanation": "To have the same opinion."
+      "explanation": "Agree: To have the same opinion. Example: I agree with your suggestion."
+    },
+    "translation": {
+      "fil": "Sumang-ayon"
+    },
+    "explanation": {
+      "en": "Agreeing can be followed by an additional suggestion.",
+      "taglish": "Agreeing can be followed by an additional suggestion.",
+      "fil": "Magkaroon ng kaparehong opinyon."
     }
   },
   "phrase": {
     "id": "phrase-011",
     "text": "I see your point, and…",
     "meaning": {
-      "en": "Use this expression naturally in conversation: I see your point, and…",
-      "taglish": "I-acknowledge ang idea at magdagdag ng sarili."
+      "en": "To acknowledge someone else's view and build on it.",
+      "taglish": "I-acknowledge ang idea at magdagdag ng sarili.",
+      "fil": "Pagkilala sa sinabi ng iba bago magdagdag ng idea."
     },
     "examples": {
       "work": "I see your point, and I think we should prepare earlier.",
-      "everyday": "I see your point, and I think we should prepare earlier."
+      "everyday": "I see your point, and I think we can make it simpler."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "What do you think we should do?"
+        "speaker": "Friend or coworker",
+        "text": "What do you think?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "I see your point, and I think we should prepare earlier."
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks for sharing."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "To reject the conversation"
       ],
       "correctIndex": 0,
-      "explanation": "I-acknowledge ang idea at magdagdag ng sarili."
+      "explanation": "To acknowledge someone else's view and build on it. Example: I see your point, and I think we should prepare earlier."
     }
   },
   "grammarTip": {
     "topic": "connectors",
-    "explanation": "Practice connectors using today's example: I see your point, and I think we should prepare earlier."
+    "explanation": "Grammar focus: connectors. Read: \"I see your point, and I think we should prepare earlier.\" Then create your own sentence."
   },
   "speaking": {
     "id": "daily-011-speaking",
-    "scenario": "Agree with a coworker and add one useful idea.",
+    "scenario": "A colleague suggests changing a schedule. Agree with part of the idea and add your own.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "I see your point, and I'd like to add one suggestion.",
       "I see your point, and…",
-      "I agree with your suggestion."
+      "Add a specific example.",
+      "Ask a follow-up question or end politely."
     ],
-    "oneMinuteGoal": "State your main idea clearly and add one detail.",
-    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
-    "modelResponse": "I see your point, and I think we should prepare earlier. I agree with your suggestion.",
+    "oneMinuteGoal": "Introduce your point and support it with one example.",
+    "twoMinuteGoal": "Add a second example, a reason, and a friendly closing.",
+    "modelResponse": "I see your point, and I agree that we need more time. I also think we should split the work into smaller tasks so everyone can contribute. Would that work for the team?",
     "selfReview": [
       "I communicated my main idea.",
       "I used a polite or natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "Who are you talking with?",
+      "What is the main point?",
+      "What example can you add?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

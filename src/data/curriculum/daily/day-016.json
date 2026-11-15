@@ -10,11 +10,12 @@
     "text": "Usually",
     "meaning": {
       "en": "Most of the time.",
-      "taglish": "Madalas, pero hindi palagi."
+      "taglish": "Madalas, pero hindi palagi.",
+      "fil": "Madalas mangyari pero hindi palagi."
     },
     "examples": {
       "work": "I usually drink coffee in the morning.",
-      "everyday": "I usually drink coffee in the morning."
+      "everyday": "I usually take a walk after dinner."
     },
     "check": {
       "id": "daily-016-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Usually\"?",
       "options": [
         "Most of the time.",
-        "A word with the opposite meaning or an unrelated idea"
+        "An unrelated action or idea, not \"usually\""
       ],
       "correctIndex": 0,
-      "explanation": "Most of the time."
+      "explanation": "Usually: Most of the time. Example: I usually drink coffee in the morning."
+    },
+    "translation": {
+      "fil": "Kadalasan"
+    },
+    "explanation": {
+      "en": "Usually describes a habit, not a one-time event.",
+      "taglish": "Usually describes a habit, not a one-time event.",
+      "fil": "Madalas mangyari pero hindi palagi."
     }
   },
   "phrase": {
     "id": "phrase-016",
     "text": "Most of the time…",
     "meaning": {
-      "en": "Use this expression naturally in conversation: Most of the time…",
-      "taglish": "Sabihin kung ano ang karaniwang nangyayari."
+      "en": "To talk about a regular pattern with exceptions.",
+      "taglish": "Sabihin kung ano ang karaniwang nangyayari.",
+      "fil": "Paglalarawan ng nakasanayang gawain."
     },
     "examples": {
       "work": "Most of the time, I prepare dinner at home.",
-      "everyday": "Most of the time, I prepare dinner at home."
+      "everyday": "Most of the time, I cook at home."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "Can you tell me more?"
+        "speaker": "Friend or coworker",
+        "text": "What do you think?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "Most of the time, I prepare dinner at home."
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks for sharing."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "Never"
       ],
       "correctIndex": 0,
-      "explanation": "Sabihin kung ano ang karaniwang nangyayari."
+      "explanation": "To talk about a regular pattern with exceptions. Example: Most of the time, I prepare dinner at home."
     }
   },
   "grammarTip": {
     "topic": "simple present",
-    "explanation": "Practice simple present using today's example: Most of the time, I prepare dinner at home."
+    "explanation": "Grammar focus: simple present. Read: \"Most of the time, I prepare dinner at home.\" Then create your own sentence."
   },
   "speaking": {
     "id": "daily-016-speaking",
-    "scenario": "Describe your usual weekday routine.",
+    "scenario": "Describe a typical weekday and explain how weekends are different.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "Most of the time, I start my day with coffee.",
       "Most of the time…",
-      "I usually drink coffee in the morning."
+      "Add a specific example.",
+      "Ask a follow-up question or end politely."
     ],
-    "oneMinuteGoal": "State your main idea clearly and add one detail.",
-    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
-    "modelResponse": "Most of the time, I prepare dinner at home. I usually drink coffee in the morning.",
+    "oneMinuteGoal": "Introduce your point and support it with one example.",
+    "twoMinuteGoal": "Add a second example, a reason, and a friendly closing.",
+    "modelResponse": "Most of the time, I wake up early and prepare breakfast. On weekends, I sometimes sleep a little longer. I like having a simple routine because it helps me feel organized.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a polite or natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "Who are you talking with?",
+      "What is the main point?",
+      "What example can you add?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

@@ -10,11 +10,12 @@
     "text": "Experience",
     "meaning": {
       "en": "Something that happened to you or that you learned by doing.",
-      "taglish": "Nangyari sa iyo o natutunan mo sa paggawa."
+      "taglish": "Nangyari sa iyo o natutunan mo sa paggawa.",
+      "fil": "Isang nangyari sa iyo o natutunan mo sa paggawa."
     },
     "examples": {
       "work": "My first job was a valuable experience.",
-      "everyday": "My first job was a valuable experience."
+      "everyday": "Traveling alone was a new experience for me."
     },
     "check": {
       "id": "daily-017-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Experience\"?",
       "options": [
         "Something that happened to you or that you learned by doing.",
-        "A word with the opposite meaning or an unrelated idea"
+        "An unrelated action or idea, not \"experience\""
       ],
       "correctIndex": 0,
-      "explanation": "Something that happened to you or that you learned by doing."
+      "explanation": "Experience: Something that happened to you or that you learned by doing. Example: My first job was a valuable experience."
+    },
+    "translation": {
+      "fil": "Karanasan"
+    },
+    "explanation": {
+      "en": "An experience is a real event or learning opportunity.",
+      "taglish": "An experience is a real event or learning opportunity.",
+      "fil": "Isang nangyari sa iyo o natutunan mo sa paggawa."
     }
   },
   "phrase": {
     "id": "phrase-017",
     "text": "I remember when…",
     "meaning": {
-      "en": "Use this expression naturally in conversation: I remember when…",
-      "taglish": "Magkuwento ng memory o experience."
+      "en": "To introduce a personal memory.",
+      "taglish": "Magkuwento ng memory o experience.",
+      "fil": "Pagkukuwento ng isang pangyayari sa nakaraan."
     },
     "examples": {
       "work": "I remember when I first started working.",
-      "everyday": "I remember when I first started working."
+      "everyday": "I remember when we first visited that place."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "Can you tell me more?"
+        "speaker": "Friend or coworker",
+        "text": "What do you think?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "I remember when I first started working."
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks for sharing."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "start"
       ],
       "correctIndex": 0,
-      "explanation": "Magkuwento ng memory o experience."
+      "explanation": "To introduce a personal memory. Example: I remember when I first started working."
     }
   },
   "grammarTip": {
     "topic": "past simple",
-    "explanation": "Practice past simple using today's example: I remember when I first started working."
+    "explanation": "Grammar focus: past simple. Read: \"I remember when I first started working.\" Then create your own sentence."
   },
   "speaking": {
     "id": "daily-017-speaking",
-    "scenario": "Tell a story about something you learned in the past.",
+    "scenario": "Tell a story about a time you learned something new.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "I remember when I had to learn a new skill.",
       "I remember when…",
-      "My first job was a valuable experience."
+      "Add a specific example.",
+      "Ask a follow-up question or end politely."
     ],
-    "oneMinuteGoal": "State your main idea clearly and add one detail.",
-    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
-    "modelResponse": "I remember when I first started working. My first job was a valuable experience.",
+    "oneMinuteGoal": "Introduce your point and support it with one example.",
+    "twoMinuteGoal": "Add a second example, a reason, and a friendly closing.",
+    "modelResponse": "I remember when I started my first job. I was nervous because everything was new, but my coworkers helped me learn. That experience taught me to ask questions when I need help.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a polite or natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "Who are you talking with?",
+      "What is the main point?",
+      "What example can you add?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

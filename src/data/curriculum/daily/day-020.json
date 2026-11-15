@@ -10,11 +10,12 @@
     "text": "Enjoy",
     "meaning": {
       "en": "To take pleasure in something.",
-      "taglish": "Masaya kang gawin ang isang bagay."
+      "taglish": "Masaya kang gawin ang isang bagay.",
+      "fil": "Makaramdam ng saya habang may ginagawa."
     },
     "examples": {
       "work": "I enjoy reading in the evening.",
-      "everyday": "I enjoy reading in the evening."
+      "everyday": "I enjoy listening to music after work."
     },
     "check": {
       "id": "daily-020-word-check",
@@ -22,31 +23,44 @@
       "prompt": "Which meaning best matches \"Enjoy\"?",
       "options": [
         "To take pleasure in something.",
-        "A word with the opposite meaning or an unrelated idea"
+        "An unrelated action or idea, not \"enjoy\""
       ],
       "correctIndex": 0,
-      "explanation": "To take pleasure in something."
+      "explanation": "Enjoy: To take pleasure in something. Example: I enjoy reading in the evening."
+    },
+    "translation": {
+      "fil": "Masiyahan"
+    },
+    "explanation": {
+      "en": "Enjoy is often followed by an -ing verb when describing an activity.",
+      "taglish": "Enjoy is often followed by an -ing verb when describing an activity.",
+      "fil": "Makaramdam ng saya habang may ginagawa."
     }
   },
   "phrase": {
     "id": "phrase-020",
     "text": "In my free time…",
     "meaning": {
-      "en": "Use this expression naturally in conversation: In my free time…",
-      "taglish": "Ipakilala ang iyong hobbies."
+      "en": "To introduce how you like to spend your free time.",
+      "taglish": "Ipakilala ang iyong hobbies.",
+      "fil": "Pagkukuwento tungkol sa ginagawa sa libreng oras."
     },
     "examples": {
       "work": "In my free time, I enjoy gardening.",
-      "everyday": "In my free time, I enjoy gardening."
+      "everyday": "In my free time, I enjoy cooking for my family."
     },
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "Can you tell me more?"
+        "speaker": "Friend or coworker",
+        "text": "What do you think?"
       },
       {
-        "speaker": "B",
+        "speaker": "You",
         "text": "In my free time, I enjoy gardening."
+      },
+      {
+        "speaker": "Friend or coworker",
+        "text": "Thanks for sharing."
       }
     ],
     "check": {
@@ -58,35 +72,42 @@
         "read"
       ],
       "correctIndex": 0,
-      "explanation": "Ipakilala ang iyong hobbies."
+      "explanation": "To introduce how you like to spend your free time. Example: In my free time, I enjoy gardening."
     }
   },
   "grammarTip": {
     "topic": "enjoy plus -ing",
-    "explanation": "Practice enjoy plus -ing using today's example: In my free time, I enjoy gardening."
+    "explanation": "Grammar focus: enjoy plus -ing. Read: \"In my free time, I enjoy gardening.\" Then create your own sentence."
   },
   "speaking": {
     "id": "daily-020-speaking",
-    "scenario": "Talk about your hobbies and interests.",
+    "scenario": "Tell a new friend about your hobbies and why you like them.",
     "prepSeconds": 20,
     "targetSeconds": [
       60,
       120
     ],
     "hints": [
+      "In my free time, I enjoy spending time with my family.",
       "In my free time…",
-      "I enjoy reading in the evening."
+      "Add a specific example.",
+      "Ask a follow-up question or end politely."
     ],
-    "oneMinuteGoal": "State your main idea clearly and add one detail.",
-    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
-    "modelResponse": "In my free time, I enjoy gardening. I enjoy reading in the evening.",
+    "oneMinuteGoal": "Introduce your point and support it with one example.",
+    "twoMinuteGoal": "Add a second example, a reason, and a friendly closing.",
+    "modelResponse": "In my free time, I enjoy cooking and watching movies with my family. I especially like trying new recipes on Sundays. It helps me relax after a busy week.",
     "selfReview": [
       "I communicated my main idea.",
       "I used a polite or natural expression.",
       "I tried to speak in complete sentences."
     ],
     "writtenAlternative": true,
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "preparationQuestions": [
+      "Who are you talking with?",
+      "What is the main point?",
+      "What example can you add?"
+    ]
   },
-  "editorialStatus": "draft_review_required"
+  "editorialStatus": "authored_v1"
 }

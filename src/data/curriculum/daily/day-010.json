@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-010",
+  "dayNumber": 10,
+  "week": 2,
+  "weekTheme": "Participating in Meetings",
+  "title": "Perspective — From my perspective…",
+  "word": {
+    "id": "word-010",
+    "text": "Perspective",
+    "meaning": {
+      "en": "A point of view.",
+      "taglish": "Sariling point of view."
+    },
+    "examples": {
+      "work": "I understand your perspective.",
+      "everyday": "I understand your perspective."
+    },
+    "check": {
+      "id": "daily-010-word-check",
+      "type": "multiple_choice",
+      "prompt": "Which meaning best matches \"Perspective\"?",
+      "options": [
+        "A point of view.",
+        "A word with the opposite meaning or an unrelated idea"
+      ],
+      "correctIndex": 0,
+      "explanation": "A point of view."
+    }
+  },
+  "phrase": {
+    "id": "phrase-010",
+    "text": "From my perspective…",
+    "meaning": {
+      "en": "Use this expression naturally in conversation: From my perspective…",
+      "taglish": "Ibigay ang sariling opinion."
+    },
+    "examples": {
+      "work": "From my perspective, online meetings save travel time.",
+      "everyday": "From my perspective, online meetings save travel time."
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "What do you think we should do?"
+      },
+      {
+        "speaker": "B",
+        "text": "From my perspective, online meetings save travel time."
+      }
+    ],
+    "check": {
+      "id": "daily-010-phrase-check",
+      "type": "multiple_choice",
+      "prompt": "What does 'From my perspective' introduce?",
+      "options": [
+        "Your opinion",
+        "A deadline"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ibigay ang sariling opinion."
+    }
+  },
+  "grammarTip": {
+    "topic": "opinions and reasons",
+    "explanation": "Practice opinions and reasons using today's example: From my perspective, online meetings save travel time."
+  },
+  "speaking": {
+    "id": "daily-010-speaking",
+    "scenario": "Share your opinion about online meetings and give a reason.",
+    "prepSeconds": 20,
+    "targetSeconds": [
+      60,
+      120
+    ],
+    "hints": [
+      "From my perspective…",
+      "I understand your perspective."
+    ],
+    "oneMinuteGoal": "State your main idea clearly and add one detail.",
+    "twoMinuteGoal": "Add a reason, an example, and a short conclusion.",
+    "modelResponse": "From my perspective, online meetings save travel time. I understand your perspective.",
+    "selfReview": [
+      "I communicated my main idea.",
+      "I used a polite or natural expression.",
+      "I tried to speak in complete sentences."
+    ],
+    "writtenAlternative": true,
+    "modelResponseVisibility": "after_attempt"
+  },
+  "editorialStatus": "draft_review_required"
+}

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "grammar-01-05",
+  "moduleId": "module-01",
+  "lessonNumber": 5,
+  "title": "Prepositions",
+  "estimatedMinutes": 8,
+  "explanation": {
+    "en": "Common patterns include at 9 AM, on Monday, in November, send to someone, and prepare for a meeting.",
+    "taglish": "Tandaan ang patterns: at 9 AM, on Monday, in November, send to, at prepare for."
+  },
+  "examples": [
+    "I'll send the report to Maria on Friday.",
+    "We meet at nine."
+  ],
+  "exercises": [
+    {
+      "id": "grammar-01-05-q1",
+      "type": "multiple_choice",
+      "prompt": "Complete: 'We meet ___ Monday.'",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: on"
+    },
+    {
+      "id": "grammar-01-05-q2",
+      "type": "multiple_choice",
+      "prompt": "Complete: 'The meeting starts ___ 9 AM.'",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: at"
+    },
+    {
+      "id": "grammar-01-05-q3",
+      "type": "multiple_choice",
+      "prompt": "Correct: 'I sent the email for Maria.' (Maria is the recipient.)",
+      "options": [
+        "I sent the email to Maria.",
+        "I sent the email on Maria.",
+        "I sent the email at Maria."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: I sent the email to Maria."
+    },
+    {
+      "id": "grammar-01-05-q4",
+      "type": "multiple_choice",
+      "prompt": "Choose the natural sentence.",
+      "options": [
+        "We are preparing for the meeting.",
+        "We are preparing on the meeting.",
+        "We are preparing at the meeting."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: We are preparing for the meeting."
+    },
+    {
+      "id": "grammar-01-05-q5",
+      "type": "multiple_choice",
+      "prompt": "Does this sentence need correction? 'I'll send it to you on Friday.'",
+      "options": [
+        "No change needed.",
+        "Change 'to' to 'at'.",
+        "Change 'on' to 'in'."
+      ],
+      "correctIndex": 0,
+      "explanation": "Correct answer: No change needed."
+    }
+  ],
+  "writing": {
+    "type": "self_review",
+    "prompt": "Write one sentence using a time preposition and one using 'to' or 'for'.",
+    "checklist": [
+      "My sentence is complete.",
+      "My word order is natural.",
+      "I reviewed the lesson examples."
+    ]
+  },
+  "optionalSpeaking": {
+    "prompt": "Write one sentence using a time preposition and one using 'to' or 'for'."
+  },
+  "editorialStatus": "draft_review_required"
+}

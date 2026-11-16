@@ -1,0 +1,2 @@
+import {describe,it,expect} from 'vitest';import {lessons,validateLessons,manilaDate,lessonDay} from './data';
+describe('curriculum',()=>{it('loads the authored lessons with valid answer keys',()=>expect(validateLessons(lessons)).toEqual([]));it('uses Philippine calendar dates',()=>{expect(manilaDate(new Date('2026-11-15T16:01:00Z'))).toBe('2026-11-16');expect(lessonDay('2026-11-16','2026-11-16')).toBe(1);expect(lessonDay('2026-11-16','2026-11-15')).toBe(0);expect(lessonDay('2026-11-16','2026-12-16')).toBe(31)})});

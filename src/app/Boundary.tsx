@@ -1,0 +1,2 @@
+import {Component,type ReactNode} from 'react';
+export class Boundary extends Component<{children:ReactNode},{error:boolean}>{state={error:false};static getDerivedStateFromError(){return {error:true}}render(){return this.state.error?<main className="content"><h1>We couldn't open your learning data</h1><p>Please check that browser storage is enabled and your device has free space. Your existing progress has not been reset.</p><button onClick={()=>window.location.reload()}>Try again</button></main>:this.props.children}}

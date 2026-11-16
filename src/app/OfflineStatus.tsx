@@ -1,0 +1,2 @@
+import {useRegisterSW} from 'virtual:pwa-register/react';
+export function OfflineStatus(){const {offlineReady:[ready],needRefresh:[refresh],updateServiceWorker}=useRegisterSW();return <>{ready&&<p className="small muted">Lessons are cached for offline use on this device.</p>}{refresh&&<section className="note"><p>An app update is ready. Finish your current response before reloading.</p><button onClick={()=>updateServiceWorker(true)}>Update and reload</button></section>}</>}

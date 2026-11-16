@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "1.0.0",
+  "contentVersion": "1.1.0",
   "title": "Everyday English",
   "timezone": "Asia/Manila",
   "dailyLessons": 30,
@@ -59,8 +59,8 @@
   ],
   "weeklyReviews": 4,
   "placementAssessment": true,
-  "editorialStatus": "authored_v1_qa_pending",
-  "contentNote": "Complete authored content for 30 daily lessons, six grammar lessons, placement, and reviews. Validate before release; language and pedagogy should be tested with the learner.",
+  "editorialStatus": "editorially_reviewed_learner_testing_pending",
+  "contentNote": "Targeted editorial review corrected question feedback, ambiguous items, daily grammar tips, dialogues, speaking model alignment, and answer-position bias. Structural checks passed. Timing, usability, and teaching effectiveness still require learner testing.",
   "dataContract": {
     "dailyActivities": [
       "word",
@@ -75,6 +75,28 @@
       7,
       14,
       30
-    ]
+    ],
+    "weeklyReviewAvailableAfterDays": [
+      7,
+      14,
+      21,
+      28
+    ],
+    "reviewScheduleDaysNote": "The existing [2,7,14,30] values are retained as legacy review checkpoints; they are not the weekly-review availability schedule. Weekly reviews use each file's availableAfterDay.",
+    "speakingTargetsAreOptional": true,
+    "estimatedDailyMinutes": [
+      5,
+      8
+    ],
+    "practiceFlow": {
+      "wordMinutes": 1,
+      "phraseMinutes": 2,
+      "speakingMinutes": [
+        2,
+        5
+      ],
+      "note": "Approximate budget, not timed completion requirements. Grammar, weekly reviews, and placement are separate optional sessions. Read one example, attempt each check, then speak or write. Extra examples, longer targets, and retries are optional; do not require reading every field."
+    },
+    "additiveFields": "Render speaking.durationGuidance and modelResponseNote; honor targetIsOptional. speaking.recall is optional within the speaking activity, never a fourth daily task. Show writing and review examples only after an attempt. Use placement.scoringPolicy for the informal recommendation. Existing IDs and required fields are preserved."
   }
 }

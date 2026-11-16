@@ -15,7 +15,7 @@
     },
     "examples": {
       "work": "I'll update the team this afternoon.",
-      "everyday": "I'll update you after the meeting."
+      "everyday": "I'll update you when I arrive."
     },
     "check": {
       "id": "daily-003-word-check",
@@ -49,12 +49,12 @@
     },
     "examples": {
       "work": "So far, we've completed the first draft.",
-      "everyday": "So far, we've contacted three suppliers."
+      "everyday": "So far, we've packed two bags."
     },
     "dialogue": [
       {
         "speaker": "Coworker",
-        "text": "What do you think we should do next?"
+        "text": "How is the draft coming along?"
       },
       {
         "speaker": "You",
@@ -62,7 +62,7 @@
       },
       {
         "speaker": "Coworker",
-        "text": "Thanks, that helps."
+        "text": "Great. What still needs to be checked?"
       }
     ],
     "check": {
@@ -70,18 +70,18 @@
       "type": "multiple_choice",
       "prompt": "Complete: 'So far, we've ___ the draft.'",
       "options": [
-        "finished",
-        "finish"
+        "finish",
+        "finished"
       ],
-      "correctIndex": 0,
-      "explanation": "To introduce progress completed up to the present. Example: So far, we've completed the first draft.",
+      "correctIndex": 1,
+      "explanation": "Use 'finished' after 'we have' (we've): So far, we've finished the draft. 'Finish' is the base form; this pattern needs the past participle.",
       "hint": "Read the complete example aloud: So far, we've completed the first draft.",
       "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {
-    "topic": "present perfect",
-    "explanation": "Notice the grammar in \"So far, we've completed the first draft.\" Practice the same structure with your own details."
+    "topic": "We've + past participle",
+    "explanation": "'We've' means 'we have'. Use have + past participle for progress up to now: 'We've finished the draft.' Tandaan muna ang useful chunk na 'We've finished...'."
   },
   "speaking": {
     "id": "daily-003-speaking",
@@ -92,18 +92,17 @@
       120
     ],
     "hints": [
-      "I can give you an update before lunch.",
-      "So far, we've…",
-      "Say what happened or what you need.",
-      "Add one clear reason or next step."
+      "So far, we've ___. We still need to ___.",
+      "Use your own details or imagine a situation. Pauses are okay.",
+      "A short clear message is enough; add details only if useful."
     ],
-    "oneMinuteGoal": "Introduce the situation, state your message, and give one reason or detail.",
-    "twoMinuteGoal": "Introduce the situation, give two supporting details, explain the next step, and close politely.",
+    "oneMinuteGoal": "Use the sentence starter to give a clear message with one useful detail. Stop when your message is complete, even before one minute.",
+    "twoMinuteGoal": "Optional extension: add a reason, an example, or a next step. You do not need to fill two minutes.",
     "modelResponse": "So far, we've completed the first draft and checked the numbers. We still need to review the conclusion. I expect to send the final version tomorrow afternoon.",
     "selfReview": [
-      "I communicated my main idea.",
-      "I used a polite or natural expression.",
-      "I tried to speak in complete sentences."
+      "I answered the situation with a clear main message.",
+      "I included the detail or question the listener needs.",
+      "I chose one sentence to improve or practice again."
     ],
     "writtenAlternative": true,
     "modelResponseVisibility": "after_attempt",
@@ -111,7 +110,23 @@
       "Who are you speaking to?",
       "What is your main message?",
       "What detail will make it clear?"
-    ]
+    ],
+    "targetIsOptional": true,
+    "durationGuidance": {
+      "en": "One and two minutes are optional practice targets, not minimums. A shorter complete message counts. Start with two or three sentences, then add detail if useful.",
+      "taglish": "Optional targets lang ang isa o dalawang minuto. Puwedeng mas maikli basta malinaw ang mensahe. Magsimula sa dalawa o tatlong pangungusap.",
+      "fil": "Gabay lamang ang isa o dalawang minuto, hindi kailangang abutin. Sapat ang mas maikling sagot kung malinaw ang mensahe."
+    },
+    "modelResponseNote": "This is one short example, not a script to memorize or a timed one-minute answer. Your details and wording may differ.",
+    "recall": {
+      "lessonId": "daily-002",
+      "optional": true,
+      "prompt": {
+        "en": "Before speaking, try to recall a useful expression from Day 2. Use it if it fits today's situation; no extra recording is needed.",
+        "taglish": "Bago magsalita, subukang alalahanin ang isang expression sa Day 2. Gamitin kung bagay sa situation today; hindi kailangan ng dagdag na recording.",
+        "fil": "Bago magsalita, alalahanin ang isang pahayag mula sa Araw 2. Gamitin kung angkop; hindi kailangan ng dagdag na rekording."
+      }
+    }
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending"
 }

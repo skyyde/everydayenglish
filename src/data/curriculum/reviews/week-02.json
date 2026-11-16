@@ -9,11 +9,11 @@
       "type": "multiple_choice",
       "prompt": "I'd like to suggest ___ the schedule.",
       "options": [
-        "changing",
-        "to change"
+        "to change",
+        "changing"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct choice is \"changing\". Read the full sentence aloud and notice how the words fit together.",
+      "correctIndex": 1,
+      "explanation": "Use 'suggest + -ing': suggest changing the schedule.",
       "hint": "Read each option as a complete sentence before choosing."
     },
     {
@@ -25,7 +25,7 @@
         "considered"
       ],
       "correctIndex": 1,
-      "explanation": "The correct choice is \"considered\". Read the full sentence aloud and notice how the words fit together.",
+      "explanation": "'Have we considered...?' uses have + past participle. The form is 'considered'.",
       "hint": "Read each option as a complete sentence before choosing."
     },
     {
@@ -37,7 +37,7 @@
         "To sum things up…"
       ],
       "correctIndex": 0,
-      "explanation": "The correct choice is \"From my perspective…\". Read the full sentence aloud and notice how the words fit together.",
+      "explanation": "'From my perspective' introduces your view. 'To sum things up' introduces a summary.",
       "hint": "Read each option as a complete sentence before choosing."
     },
     {
@@ -45,11 +45,11 @@
       "type": "multiple_choice",
       "prompt": "One concern I have is ___ we may need more time.",
       "options": [
-        "that",
-        "for"
+        "for",
+        "that"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct choice is \"that\". Read the full sentence aloud and notice how the words fit together.",
+      "correctIndex": 1,
+      "explanation": "Use 'that + subject + verb' after 'One concern I have is'.",
       "hint": "Read each option as a complete sentence before choosing."
     },
     {
@@ -61,7 +61,7 @@
         "Another option would be to extending the deadline."
       ],
       "correctIndex": 0,
-      "explanation": "The correct choice is \"Another option would be to extend the deadline.\". Read the full sentence aloud and notice how the words fit together.",
+      "explanation": "Use 'would be to + base verb': would be to extend, not would be to extending.",
       "hint": "Read each option as a complete sentence before choosing."
     }
   ],
@@ -69,17 +69,22 @@
     "type": "self_review",
     "prompt": "Your team has a difficult deadline. Suggest a solution, acknowledge a colleague, and confirm the next step.",
     "checklist": [
-      "I used at least two phrases from this week.",
-      "I included a clear main idea.",
-      "I added a reason or example."
+      "I answered the situation clearly.",
+      "I used a useful expression from these lessons.",
+      "I compared the meaning with the example; my wording can be different."
     ],
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "modelResponse": "I see your point, and I agree that we need more time. I'd like to suggest finishing the urgent section first. Before we proceed, could we confirm who will check it?",
+    "writtenAlternative": true,
+    "optional": true,
+    "feedbackMode": "self_review_only"
   },
   "completionRule": "Attempt all five questions and review explanations",
   "introduction": {
     "en": "Practice making suggestions, sharing opinions, expressing concerns, and confirming decisions.",
     "taglish": "Balikan ang suggestions, opinions, concerns, at pag-confirm ng decisions.",
-    "fil": "Balikan ang suggestions, opinions, concerns, at pag-confirm ng decisions."
+    "fil": "Balikan ang pagmumungkahi, pagbabahagi ng opinyon, pagsasabi ng alalahanin, at pagkumpirma ng pasya."
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending",
+  "availableAfterDay": 14
 }

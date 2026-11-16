@@ -15,17 +15,17 @@
     },
     "examples": {
       "work": "Finishing on time is a challenge.",
-      "everyday": "Managing the schedule is our biggest challenge."
+      "everyday": "Finding time to exercise is a challenge."
     },
     "check": {
       "id": "daily-23-word-check",
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Challenge\"?",
       "options": [
-        "A difficult task or situation.",
-        "A task that requires no effort."
+        "A task that requires no effort.",
+        "A difficult task or situation."
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Challenge: A difficult task or situation. Example: Finishing on time is a challenge.",
       "hint": "Notice the meaning in this example: Finishing on time is a challenge.",
       "maxAttemptsBeforeExplanation": 3
@@ -35,7 +35,7 @@
     },
     "explanation": {
       "en": "A challenge can be difficult without being impossible.",
-      "taglish": "A challenge can be difficult without being impossible.",
+      "taglish": "Ang challenge ay mahirap na gawain o sitwasyon, pero hindi ibig sabihing imposible.",
       "fil": "Isang mahirap ngunit maaaring haraping gawain."
     }
   },
@@ -49,20 +49,20 @@
     },
     "examples": {
       "work": "One challenge we're facing is limited staff.",
-      "everyday": "One challenge we're facing is a shortage of time."
+      "everyday": "One challenge we're facing is finding a day when everyone is free."
     },
     "dialogue": [
       {
-        "speaker": "Friend or coworker",
-        "text": "Can you explain a little more?"
+        "speaker": "Coworker",
+        "text": "What is making this week difficult?"
       },
       {
         "speaker": "You",
         "text": "One challenge we're facing is limited staff."
       },
       {
-        "speaker": "Friend or coworker",
-        "text": "Thanks, that makes sense."
+        "speaker": "Coworker",
+        "text": "Let's decide which tasks need attention first."
       }
     ],
     "check": {
@@ -74,14 +74,14 @@
         "for"
       ],
       "correctIndex": 0,
-      "explanation": "To identify a current obstacle clearly. Example: One challenge we're facing is limited staff.",
+      "explanation": "Use 'is that + subject + verb' to explain the challenge: One challenge we're facing is that we need more time.",
       "hint": "Read the example: One challenge we're facing is limited staff.",
       "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {
-    "topic": "problem clauses",
-    "explanation": "Grammar focus: problem clauses. Read: \"One challenge we're facing is limited staff.\" Then make your own example."
+    "topic": "Naming a challenge",
+    "explanation": "Use 'One challenge is + noun' or 'One challenge is that + subject + verb': 'One challenge is limited time.' / 'One challenge is that we need more time.'"
   },
   "speaking": {
     "id": "daily-23-speaking",
@@ -101,9 +101,9 @@
     "twoMinuteGoal": "Add a reason, another example, and a clear conclusion.",
     "modelResponse": "One challenge we're facing is that two people are away this week. We're adjusting the schedule and sharing the urgent tasks among the remaining team members. We hope to catch up by Friday.",
     "selfReview": [
-      "I communicated my main idea.",
-      "I used a natural expression.",
-      "I tried to speak in complete sentences."
+      "I answered the situation with a clear main message.",
+      "I included the detail or question the listener needs.",
+      "I chose one sentence to improve or practice again."
     ],
     "writtenAlternative": true,
     "modelResponseVisibility": "after_attempt",
@@ -111,7 +111,23 @@
       "What situation are you describing?",
       "What main point do you want to share?",
       "What example supports it?"
-    ]
+    ],
+    "targetIsOptional": true,
+    "durationGuidance": {
+      "en": "One and two minutes are optional practice targets, not minimums. A shorter complete message counts. Start with two or three sentences, then add detail if useful.",
+      "taglish": "Optional targets lang ang isa o dalawang minuto. Puwedeng mas maikli basta malinaw ang mensahe. Magsimula sa dalawa o tatlong pangungusap.",
+      "fil": "Gabay lamang ang isa o dalawang minuto, hindi kailangang abutin. Sapat ang mas maikling sagot kung malinaw ang mensahe."
+    },
+    "modelResponseNote": "This is one short example, not a script to memorize or a timed one-minute answer. Your details and wording may differ.",
+    "recall": {
+      "lessonId": "daily-016",
+      "optional": true,
+      "prompt": {
+        "en": "Before speaking, try to recall a useful expression from Day 16. Use it if it fits today's situation; no extra recording is needed.",
+        "taglish": "Bago magsalita, subukang alalahanin ang isang expression sa Day 16. Gamitin kung bagay sa situation today; hindi kailangan ng dagdag na recording.",
+        "fil": "Bago magsalita, alalahanin ang isang pahayag mula sa Araw 16. Gamitin kung angkop; hindi kailangan ng dagdag na rekording."
+      }
+    }
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending"
 }

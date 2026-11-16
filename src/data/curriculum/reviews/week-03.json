@@ -13,7 +13,7 @@
         "He usually wake up early."
       ],
       "correctIndex": 0,
-      "explanation": "The correct choice is \"He usually wakes up early.\". Read the full sentence aloud and notice how the words fit together.",
+      "explanation": "'He' takes 'wakes' in the simple present. 'Usually' goes before the main verb here.",
       "hint": "Read each option as a complete sentence before choosing."
     },
     {
@@ -21,11 +21,11 @@
       "type": "multiple_choice",
       "prompt": "I remember when I ___ my first job.",
       "options": [
-        "started",
-        "start"
+        "start",
+        "started"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct choice is \"started\". Read the full sentence aloud and notice how the words fit together.",
+      "correctIndex": 1,
+      "explanation": "A first job began in the past, so use 'started'.",
       "hint": "Read each option as a complete sentence before choosing."
     },
     {
@@ -33,11 +33,11 @@
       "type": "multiple_choice",
       "prompt": "I enjoy ___ on weekends.",
       "options": [
-        "cooking",
-        "cook"
+        "cook",
+        "cooking"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct choice is \"cooking\". Read the full sentence aloud and notice how the words fit together.",
+      "correctIndex": 1,
+      "explanation": "Use the -ing form after 'enjoy': enjoy cooking.",
       "hint": "Read each option as a complete sentence before choosing."
     },
     {
@@ -49,7 +49,7 @@
         "to stay"
       ],
       "correctIndex": 0,
-      "explanation": "The correct choice is \"stay\". Read the full sentence aloud and notice how the words fit together.",
+      "explanation": "Use a base verb after 'would rather': I'd rather stay.",
       "hint": "Read each option as a complete sentence before choosing."
     },
     {
@@ -61,7 +61,7 @@
         "Okay."
       ],
       "correctIndex": 0,
-      "explanation": "The correct choice is \"How did you get interested in that?\". Read the full sentence aloud and notice how the words fit together.",
+      "explanation": "An open follow-up question invites the other person to say more. 'Okay' acknowledges them but does not ask for more detail.",
       "hint": "Read each option as a complete sentence before choosing."
     }
   ],
@@ -69,17 +69,22 @@
     "type": "self_review",
     "prompt": "Tell a friend about a favorite place, then ask two natural follow-up questions.",
     "checklist": [
-      "I used at least two phrases from this week.",
-      "I included a clear main idea.",
-      "I added a reason or example."
+      "I answered the situation clearly.",
+      "I used a useful expression from these lessons.",
+      "I compared the meaning with the example; my wording can be different."
     ],
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "modelResponse": "I enjoy visiting the park because it's quiet. You might want to try it early in the morning. Where do you usually go to relax? [Pause for a reply.] What do you enjoy doing there?",
+    "writtenAlternative": true,
+    "optional": true,
+    "feedbackMode": "self_review_only"
   },
   "completionRule": "Attempt all five questions and review explanations",
   "introduction": {
     "en": "Practice asking follow-up questions, describing routines, sharing memories, and making recommendations.",
     "taglish": "Balikan ang everyday conversations, routines, memories, at recommendations.",
-    "fil": "Balikan ang everyday conversations, routines, memories, at recommendations."
+    "fil": "Balikan ang pagtatanong, paglalarawan ng nakagawian, pagkukuwento, at pagrerekomenda."
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending",
+  "availableAfterDay": 21
 }

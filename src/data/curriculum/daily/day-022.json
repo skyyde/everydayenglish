@@ -15,7 +15,7 @@
     },
     "examples": {
       "work": "We need to resolve the issue.",
-      "everyday": "We need to resolve the delivery issue."
+      "everyday": "We resolved the problem with our internet connection."
     },
     "check": {
       "id": "daily-22-word-check",
@@ -35,7 +35,7 @@
     },
     "explanation": {
       "en": "Resolve focuses on finding a solution to a problem.",
-      "taglish": "Resolve focuses on finding a solution to a problem.",
+      "taglish": "Ang resolve ay paghanap ng solusyon at pag-aayos ng problema.",
       "fil": "Ayusin o tapusin ang isang problema."
     }
   },
@@ -49,20 +49,20 @@
     },
     "examples": {
       "work": "We're working on a solution to the delay.",
-      "everyday": "We're working on a solution to the missing files."
+      "everyday": "We're working on a solution to the leaking tap."
     },
     "dialogue": [
       {
-        "speaker": "Friend or coworker",
-        "text": "Can you explain a little more?"
+        "speaker": "Coworker",
+        "text": "Why hasn't the order arrived?"
       },
       {
         "speaker": "You",
         "text": "We're working on a solution to the delay."
       },
       {
-        "speaker": "Friend or coworker",
-        "text": "Thanks, that makes sense."
+        "speaker": "Coworker",
+        "text": "Thanks. When can we expect another update?"
       }
     ],
     "check": {
@@ -80,8 +80,8 @@
     }
   },
   "grammarTip": {
-    "topic": "present continuous",
-    "explanation": "Grammar focus: present continuous. Read: \"We're working on a solution to the delay.\" Then make your own example."
+    "topic": "Work in progress",
+    "explanation": "Use 'are + -ing' for current action: 'We're checking the order.' This does not mean the problem is solved. Give a realistic next update time."
   },
   "speaking": {
     "id": "daily-22-speaking",
@@ -101,9 +101,9 @@
     "twoMinuteGoal": "Add a reason, another example, and a clear conclusion.",
     "modelResponse": "We're working on a solution to the delay. First, we're checking which materials are missing. Then, we'll contact the supplier and update the schedule. I'll share an update tomorrow.",
     "selfReview": [
-      "I communicated my main idea.",
-      "I used a natural expression.",
-      "I tried to speak in complete sentences."
+      "I answered the situation with a clear main message.",
+      "I included the detail or question the listener needs.",
+      "I chose one sentence to improve or practice again."
     ],
     "writtenAlternative": true,
     "modelResponseVisibility": "after_attempt",
@@ -111,7 +111,23 @@
       "What situation are you describing?",
       "What main point do you want to share?",
       "What example supports it?"
-    ]
+    ],
+    "targetIsOptional": true,
+    "durationGuidance": {
+      "en": "One and two minutes are optional practice targets, not minimums. A shorter complete message counts. Start with two or three sentences, then add detail if useful.",
+      "taglish": "Optional targets lang ang isa o dalawang minuto. Puwedeng mas maikli basta malinaw ang mensahe. Magsimula sa dalawa o tatlong pangungusap.",
+      "fil": "Gabay lamang ang isa o dalawang minuto, hindi kailangang abutin. Sapat ang mas maikling sagot kung malinaw ang mensahe."
+    },
+    "modelResponseNote": "This is one short example, not a script to memorize or a timed one-minute answer. Your details and wording may differ.",
+    "recall": {
+      "lessonId": "daily-015",
+      "optional": true,
+      "prompt": {
+        "en": "Before speaking, try to recall a useful expression from Day 15. Use it if it fits today's situation; no extra recording is needed.",
+        "taglish": "Bago magsalita, subukang alalahanin ang isang expression sa Day 15. Gamitin kung bagay sa situation today; hindi kailangan ng dagdag na recording.",
+        "fil": "Bago magsalita, alalahanin ang isang pahayag mula sa Araw 15. Gamitin kung angkop; hindi kailangan ng dagdag na rekording."
+      }
+    }
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending"
 }

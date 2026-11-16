@@ -15,17 +15,17 @@
     },
     "examples": {
       "work": "We need to coordinate our schedules.",
-      "everyday": "Let's coordinate our schedules before booking."
+      "everyday": "Let's coordinate our schedules for the family trip."
     },
     "check": {
       "id": "daily-25-word-check",
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Coordinate\"?",
       "options": [
-        "To organize work together.",
-        "To work separately without communicating."
+        "To work separately without communicating.",
+        "To organize work together."
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Coordinate: To organize work together. Example: We need to coordinate our schedules.",
       "hint": "Notice the meaning in this example: We need to coordinate our schedules.",
       "maxAttemptsBeforeExplanation": 3
@@ -35,7 +35,7 @@
     },
     "explanation": {
       "en": "Coordinate means organizing people or activities together.",
-      "taglish": "Coordinate means organizing people or activities together.",
+      "taglish": "Ang coordinate ay pag-aayos ng gawain at schedules kasama ang iba.",
       "fil": "Ayusin ang gawain kasama ang ibang tao."
     }
   },
@@ -43,26 +43,26 @@
     "id": "phrase-025",
     "text": "Let's align on the next steps.",
     "meaning": {
-      "en": "To get agreement on responsibilities and next actions.",
+      "en": "To agree on responsibilities and next actions. This is common workplace language; in everyday conversation, 'Let's agree on what to do next' is simpler.",
       "taglish": "Gamitin ito para magkasundo sa responsibilities at next actions.",
       "fil": "Pagkakasundo sa susunod na gagawin."
     },
     "examples": {
       "work": "Let's align on the next steps before we leave.",
-      "everyday": "Let's align on the next steps after the meeting."
+      "everyday": "Let's align on the next steps for our family trip."
     },
     "dialogue": [
       {
-        "speaker": "Friend or coworker",
-        "text": "Can you explain a little more?"
+        "speaker": "Coworker",
+        "text": "We have a plan. What should we do now?"
       },
       {
         "speaker": "You",
         "text": "Let's align on the next steps before we leave."
       },
       {
-        "speaker": "Friend or coworker",
-        "text": "Thanks, that makes sense."
+        "speaker": "Coworker",
+        "text": "Okay. Who will contact the supplier?"
       }
     ],
     "check": {
@@ -74,14 +74,14 @@
         "to review"
       ],
       "correctIndex": 0,
-      "explanation": "To get agreement on responsibilities and next actions. Example: Let's align on the next steps before we leave.",
+      "explanation": "Use a base verb immediately after 'let's': Let's review the next steps.",
       "hint": "Read the example: Let's align on the next steps before we leave.",
       "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {
-    "topic": "let's plus base verb",
-    "explanation": "Grammar focus: let's plus base verb. Read: \"Let's align on the next steps before we leave.\" Then make your own example."
+    "topic": "Let's + base verb",
+    "explanation": "'Let's' is followed by a base verb: 'Let's review the next steps.' Use 'I'll + base verb' to take a task: 'I'll call the supplier.'"
   },
   "speaking": {
     "id": "daily-25-speaking",
@@ -99,11 +99,11 @@
     ],
     "oneMinuteGoal": "Describe the situation, your main point, and one example.",
     "twoMinuteGoal": "Add a reason, another example, and a clear conclusion.",
-    "modelResponse": "Let's align on the next steps. I'll contact the supplier, and Maria will update the schedule. We'll check in again on Wednesday to see what still needs attention.",
+    "modelResponse": "Let's align on the next steps. I'll contact the supplier by Tuesday, and Maria will update the schedule by Wednesday morning. Can you check the costs by Wednesday afternoon? We'll meet on Thursday to review the results.",
     "selfReview": [
-      "I communicated my main idea.",
-      "I used a natural expression.",
-      "I tried to speak in complete sentences."
+      "I answered the situation with a clear main message.",
+      "I included the detail or question the listener needs.",
+      "I chose one sentence to improve or practice again."
     ],
     "writtenAlternative": true,
     "modelResponseVisibility": "after_attempt",
@@ -111,7 +111,23 @@
       "What situation are you describing?",
       "What main point do you want to share?",
       "What example supports it?"
-    ]
+    ],
+    "targetIsOptional": true,
+    "durationGuidance": {
+      "en": "One and two minutes are optional practice targets, not minimums. A shorter complete message counts. Start with two or three sentences, then add detail if useful.",
+      "taglish": "Optional targets lang ang isa o dalawang minuto. Puwedeng mas maikli basta malinaw ang mensahe. Magsimula sa dalawa o tatlong pangungusap.",
+      "fil": "Gabay lamang ang isa o dalawang minuto, hindi kailangang abutin. Sapat ang mas maikling sagot kung malinaw ang mensahe."
+    },
+    "modelResponseNote": "This is one short example, not a script to memorize or a timed one-minute answer. Your details and wording may differ.",
+    "recall": {
+      "lessonId": "daily-018",
+      "optional": true,
+      "prompt": {
+        "en": "Before speaking, try to recall a useful expression from Day 18. Use it if it fits today's situation; no extra recording is needed.",
+        "taglish": "Bago magsalita, subukang alalahanin ang isang expression sa Day 18. Gamitin kung bagay sa situation today; hindi kailangan ng dagdag na recording.",
+        "fil": "Bago magsalita, alalahanin ang isang pahayag mula sa Araw 18. Gamitin kung angkop; hindi kailangan ng dagdag na rekording."
+      }
+    }
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending"
 }

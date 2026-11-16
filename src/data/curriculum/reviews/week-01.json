@@ -9,11 +9,11 @@
       "type": "multiple_choice",
       "prompt": "Could you ___ the instructions?",
       "options": [
-        "clarify",
-        "clarification"
+        "clarification",
+        "clarify"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct choice is \"clarify\". Read the full sentence aloud and notice how the words fit together.",
+      "correctIndex": 1,
+      "explanation": "After 'could you', use the base verb 'clarify'. 'Clarification' is a noun.",
       "hint": "Read each option as a complete sentence before choosing."
     },
     {
@@ -21,11 +21,11 @@
       "type": "multiple_choice",
       "prompt": "So far, we've ___ the first draft.",
       "options": [
-        "finish",
-        "finished"
+        "finished",
+        "finish"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct choice is \"finished\". Read the full sentence aloud and notice how the words fit together.",
+      "correctIndex": 0,
+      "explanation": "'We've' means 'we have'. Use the past participle 'finished' after 'have'.",
       "hint": "Read each option as a complete sentence before choosing."
     },
     {
@@ -37,7 +37,7 @@
         "Already completed"
       ],
       "correctIndex": 0,
-      "explanation": "The correct choice is \"Progressing as planned\". Read the full sentence aloud and notice how the words fit together.",
+      "explanation": "'On track' means progress is following the plan; the work may still be unfinished.",
       "hint": "Read each option as a complete sentence before choosing."
     },
     {
@@ -45,11 +45,11 @@
       "type": "multiple_choice",
       "prompt": "Choose the correct sentence.",
       "options": [
-        "I'll take care of the report.",
-        "I'll take care the report."
+        "I'll take care the report.",
+        "I'll take care of the report."
       ],
-      "correctIndex": 0,
-      "explanation": "The correct choice is \"I'll take care of the report.\". Read the full sentence aloud and notice how the words fit together.",
+      "correctIndex": 1,
+      "explanation": "Use 'take care of + task'. The word 'of' is part of the expression.",
       "hint": "Read each option as a complete sentence before choosing."
     },
     {
@@ -61,7 +61,7 @@
         "By the way…"
       ],
       "correctIndex": 0,
-      "explanation": "The correct choice is \"To sum things up…\". Read the full sentence aloud and notice how the words fit together.",
+      "explanation": "'To sum things up' introduces a summary. 'By the way' introduces another topic.",
       "hint": "Read each option as a complete sentence before choosing."
     }
   ],
@@ -69,17 +69,22 @@
     "type": "self_review",
     "prompt": "Imagine a short team meeting. Describe what is done, what remains, and the next step.",
     "checklist": [
-      "I used at least two phrases from this week.",
-      "I included a clear main idea.",
-      "I added a reason or example."
+      "I answered the situation clearly.",
+      "I used a useful expression from these lessons.",
+      "I compared the meaning with the example; my wording can be different."
     ],
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "modelResponse": "So far, we've finished the draft. We still need to check the figures. I'll take care of that tomorrow and send an update before lunch.",
+    "writtenAlternative": true,
+    "optional": true,
+    "feedbackMode": "self_review_only"
   },
   "completionRule": "Attempt all five questions and review explanations",
   "introduction": {
     "en": "Review how to ask for clarification, give an update, assign responsibility, and summarize.",
     "taglish": "Balikan ang polite questions, updates, responsibilities, at summaries.",
-    "fil": "Balikan ang polite questions, updates, responsibilities, at summaries."
+    "fil": "Balikan ang paghingi ng paglilinaw, pagbibigay ng ulat, paghahati ng gawain, at pagbubuod."
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending",
+  "availableAfterDay": 7
 }

@@ -18,29 +18,29 @@
     {
       "id": "grammar-01-04-q1",
       "type": "multiple_choice",
-      "prompt": "Choose the article: '___ apple'",
+      "prompt": "Choose a or an for one nonspecific apple: '___ apple'.",
       "options": [
         "An",
         "A",
-        "The only"
+        "No article"
       ],
       "correctIndex": 0,
-      "explanation": "Use a before consonant sounds and an before vowel sounds. Correct answer: An",
-      "hint": "Is the noun singular and countable?",
+      "explanation": "For one nonspecific apple, use 'an' because 'apple' starts with a vowel sound.",
+      "hint": "Listen to the first sound in 'apple'.",
       "maxAttemptsBeforeExplanation": 3
     },
     {
       "id": "grammar-01-04-q2",
       "type": "multiple_choice",
-      "prompt": "Choose the article: '___ university'",
+      "prompt": "Choose a or an for one nonspecific university: '___ university'.",
       "options": [
-        "A",
         "An",
-        "No article ever"
+        "No article",
+        "A"
       ],
-      "correctIndex": 0,
-      "explanation": "Use the for something identifiable or already mentioned. Correct answer: A",
-      "hint": "Is the thing specific or nonspecific?",
+      "correctIndex": 2,
+      "explanation": "For one nonspecific university, use 'a'. 'University' starts with the consonant sound /y/, even though its first letter is u.",
+      "hint": "Say 'university' aloud; listen for the initial /y/ sound.",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -48,13 +48,13 @@
       "type": "multiple_choice",
       "prompt": "Correct: 'I need an pen.'",
       "options": [
-        "I need a pen.",
         "I need an pen.",
+        "I need a pen.",
         "I need the a pen."
       ],
-      "correctIndex": 0,
-      "explanation": "Choose a or an by pronunciation, not just the first letter. Correct answer: I need a pen.",
-      "hint": "If nonspecific, listen for a vowel or consonant sound.",
+      "correctIndex": 1,
+      "explanation": "'Pen' starts with a consonant sound, so say 'a pen', not 'an pen'.",
+      "hint": "Listen to the first sound in 'pen'.",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -62,13 +62,13 @@
       "type": "multiple_choice",
       "prompt": "Choose: 'I received an email. ___ email was urgent.'",
       "options": [
-        "The",
         "A",
-        "An"
+        "An",
+        "The"
       ],
-      "correctIndex": 0,
-      "explanation": "Choose a or an by pronunciation, not just the first letter. Correct answer: The",
-      "hint": "If nonspecific, listen for a vowel or consonant sound.",
+      "correctIndex": 2,
+      "explanation": "The email has already been mentioned, so the listener knows which one. Use 'the email'.",
+      "hint": "Has this email already been mentioned?",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -81,8 +81,8 @@
         "She bought notebook a."
       ],
       "correctIndex": 0,
-      "explanation": "Choose a or an by pronunciation, not just the first letter. Correct answer: She bought a notebook.",
-      "hint": "If nonspecific, listen for a vowel or consonant sound.",
+      "explanation": "'Notebook' is a singular countable noun beginning with a consonant sound. Use 'a notebook' here.",
+      "hint": "Listen to the first sound in 'notebook'.",
       "maxAttemptsBeforeExplanation": 3
     }
   ],
@@ -90,22 +90,24 @@
     "type": "self_review",
     "prompt": "Write a sentence using 'a' or 'an', then another using 'the'.",
     "checklist": [
-      "My sentence is complete.",
-      "My word order is natural.",
-      "I reviewed the lesson examples."
+      "I introduced one nonspecific countable thing with a/an.",
+      "I chose a/an by sound.",
+      "I used 'the' when referring to the same thing again."
     ],
     "exampleAnswer": "I received an email. The email was important.",
-    "feedbackMode": "self_review_only"
+    "feedbackMode": "self_review_only",
+    "modelResponseVisibility": "after_attempt"
   },
   "optionalSpeaking": {
-    "prompt": "Write a sentence using 'a' or 'an', then another using 'the'.",
+    "prompt": "Describe an object near you. Introduce it with 'a' or 'an', then refer to it with 'the'.",
     "targetSeconds": [
       60,
       120
     ],
-    "feedbackMode": "self_review_only"
+    "feedbackMode": "self_review_only",
+    "targetIsOptional": true
   },
-  "editorialStatus": "authored_v1",
+  "editorialStatus": "editorially_reviewed_learner_testing_pending",
   "sections": [
     {
       "id": "grammar-01-04-section-1",

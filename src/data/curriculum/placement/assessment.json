@@ -11,12 +11,12 @@
       "type": "multiple_choice",
       "prompt": "Which is a complete sentence?",
       "options": [
-        "The report is ready.",
         "Because the report.",
-        "The report ready."
+        "The report ready.",
+        "The report is ready."
       ],
-      "correctIndex": 0,
-      "explanation": "Correct: \"The report is ready.\". Compare the subject, verb, and word order with the other choices.",
+      "correctIndex": 2,
+      "explanation": "'The report is ready' has a subject, a verb, and a complete thought.",
       "hint": "Look for the option that forms a natural, complete English sentence."
     },
     {
@@ -24,12 +24,12 @@
       "type": "multiple_choice",
       "prompt": "She ___ to work every day.",
       "options": [
-        "go",
         "goes",
+        "go",
         "going"
       ],
-      "correctIndex": 1,
-      "explanation": "Correct: \"goes\". Compare the subject, verb, and word order with the other choices.",
+      "correctIndex": 0,
+      "explanation": "With 'she', use 'goes' for a regular action in the simple present.",
       "hint": "Look for the option that forms a natural, complete English sentence."
     },
     {
@@ -42,7 +42,7 @@
         "finishing"
       ],
       "correctIndex": 1,
-      "explanation": "Correct: \"finished\". Compare the subject, verb, and word order with the other choices.",
+      "explanation": "'Yesterday' refers to a finished past event, so use 'finished'.",
       "hint": "Look for the option that forms a natural, complete English sentence."
     },
     {
@@ -51,11 +51,11 @@
       "prompt": "So far, we have ___ three tasks.",
       "options": [
         "complete",
-        "completed",
-        "completing"
+        "completing",
+        "completed"
       ],
-      "correctIndex": 1,
-      "explanation": "Correct: \"completed\". Compare the subject, verb, and word order with the other choices.",
+      "correctIndex": 2,
+      "explanation": "After 'have', use the past participle 'completed'.",
       "hint": "Look for the option that forms a natural, complete English sentence."
     },
     {
@@ -63,12 +63,12 @@
       "type": "multiple_choice",
       "prompt": "Choose the correct question.",
       "options": [
-        "Where is the meeting?",
         "Where the meeting is?",
+        "Where is the meeting?",
         "Where meeting?"
       ],
-      "correctIndex": 0,
-      "explanation": "Correct: \"Where is the meeting?\". Compare the subject, verb, and word order with the other choices.",
+      "correctIndex": 1,
+      "explanation": "In this direct question, put 'is' before the subject: Where is the meeting?",
       "hint": "Look for the option that forms a natural, complete English sentence."
     },
     {
@@ -81,20 +81,20 @@
         "Tell me meeting starts?"
       ],
       "correctIndex": 0,
-      "explanation": "Correct: \"Could you tell me when the meeting starts?\". Compare the subject, verb, and word order with the other choices.",
+      "explanation": "After 'Could you tell me', use statement order in the embedded question: when the meeting starts.",
       "hint": "Look for the option that forms a natural, complete English sentence."
     },
     {
       "id": "placement-q7",
       "type": "multiple_choice",
-      "prompt": "I stayed home ___ it was raining.",
+      "prompt": "Choose the connector that gives the reason: 'I stayed home ___ it was raining.'",
       "options": [
         "because",
         "although",
         "however"
       ],
       "correctIndex": 0,
-      "explanation": "Correct: \"because\". Compare the subject, verb, and word order with the other choices.",
+      "explanation": "'Because' gives the reason. 'Although' would express contrast, a different meaning.",
       "hint": "Look for the option that forms a natural, complete English sentence."
     },
     {
@@ -102,12 +102,12 @@
       "type": "multiple_choice",
       "prompt": "Choose the polite request.",
       "options": [
-        "Could you please send the file?",
         "Send file now.",
-        "You must send file."
+        "You must send file.",
+        "Could you please send the file?"
       ],
-      "correctIndex": 0,
-      "explanation": "Correct: \"Could you please send the file?\". Compare the subject, verb, and word order with the other choices.",
+      "correctIndex": 2,
+      "explanation": "'Could you please + base verb' makes a polite request.",
       "hint": "Look for the option that forms a natural, complete English sentence."
     },
     {
@@ -115,12 +115,12 @@
       "type": "multiple_choice",
       "prompt": "Choose the natural work update.",
       "options": [
-        "We've completed the first phase.",
         "We complete first phase yesterday now.",
+        "We've completed the first phase.",
         "We completing phase."
       ],
-      "correctIndex": 0,
-      "explanation": "Correct: \"We've completed the first phase.\". Compare the subject, verb, and word order with the other choices.",
+      "correctIndex": 1,
+      "explanation": "'We've' means 'we have'; 'completed' is the past participle used for progress up to now.",
       "hint": "Look for the option that forms a natural, complete English sentence."
     },
     {
@@ -133,7 +133,7 @@
         "I agree, because but."
       ],
       "correctIndex": 0,
-      "explanation": "Correct: \"I agree, but I have one concern.\". Compare the subject, verb, and word order with the other choices.",
+      "explanation": "'But' introduces a contrasting concern after agreement.",
       "hint": "Look for the option that forms a natural, complete English sentence."
     }
   ],
@@ -148,7 +148,9 @@
         "My answer is understandable.",
         "My sentence has the correct word order.",
         "I compared my answer with the sample without expecting an automatic score."
-      ]
+      ],
+      "optional": true,
+      "modelResponseVisibility": "after_attempt"
     },
     {
       "id": "placement-open-2",
@@ -160,7 +162,9 @@
         "My answer is understandable.",
         "My sentence has the correct word order.",
         "I compared my answer with the sample without expecting an automatic score."
-      ]
+      ],
+      "optional": true,
+      "modelResponseVisibility": "after_attempt"
     },
     {
       "id": "placement-open-3",
@@ -172,7 +176,9 @@
         "My answer is understandable.",
         "My sentence has the correct word order.",
         "I compared my answer with the sample without expecting an automatic score."
-      ]
+      ],
+      "optional": true,
+      "modelResponseVisibility": "after_attempt"
     }
   ],
   "recommendations": [
@@ -196,8 +202,16 @@
   ],
   "disclaimer": "A rough practice recommendation, not a validated English proficiency score.",
   "instructions": {
-    "en": "Answer ten multiple-choice questions. Then review three short writing prompts. You may skip this assessment or retake it later.",
-    "taglish": "Sagutan ang sampung multiple-choice. Pagkatapos, i-review ang tatlong writing prompts. Puwedeng i-skip o ulitin."
+    "en": "Answer ten multiple-choice questions for a rough practice recommendation. The three writing prompts are optional and self-reviewed. You may skip or retake the assessment. Examples and answer explanations appear after you attempt each item.",
+    "taglish": "Sagutan ang sampung multiple-choice para sa practice recommendation. Optional at self-review lang ang tatlong writing prompts. Puwedeng i-skip o ulitin. Makikita ang examples at explanations pagkatapos mong sumagot."
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending",
+  "scoringPolicy": {
+    "scoredQuestions": "closedQuestions",
+    "openQuestionsScored": false,
+    "firstAttemptOnly": true,
+    "hintsAfterFirstAttempt": true,
+    "noLessonLocking": true,
+    "note": "Use the first submitted choice for the recommendation; retries are practice. Do not infer speaking ability or a CEFR level from this score."
+  }
 }

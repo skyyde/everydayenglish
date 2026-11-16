@@ -20,13 +20,13 @@
       "type": "multiple_choice",
       "prompt": "Choose the correct sentence.",
       "options": [
-        "She works here.",
         "She work here.",
+        "She works here.",
         "She working here."
       ],
-      "correctIndex": 0,
-      "explanation": "Add -s or -es to most simple-present verbs. Correct answer: She works here.",
-      "hint": "Find the subject first.",
+      "correctIndex": 1,
+      "explanation": "'She' takes 'works' in a simple-present statement about a regular action.",
+      "hint": "Match the verb to 'she'.",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -34,13 +34,13 @@
       "type": "multiple_choice",
       "prompt": "Complete: 'They ___ every day.'",
       "options": [
-        "works",
         "work",
+        "works",
         "working"
       ],
-      "correctIndex": 1,
-      "explanation": "Use the base form in ordinary simple-present statements. Correct answer: work",
-      "hint": "Decide whether the sentence is simple present.",
+      "correctIndex": 0,
+      "explanation": "With 'they', use the base form 'work': They work every day.",
+      "hint": "Does 'they' use the base verb or the -s form?",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -53,8 +53,8 @@
         "He send reports."
       ],
       "correctIndex": 0,
-      "explanation": "Use am, is, or are depending on the subject. Correct answer: He sends reports.",
-      "hint": "Choose the matching verb form.",
+      "explanation": "'He' takes 'sends' in the simple present. Add -s to 'send'.",
+      "hint": "Match the verb to 'he'.",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -62,13 +62,13 @@
       "type": "multiple_choice",
       "prompt": "Choose the correct be verb.",
       "options": [
-        "I am ready.",
         "I is ready.",
-        "I are ready."
+        "I are ready.",
+        "I am ready."
       ],
-      "correctIndex": 0,
-      "explanation": "Use am, is, or are depending on the subject. Correct answer: I am ready.",
-      "hint": "Choose the matching verb form.",
+      "correctIndex": 2,
+      "explanation": "Use 'am' with 'I': I am ready. Use 'is' with he/she/it and 'are' with you/we/they.",
+      "hint": "Which form of 'be' goes with 'I'?",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -76,13 +76,13 @@
       "type": "multiple_choice",
       "prompt": "Build a correct sentence.",
       "options": [
-        "My manager reviews the plan.",
         "My manager review the plan.",
+        "My manager reviews the plan.",
         "My manager reviewing the plan."
       ],
-      "correctIndex": 0,
-      "explanation": "Use am, is, or are depending on the subject. Correct answer: My manager reviews the plan.",
-      "hint": "Choose the matching verb form.",
+      "correctIndex": 1,
+      "explanation": "'My manager' refers to one person, like 'he' or 'she', so use 'reviews'.",
+      "hint": "One manager uses the same verb form as 'he' or 'she'.",
       "maxAttemptsBeforeExplanation": 3
     }
   ],
@@ -90,22 +90,24 @@
     "type": "self_review",
     "prompt": "Write one sentence about what a colleague usually does.",
     "checklist": [
-      "My sentence is complete.",
-      "My word order is natural.",
-      "I reviewed the lesson examples."
+      "I identified whether the subject is I/you/we/they or he/she/it.",
+      "I used the matching simple-present verb.",
+      "I checked am/is/are if I used 'be'."
     ],
     "exampleAnswer": "My colleague sends updates every Monday.",
-    "feedbackMode": "self_review_only"
+    "feedbackMode": "self_review_only",
+    "modelResponseVisibility": "after_attempt"
   },
   "optionalSpeaking": {
-    "prompt": "Write one sentence about what a colleague usually does.",
+    "prompt": "Describe what you and a colleague usually do. Try 'I prepare...' and 'My colleague prepares...'.",
     "targetSeconds": [
       60,
       120
     ],
-    "feedbackMode": "self_review_only"
+    "feedbackMode": "self_review_only",
+    "targetIsOptional": true
   },
-  "editorialStatus": "authored_v1",
+  "editorialStatus": "editorially_reviewed_learner_testing_pending",
   "sections": [
     {
       "id": "grammar-01-03-section-1",

@@ -8,7 +8,7 @@
   "explanation": {
     "en": "A complete sentence usually has a subject and a verb. An object is not always necessary.",
     "taglish": "Ang complete sentence ay usually may subject at verb. Hindi lahat kailangan ng object. Halimbawa: She is preparing the report.",
-    "fil": "Ang buong pangungusap ay may simuno at pandiwa. Minsan may layon, pero hindi ito laging kailangan."
+    "fil": "Ang buong pangungusap sa English ay karaniwang may simuno at pandiwa at nagpapahayag ng buong diwa. Hindi laging kailangan ng layon."
   },
   "examples": [
     "She is preparing the report.",
@@ -25,8 +25,8 @@
         "The report ready."
       ],
       "correctIndex": 0,
-      "explanation": "The person or thing the sentence is about. Correct answer: The report is ready.",
-      "hint": "Find who or what the sentence is about.",
+      "explanation": "'The report' is the subject and 'is' is the verb. Together with 'ready', they express a complete thought.",
+      "hint": "Find the subject and a verb that completes the thought.",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -34,13 +34,13 @@
       "type": "multiple_choice",
       "prompt": "Identify the subject: 'Maria prepares lunch.'",
       "options": [
-        "Maria",
         "prepares",
-        "lunch"
+        "lunch",
+        "Maria"
       ],
-      "correctIndex": 0,
-      "explanation": "An action or state of being. Correct answer: Maria",
-      "hint": "Find the action or state.",
+      "correctIndex": 2,
+      "explanation": "Maria is the subject: she is the person who prepares lunch. 'Prepares' is the verb; 'lunch' receives the action.",
+      "hint": "Ask: Who prepares lunch?",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -48,13 +48,13 @@
       "type": "multiple_choice",
       "prompt": "Choose the complete sentence.",
       "options": [
-        "They work.",
         "While they work.",
+        "They work.",
         "After the meeting."
       ],
-      "correctIndex": 0,
-      "explanation": "A phrase like 'Because the meeting ended' leaves us waiting for the main idea. Correct answer: They work.",
-      "hint": "Check whether the thought feels complete.",
+      "correctIndex": 1,
+      "explanation": "'They work' has a subject and a verb and expresses a complete thought. 'While they work' needs another idea to finish the message.",
+      "hint": "Does the sentence leave you waiting for another idea?",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -67,8 +67,8 @@
         "My manager busy very."
       ],
       "correctIndex": 0,
-      "explanation": "A phrase like 'Because the meeting ended' leaves us waiting for the main idea. Correct answer: My manager is very busy.",
-      "hint": "Check whether the thought feels complete.",
+      "explanation": "Use 'is' to connect 'my manager' with the description 'very busy': My manager is very busy.",
+      "hint": "A description such as 'busy' needs a linking verb here.",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -76,13 +76,13 @@
       "type": "multiple_choice",
       "prompt": "Build a complete sentence.",
       "options": [
-        "The team finished the report.",
         "Finished the team report.",
-        "The team the report."
+        "The team the report.",
+        "The team finished the report."
       ],
-      "correctIndex": 0,
-      "explanation": "A phrase like 'Because the meeting ended' leaves us waiting for the main idea. Correct answer: The team finished the report.",
-      "hint": "Check whether the thought feels complete.",
+      "correctIndex": 2,
+      "explanation": "'The team' tells us who, 'finished' tells us the action, and 'the report' tells us what they finished.",
+      "hint": "Put who, action, and what in order.",
       "maxAttemptsBeforeExplanation": 3
     }
   ],
@@ -90,22 +90,24 @@
     "type": "self_review",
     "prompt": "Write one complete sentence about your work.",
     "checklist": [
-      "My sentence is complete.",
-      "My word order is natural.",
-      "I reviewed the lesson examples."
+      "I named who or what the sentence is about.",
+      "I included a verb.",
+      "My sentence expresses a complete thought."
     ],
     "exampleAnswer": "I prepare the report every Friday.",
-    "feedbackMode": "self_review_only"
+    "feedbackMode": "self_review_only",
+    "modelResponseVisibility": "after_attempt"
   },
   "optionalSpeaking": {
-    "prompt": "Write one complete sentence about your work.",
+    "prompt": "Say two or three complete sentences about your work. Name who does each action. You may stop when your message is complete.",
     "targetSeconds": [
       60,
       120
     ],
-    "feedbackMode": "self_review_only"
+    "feedbackMode": "self_review_only",
+    "targetIsOptional": true
   },
-  "editorialStatus": "authored_v1",
+  "editorialStatus": "editorially_reviewed_learner_testing_pending",
   "sections": [
     {
       "id": "grammar-01-01-section-1",

@@ -18,15 +18,15 @@
     {
       "id": "grammar-01-02-q1",
       "type": "multiple_choice",
-      "prompt": "Choose the natural sentence.",
+      "prompt": "Choose the usual subject–verb–object order for a neutral statement.",
       "options": [
-        "I review the plan.",
         "Review I the plan.",
-        "The plan I review."
+        "I review the plan.",
+        "I the plan review."
       ],
-      "correctIndex": 0,
-      "explanation": "Start with the subject, then the verb, then the object when there is one. Correct answer: I review the plan.",
-      "hint": "Start with the person or thing doing the action.",
+      "correctIndex": 1,
+      "explanation": "The usual order for a neutral statement is subject + verb + object: I + review + the plan.",
+      "hint": "Use the usual subject–verb–object order.",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -35,12 +35,12 @@
       "prompt": "Which word is the verb: 'They prepare dinner'?",
       "options": [
         "They",
-        "prepare",
-        "dinner"
+        "dinner",
+        "prepare"
       ],
-      "correctIndex": 1,
-      "explanation": "Time words often go at the end of a sentence. Correct answer: prepare",
-      "hint": "Put the action after the subject.",
+      "correctIndex": 2,
+      "explanation": "'Prepare' is the action, so it is the verb. 'They' is the subject and 'dinner' is the object.",
+      "hint": "Which word names the action?",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -53,8 +53,8 @@
         "Sends he the email."
       ],
       "correctIndex": 0,
-      "explanation": "Questions may change the word order. Correct answer: He sends the email.",
-      "hint": "Add what receives the action and when it happens.",
+      "explanation": "Put the subject 'He' before the verb 'sends', then the object 'the email'.",
+      "hint": "Start with who sends something.",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -62,13 +62,13 @@
       "type": "multiple_choice",
       "prompt": "Choose the natural order.",
       "options": [
-        "We meet on Monday.",
         "On Monday meet we.",
+        "We meet on Monday.",
         "We on Monday meet."
       ],
-      "correctIndex": 0,
-      "explanation": "Questions may change the word order. Correct answer: We meet on Monday.",
-      "hint": "Add what receives the action and when it happens.",
+      "correctIndex": 1,
+      "explanation": "'We meet on Monday' uses subject + verb + time. You can also say 'On Monday, we meet.'",
+      "hint": "Place the day after the action.",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -76,13 +76,13 @@
       "type": "multiple_choice",
       "prompt": "Build a sentence.",
       "options": [
-        "My colleague reviews the figures.",
         "My colleague the figures reviews.",
-        "Reviews my colleague figures."
+        "Reviews my colleague figures.",
+        "My colleague reviews the figures."
       ],
-      "correctIndex": 0,
-      "explanation": "Questions may change the word order. Correct answer: My colleague reviews the figures.",
-      "hint": "Add what receives the action and when it happens.",
+      "correctIndex": 2,
+      "explanation": "'My colleague' is the subject, 'reviews' is the verb, and 'the figures' is the object.",
+      "hint": "Find who, what they do, and what they review.",
       "maxAttemptsBeforeExplanation": 3
     }
   ],
@@ -90,22 +90,24 @@
     "type": "self_review",
     "prompt": "Write a sentence about something you do each morning.",
     "checklist": [
-      "My sentence is complete.",
-      "My word order is natural.",
-      "I reviewed the lesson examples."
+      "I put the subject before the verb.",
+      "I placed the object after the verb, if needed.",
+      "I placed the time expression clearly."
     ],
     "exampleAnswer": "I review the schedule every morning.",
-    "feedbackMode": "self_review_only"
+    "feedbackMode": "self_review_only",
+    "modelResponseVisibility": "after_attempt"
   },
   "optionalSpeaking": {
-    "prompt": "Write a sentence about something you do each morning.",
+    "prompt": "Describe your morning routine in two or three sentences. Use subject + verb, and add a time expression.",
     "targetSeconds": [
       60,
       120
     ],
-    "feedbackMode": "self_review_only"
+    "feedbackMode": "self_review_only",
+    "targetIsOptional": true
   },
-  "editorialStatus": "authored_v1",
+  "editorialStatus": "editorially_reviewed_learner_testing_pending",
   "sections": [
     {
       "id": "grammar-01-02-section-1",
@@ -131,5 +133,5 @@
     "Put the action after the subject.",
     "Add what receives the action and when it happens."
   ],
-  "commonMistake": "'I every morning check my email' sounds awkward; say 'I check my email every morning.'"
+  "commonMistake": "For a clear neutral statement, say 'I check my email every morning.' A time phrase can also come first: 'Every morning, I check my email.'"
 }

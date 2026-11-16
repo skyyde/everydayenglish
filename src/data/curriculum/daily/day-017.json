@@ -15,17 +15,17 @@
     },
     "examples": {
       "work": "My first job was a valuable experience.",
-      "everyday": "Traveling alone was a new experience for me."
+      "everyday": "Learning to swim was a new experience for me."
     },
     "check": {
       "id": "daily-017-word-check",
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Experience\"?",
       "options": [
-        "Something that happened to you or that you learned by doing.",
-        "An event that has not yet occurred."
+        "An event that has not yet occurred.",
+        "Something that happened to you or that you learned by doing."
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Experience: Something that happened to you or that you learned by doing. Example: My first job was a valuable experience.",
       "hint": "Notice the meaning in this example: My first job was a valuable experience.",
       "maxAttemptsBeforeExplanation": 3
@@ -35,7 +35,7 @@
     },
     "explanation": {
       "en": "An experience is a real event or learning opportunity.",
-      "taglish": "An experience is a real event or learning opportunity.",
+      "taglish": "Ang experience ay karanasan o kaalamang nakuha mo sa paggawa.",
       "fil": "Isang nangyari sa iyo o natutunan mo sa paggawa."
     }
   },
@@ -53,16 +53,16 @@
     },
     "dialogue": [
       {
-        "speaker": "Friend or coworker",
-        "text": "What do you think?"
+        "speaker": "Friend",
+        "text": "Was it hard to learn your first job?"
       },
       {
         "speaker": "You",
         "text": "I remember when I first started working."
       },
       {
-        "speaker": "Friend or coworker",
-        "text": "Thanks for sharing."
+        "speaker": "Friend",
+        "text": "What helped you learn?"
       }
     ],
     "check": {
@@ -74,14 +74,14 @@
         "start"
       ],
       "correctIndex": 0,
-      "explanation": "To introduce a personal memory. Example: I remember when I first started working.",
+      "explanation": "The first job began in the past, so use 'started': I remember when I started my first job.",
       "hint": "Read the example: I remember when I first started working.",
       "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {
-    "topic": "past simple",
-    "explanation": "Grammar focus: past simple. Read: \"I remember when I first started working.\" Then create your own sentence."
+    "topic": "Past events",
+    "explanation": "Use a past-tense verb for a finished event: 'I started my first job.' Some verbs change differently: 'go' becomes 'went'. 'I remember when...' introduces the memory."
   },
   "speaking": {
     "id": "daily-017-speaking",
@@ -101,9 +101,9 @@
     "twoMinuteGoal": "Add a second example, a reason, and a friendly closing.",
     "modelResponse": "I remember when I started my first job. I was nervous because everything was new, but my coworkers helped me learn. That experience taught me to ask questions when I need help.",
     "selfReview": [
-      "I communicated my main idea.",
-      "I used a polite or natural expression.",
-      "I tried to speak in complete sentences."
+      "I answered the situation with a clear main message.",
+      "I included the detail or question the listener needs.",
+      "I chose one sentence to improve or practice again."
     ],
     "writtenAlternative": true,
     "modelResponseVisibility": "after_attempt",
@@ -111,7 +111,23 @@
       "Who are you talking with?",
       "What is the main point?",
       "What example can you add?"
-    ]
+    ],
+    "targetIsOptional": true,
+    "durationGuidance": {
+      "en": "One and two minutes are optional practice targets, not minimums. A shorter complete message counts. Start with two or three sentences, then add detail if useful.",
+      "taglish": "Optional targets lang ang isa o dalawang minuto. Puwedeng mas maikli basta malinaw ang mensahe. Magsimula sa dalawa o tatlong pangungusap.",
+      "fil": "Gabay lamang ang isa o dalawang minuto, hindi kailangang abutin. Sapat ang mas maikling sagot kung malinaw ang mensahe."
+    },
+    "modelResponseNote": "This is one short example, not a script to memorize or a timed one-minute answer. Your details and wording may differ.",
+    "recall": {
+      "lessonId": "daily-010",
+      "optional": true,
+      "prompt": {
+        "en": "Before speaking, try to recall a useful expression from Day 10. Use it if it fits today's situation; no extra recording is needed.",
+        "taglish": "Bago magsalita, subukang alalahanin ang isang expression sa Day 10. Gamitin kung bagay sa situation today; hindi kailangan ng dagdag na recording.",
+        "fil": "Bago magsalita, alalahanin ang isang pahayag mula sa Araw 10. Gamitin kung angkop; hindi kailangan ng dagdag na rekording."
+      }
+    }
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending"
 }

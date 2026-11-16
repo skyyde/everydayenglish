@@ -15,17 +15,17 @@
     },
     "examples": {
       "work": "I suggest a shorter meeting.",
-      "everyday": "May I suggest a simpler approach?"
+      "everyday": "I suggest taking the bus."
     },
     "check": {
       "id": "daily-008-word-check",
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Suggest\"?",
       "options": [
-        "To demand that everyone follow an order.",
-        "To offer an idea for consideration."
+        "To offer an idea for consideration.",
+        "To demand that everyone follow an order."
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Suggest means: To offer an idea for consideration. Example: I suggest a shorter meeting.",
       "hint": "Think about how \"suggest\" is used in this example: I suggest a shorter meeting.",
       "maxAttemptsBeforeExplanation": 3
@@ -49,12 +49,12 @@
     },
     "examples": {
       "work": "I'd like to suggest setting a time limit for each topic.",
-      "everyday": "I'd like to suggest a shorter weekly meeting."
+      "everyday": "I'd like to suggest leaving before the traffic gets heavy."
     },
     "dialogue": [
       {
         "speaker": "Coworker",
-        "text": "What do you think we should do next?"
+        "text": "Our meetings often run late. Any suggestions?"
       },
       {
         "speaker": "You",
@@ -62,7 +62,7 @@
       },
       {
         "speaker": "Coworker",
-        "text": "Thanks, that helps."
+        "text": "That could help. Let's try ten minutes per topic."
       }
     ],
     "check": {
@@ -70,18 +70,18 @@
       "type": "multiple_choice",
       "prompt": "Complete: 'I'd like to suggest ___ a shorter agenda.'",
       "options": [
-        "using",
-        "use"
+        "use",
+        "using"
       ],
-      "correctIndex": 0,
-      "explanation": "To offer an idea politely without ordering others. Example: I'd like to suggest setting a time limit for each topic.",
+      "correctIndex": 1,
+      "explanation": "Use the -ing form when an action comes directly after 'suggest': I'd like to suggest using a shorter agenda.",
       "hint": "Read the complete example aloud: I'd like to suggest setting a time limit for each topic.",
       "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {
-    "topic": "polite suggestions",
-    "explanation": "Notice the grammar in \"I'd like to suggest setting a time limit for each topic.\" Practice the same structure with your own details."
+    "topic": "Suggest + -ing",
+    "explanation": "When an action comes directly after 'suggest', use -ing: 'I suggest using a checklist.' You can also say 'I suggest we use a checklist.'"
   },
   "speaking": {
     "id": "daily-008-speaking",
@@ -99,11 +99,11 @@
     ],
     "oneMinuteGoal": "Introduce the situation, state your message, and give one reason or detail.",
     "twoMinuteGoal": "Introduce the situation, give two supporting details, explain the next step, and close politely.",
-    "modelResponse": "I'd like to suggest using a shared checklist. It would help everyone see which tasks are finished and which still need attention. We could try it for one week and review the results.",
+    "modelResponse": "I'd like to suggest setting a time limit for each meeting topic. That would help us finish on time and leave a few minutes for questions. Could we try it at our next meeting?",
     "selfReview": [
-      "I communicated my main idea.",
-      "I used a polite or natural expression.",
-      "I tried to speak in complete sentences."
+      "I answered the situation with a clear main message.",
+      "I included the detail or question the listener needs.",
+      "I chose one sentence to improve or practice again."
     ],
     "writtenAlternative": true,
     "modelResponseVisibility": "after_attempt",
@@ -111,7 +111,23 @@
       "Who are you speaking to?",
       "What is your main message?",
       "What detail will make it clear?"
-    ]
+    ],
+    "targetIsOptional": true,
+    "durationGuidance": {
+      "en": "One and two minutes are optional practice targets, not minimums. A shorter complete message counts. Start with two or three sentences, then add detail if useful.",
+      "taglish": "Optional targets lang ang isa o dalawang minuto. Puwedeng mas maikli basta malinaw ang mensahe. Magsimula sa dalawa o tatlong pangungusap.",
+      "fil": "Gabay lamang ang isa o dalawang minuto, hindi kailangang abutin. Sapat ang mas maikling sagot kung malinaw ang mensahe."
+    },
+    "modelResponseNote": "This is one short example, not a script to memorize or a timed one-minute answer. Your details and wording may differ.",
+    "recall": {
+      "lessonId": "daily-001",
+      "optional": true,
+      "prompt": {
+        "en": "Before speaking, try to recall a useful expression from Day 1. Use it if it fits today's situation; no extra recording is needed.",
+        "taglish": "Bago magsalita, subukang alalahanin ang isang expression sa Day 1. Gamitin kung bagay sa situation today; hindi kailangan ng dagdag na recording.",
+        "fil": "Bago magsalita, alalahanin ang isang pahayag mula sa Araw 1. Gamitin kung angkop; hindi kailangan ng dagdag na rekording."
+      }
+    }
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending"
 }

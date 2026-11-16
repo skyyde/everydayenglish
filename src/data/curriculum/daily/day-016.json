@@ -35,7 +35,7 @@
     },
     "explanation": {
       "en": "Usually describes a habit, not a one-time event.",
-      "taglish": "Usually describes a habit, not a one-time event.",
+      "taglish": "Ang usually ay madalas na ginagawa, hindi minsan lang at hindi rin palagi.",
       "fil": "Madalas mangyari pero hindi palagi."
     }
   },
@@ -53,16 +53,16 @@
     },
     "dialogue": [
       {
-        "speaker": "Friend or coworker",
-        "text": "What do you think?"
+        "speaker": "Friend",
+        "text": "What do you usually do for dinner?"
       },
       {
         "speaker": "You",
         "text": "Most of the time, I prepare dinner at home."
       },
       {
-        "speaker": "Friend or coworker",
-        "text": "Thanks for sharing."
+        "speaker": "Friend",
+        "text": "What do you like to cook?"
       }
     ],
     "check": {
@@ -80,8 +80,8 @@
     }
   },
   "grammarTip": {
-    "topic": "simple present",
-    "explanation": "Grammar focus: simple present. Read: \"Most of the time, I prepare dinner at home.\" Then create your own sentence."
+    "topic": "Usually and routines",
+    "explanation": "Put 'usually' before most main verbs: 'I usually cook at home.' With 'be', put it after: 'I am usually home by six.' Usually means madalas, hindi palagi."
   },
   "speaking": {
     "id": "daily-016-speaking",
@@ -101,9 +101,9 @@
     "twoMinuteGoal": "Add a second example, a reason, and a friendly closing.",
     "modelResponse": "Most of the time, I wake up early and prepare breakfast. On weekends, I sometimes sleep a little longer. I like having a simple routine because it helps me feel organized.",
     "selfReview": [
-      "I communicated my main idea.",
-      "I used a polite or natural expression.",
-      "I tried to speak in complete sentences."
+      "I answered the situation with a clear main message.",
+      "I included the detail or question the listener needs.",
+      "I chose one sentence to improve or practice again."
     ],
     "writtenAlternative": true,
     "modelResponseVisibility": "after_attempt",
@@ -111,7 +111,23 @@
       "Who are you talking with?",
       "What is the main point?",
       "What example can you add?"
-    ]
+    ],
+    "targetIsOptional": true,
+    "durationGuidance": {
+      "en": "One and two minutes are optional practice targets, not minimums. A shorter complete message counts. Start with two or three sentences, then add detail if useful.",
+      "taglish": "Optional targets lang ang isa o dalawang minuto. Puwedeng mas maikli basta malinaw ang mensahe. Magsimula sa dalawa o tatlong pangungusap.",
+      "fil": "Gabay lamang ang isa o dalawang minuto, hindi kailangang abutin. Sapat ang mas maikling sagot kung malinaw ang mensahe."
+    },
+    "modelResponseNote": "This is one short example, not a script to memorize or a timed one-minute answer. Your details and wording may differ.",
+    "recall": {
+      "lessonId": "daily-009",
+      "optional": true,
+      "prompt": {
+        "en": "Before speaking, try to recall a useful expression from Day 9. Use it if it fits today's situation; no extra recording is needed.",
+        "taglish": "Bago magsalita, subukang alalahanin ang isang expression sa Day 9. Gamitin kung bagay sa situation today; hindi kailangan ng dagdag na recording.",
+        "fil": "Bago magsalita, alalahanin ang isang pahayag mula sa Araw 9. Gamitin kung angkop; hindi kailangan ng dagdag na rekording."
+      }
+    }
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending"
 }

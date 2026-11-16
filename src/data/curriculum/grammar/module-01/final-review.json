@@ -9,23 +9,23 @@
       "prompt": "Which sentence is complete?",
       "options": [
         "The report ready.",
-        "The report is ready.",
-        "Because the report."
+        "Because the report.",
+        "The report is ready."
       ],
-      "correctIndex": 1,
-      "explanation": "Correct answer: \"The report is ready.\". Review the matching grammar lesson if you want more practice."
+      "correctIndex": 2,
+      "explanation": "'The report' is the subject, 'is' is the verb, and 'ready' completes the description."
     },
     {
       "id": "grammar-01-final-q2",
       "type": "multiple_choice",
-      "prompt": "Choose natural word order.",
+      "prompt": "Choose the usual subject–verb–object–time order.",
       "options": [
-        "I every morning check my email.",
-        "Check my email I every morning.",
-        "I check my email every morning."
+        "I check my email every morning.",
+        "I my email check every morning.",
+        "Check my email I every morning."
       ],
-      "correctIndex": 2,
-      "explanation": "Correct answer: \"I check my email every morning.\". Review the matching grammar lesson if you want more practice."
+      "correctIndex": 0,
+      "explanation": "Use subject + verb + object + time: I + check + my email + every morning."
     },
     {
       "id": "grammar-01-final-q3",
@@ -37,19 +37,19 @@
         "reviewing"
       ],
       "correctIndex": 1,
-      "explanation": "Correct answer: \"reviews\". Review the matching grammar lesson if you want more practice."
+      "explanation": "'My colleague' is one person, so the simple-present verb is 'reviews'."
     },
     {
       "id": "grammar-01-final-q4",
       "type": "multiple_choice",
-      "prompt": "She received ___ important message.",
+      "prompt": "Choose a or an: 'She received ___ important message.'",
       "options": [
         "a",
-        "an",
-        "the only"
+        "no article",
+        "an"
       ],
-      "correctIndex": 1,
-      "explanation": "Correct answer: \"an\". Review the matching grammar lesson if you want more practice."
+      "correctIndex": 2,
+      "explanation": "'Important' begins with a vowel sound, so use 'an' before 'important message'."
     },
     {
       "id": "grammar-01-final-q5",
@@ -61,14 +61,26 @@
         "I finished the report because."
       ],
       "correctIndex": 1,
-      "explanation": "Correct answer: \"I finished the report, and I sent it yesterday.\". Review the matching grammar lesson if you want more practice."
+      "explanation": "The comma and 'and' join two complete ideas correctly."
+    },
+    {
+      "id": "grammar-01-final-q6",
+      "type": "multiple_choice",
+      "prompt": "Complete: 'I'll send the report ___ Maria ___ Friday.'",
+      "options": [
+        "to / on",
+        "for / in",
+        "at / to"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use 'to' for the recipient and 'on' for the day: I'll send the report to Maria on Friday."
     }
   ],
   "achievement": "Sentence Builder",
   "achievementRule": "Complete six lessons and submit final review",
   "instructions": {
-    "en": "Review the six foundation lessons. Complete all five questions; your score is feedback, not a proficiency label.",
-    "taglish": "Balikan ang anim na foundation lessons. Sagutan ang limang tanong; feedback lang ang score, hindi English proficiency label."
+    "en": "Review the six foundation lessons. Complete all six questions; your score is feedback, not a proficiency label.",
+    "taglish": "Balikan ang anim na foundation lessons. Sagutan ang anim na tanong; feedback lang ang score, hindi English proficiency label."
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending"
 }

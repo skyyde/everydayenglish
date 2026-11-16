@@ -15,17 +15,17 @@
     },
     "examples": {
       "work": "Please confirm the meeting time.",
-      "everyday": "Can you confirm the reservation time?"
+      "everyday": "Can you confirm our reservation time?"
     },
     "check": {
       "id": "daily-014-word-check",
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Confirm\"?",
       "options": [
-        "To assume something without checking.",
-        "To check that something is correct."
+        "To check that something is correct.",
+        "To assume something without checking."
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Confirm: To check that something is correct. Example: Please confirm the meeting time.",
       "hint": "Think about how \"confirm\" is used in this example: Please confirm the meeting time.",
       "maxAttemptsBeforeExplanation": 3
@@ -35,7 +35,7 @@
     },
     "explanation": {
       "en": "Confirm means checking a detail, not simply guessing.",
-      "taglish": "Confirm means checking a detail, not simply guessing.",
+      "taglish": "Kapag nag-confirm, tinitiyak mo ang detalye sa halip na manghula.",
       "fil": "Tiyaking tama ang isang detalye o napagkasunduan."
     }
   },
@@ -49,20 +49,20 @@
     },
     "examples": {
       "work": "Before we proceed, could we confirm everyone's tasks?",
-      "everyday": "Before we proceed, could we confirm the budget?"
+      "everyday": "Before we proceed, could we confirm the total price?"
     },
     "dialogue": [
       {
-        "speaker": "Friend or coworker",
-        "text": "What do you think?"
+        "speaker": "Coworker",
+        "text": "Are we ready to start?"
       },
       {
         "speaker": "You",
         "text": "Before we proceed, could we confirm everyone's tasks?"
       },
       {
-        "speaker": "Friend or coworker",
-        "text": "Thanks for sharing."
+        "speaker": "Coworker",
+        "text": "Yes. You will write the report, and I'll check it."
       }
     ],
     "check": {
@@ -70,18 +70,18 @@
       "type": "multiple_choice",
       "prompt": "Why say 'Before we proceed'?",
       "options": [
-        "To confirm details first",
-        "To change the subject"
+        "To change the subject",
+        "To confirm details first"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "To pause briefly and verify important details. Example: Before we proceed, could we confirm everyone's tasks?",
       "hint": "Read the complete example aloud: Before we proceed, could we confirm everyone's tasks?",
       "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {
-    "topic": "indirect questions",
-    "explanation": "Grammar focus: indirect questions. Read: \"Before we proceed, could we confirm everyone's tasks?\" Then create your own sentence."
+    "topic": "Confirming details politely",
+    "explanation": "Use 'Could we confirm + detail?' to check a plan: 'Could we confirm the deadline?' For an embedded question, say 'Could we confirm when the meeting starts?', not 'when does the meeting start'."
   },
   "speaking": {
     "id": "daily-014-speaking",
@@ -99,11 +99,11 @@
     ],
     "oneMinuteGoal": "Introduce your point and support it with one example.",
     "twoMinuteGoal": "Add a second example, a reason, and a friendly closing.",
-    "modelResponse": "Before we proceed, could we confirm who is responsible for each task? I will handle the report, and Ana will prepare the slides. If that's correct, we can start today.",
+    "modelResponse": "Before we proceed, could we confirm the deadline and our responsibilities? I'll prepare the report, and Ana will check the figures. Do we need to send it by Friday afternoon?",
     "selfReview": [
-      "I communicated my main idea.",
-      "I used a polite or natural expression.",
-      "I tried to speak in complete sentences."
+      "I answered the situation with a clear main message.",
+      "I included the detail or question the listener needs.",
+      "I chose one sentence to improve or practice again."
     ],
     "writtenAlternative": true,
     "modelResponseVisibility": "after_attempt",
@@ -111,7 +111,23 @@
       "Who are you talking with?",
       "What is the main point?",
       "What example can you add?"
-    ]
+    ],
+    "targetIsOptional": true,
+    "durationGuidance": {
+      "en": "One and two minutes are optional practice targets, not minimums. A shorter complete message counts. Start with two or three sentences, then add detail if useful.",
+      "taglish": "Optional targets lang ang isa o dalawang minuto. Puwedeng mas maikli basta malinaw ang mensahe. Magsimula sa dalawa o tatlong pangungusap.",
+      "fil": "Gabay lamang ang isa o dalawang minuto, hindi kailangang abutin. Sapat ang mas maikling sagot kung malinaw ang mensahe."
+    },
+    "modelResponseNote": "This is one short example, not a script to memorize or a timed one-minute answer. Your details and wording may differ.",
+    "recall": {
+      "lessonId": "daily-007",
+      "optional": true,
+      "prompt": {
+        "en": "Before speaking, try to recall a useful expression from Day 7. Use it if it fits today's situation; no extra recording is needed.",
+        "taglish": "Bago magsalita, subukang alalahanin ang isang expression sa Day 7. Gamitin kung bagay sa situation today; hindi kailangan ng dagdag na recording.",
+        "fil": "Bago magsalita, alalahanin ang isang pahayag mula sa Araw 7. Gamitin kung angkop; hindi kailangan ng dagdag na rekording."
+      }
+    }
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending"
 }

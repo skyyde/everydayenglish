@@ -20,13 +20,13 @@
       "type": "multiple_choice",
       "prompt": "Which is a fragment?",
       "options": [
-        "Because the meeting ended.",
         "The meeting ended.",
-        "We went home."
+        "We went home.",
+        "Because the meeting ended."
       ],
-      "correctIndex": 0,
-      "explanation": "A dependent clause by itself may leave an incomplete thought. Correct answer: Because the meeting ended.",
-      "hint": "Check that every sentence has a main clause.",
+      "correctIndex": 2,
+      "explanation": "'Because the meeting ended' gives a reason but leaves the main message unfinished. Add it: We left because the meeting ended.",
+      "hint": "Which choice gives only a reason?",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -34,13 +34,13 @@
       "type": "multiple_choice",
       "prompt": "Which is a run-on?",
       "options": [
-        "I was tired I went home.",
         "I was tired, so I went home.",
+        "I was tired I went home.",
         "I went home."
       ],
-      "correctIndex": 0,
-      "explanation": "Two complete sentences need punctuation or a connector. Correct answer: I was tired I went home.",
-      "hint": "Look for two complete ideas joined without punctuation.",
+      "correctIndex": 1,
+      "explanation": "'I was tired' and 'I went home' are two complete ideas with no punctuation or connector between them.",
+      "hint": "Look for two complete ideas with no punctuation between them.",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -53,8 +53,8 @@
         "Was late because I."
       ],
       "correctIndex": 0,
-      "explanation": "Use a period, a semicolon, or an appropriate comma and coordinating conjunction. Correct answer: I apologized because I was late.",
-      "hint": "Use a connector that matches the relationship.",
+      "explanation": "Add a main clause: 'I apologized' is the main message, and 'because I was late' explains the reason.",
+      "hint": "Add what happened because you were late.",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -62,13 +62,13 @@
       "type": "multiple_choice",
       "prompt": "Fix the run-on.",
       "options": [
-        "I finished the report, and I sent it.",
         "I finished the report I sent it.",
-        "I finished report sent it."
+        "I finished report sent it.",
+        "I finished the report, and I sent it."
       ],
-      "correctIndex": 0,
-      "explanation": "Use a period, a semicolon, or an appropriate comma and coordinating conjunction. Correct answer: I finished the report, and I sent it.",
-      "hint": "Use a connector that matches the relationship.",
+      "correctIndex": 2,
+      "explanation": "A comma and 'and' correctly join the two complete ideas. Two separate sentences would also work.",
+      "hint": "Join the two ideas with punctuation and a connector.",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -76,13 +76,13 @@
       "type": "multiple_choice",
       "prompt": "Build a complete sentence.",
       "options": [
-        "The manager called, so I answered.",
         "Because the manager called.",
+        "The manager called, so I answered.",
         "The manager called I answered."
       ],
-      "correctIndex": 0,
-      "explanation": "Use a period, a semicolon, or an appropriate comma and coordinating conjunction. Correct answer: The manager called, so I answered.",
-      "hint": "Use a connector that matches the relationship.",
+      "correctIndex": 1,
+      "explanation": "'So' introduces the result: the manager called, and as a result I answered. The comma and connector join the ideas correctly.",
+      "hint": "Use a connector that expresses the result.",
       "maxAttemptsBeforeExplanation": 3
     }
   ],
@@ -90,22 +90,24 @@
     "type": "self_review",
     "prompt": "Write two related sentences and connect them correctly.",
     "checklist": [
-      "My sentence is complete.",
-      "My word order is natural.",
-      "I reviewed the lesson examples."
+      "Each sentence has a complete main idea.",
+      "I used punctuation and a suitable connector to join ideas.",
+      "My connector makes the relationship clear."
     ],
     "exampleAnswer": "I finished the report, and I sent it to my manager.",
-    "feedbackMode": "self_review_only"
+    "feedbackMode": "self_review_only",
+    "modelResponseVisibility": "after_attempt"
   },
   "optionalSpeaking": {
-    "prompt": "Write two related sentences and connect them correctly.",
+    "prompt": "Explain something that happened and why. Use 'because' or 'so', and pause naturally between ideas.",
     "targetSeconds": [
       60,
       120
     ],
-    "feedbackMode": "self_review_only"
+    "feedbackMode": "self_review_only",
+    "targetIsOptional": true
   },
-  "editorialStatus": "authored_v1",
+  "editorialStatus": "editorially_reviewed_learner_testing_pending",
   "sections": [
     {
       "id": "grammar-01-06-section-1",
@@ -131,5 +133,5 @@
     "Look for two complete ideas joined without punctuation.",
     "Use a connector that matches the relationship."
   ],
-  "commonMistake": "'I finished the report I sent it' needs punctuation and a connector."
+  "commonMistake": "'I finished the report I sent it' joins two complete ideas incorrectly. Use 'I finished the report. I sent it.' or 'I finished the report, and I sent it.' Short replies such as 'After lunch' can still be natural in conversation."
 }

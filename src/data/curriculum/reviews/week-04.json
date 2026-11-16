@@ -9,11 +9,11 @@
       "type": "multiple_choice",
       "prompt": "We're ___ on a solution.",
       "options": [
-        "working",
-        "work"
+        "work",
+        "working"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct choice is \"working\". Read the full sentence aloud and notice how the words fit together.",
+      "correctIndex": 1,
+      "explanation": "Use 'are + -ing' for a current action: We're working.",
       "hint": "Read each option as a complete sentence before choosing."
     },
     {
@@ -21,11 +21,11 @@
       "type": "multiple_choice",
       "prompt": "There's room for ___.",
       "options": [
-        "improve",
-        "improvement"
+        "improvement",
+        "improve"
       ],
-      "correctIndex": 1,
-      "explanation": "The correct choice is \"improvement\". Read the full sentence aloud and notice how the words fit together.",
+      "correctIndex": 0,
+      "explanation": "The expression 'room for' takes the noun 'improvement' here. 'Improve' is a verb.",
       "hint": "Read each option as a complete sentence before choosing."
     },
     {
@@ -33,11 +33,11 @@
       "type": "multiple_choice",
       "prompt": "Choose the correct sentence.",
       "options": [
-        "Let's review the next steps.",
-        "Let's to review the next steps."
+        "Let's to review the next steps.",
+        "Let's review the next steps."
       ],
-      "correctIndex": 0,
-      "explanation": "The correct choice is \"Let's review the next steps.\". Read the full sentence aloud and notice how the words fit together.",
+      "correctIndex": 1,
+      "explanation": "Use a base verb after 'let's': Let's review.",
       "hint": "Read each option as a complete sentence before choosing."
     },
     {
@@ -45,11 +45,11 @@
       "type": "multiple_choice",
       "prompt": "A more efficient approach would be to ___ the process.",
       "options": [
-        "simplify",
-        "simplifying"
+        "simplifying",
+        "simplify"
       ],
-      "correctIndex": 0,
-      "explanation": "The correct choice is \"simplify\". Read the full sentence aloud and notice how the words fit together.",
+      "correctIndex": 1,
+      "explanation": "Use a base verb after 'to': to simplify.",
       "hint": "Read each option as a complete sentence before choosing."
     },
     {
@@ -61,7 +61,7 @@
         "Moving forward…"
       ],
       "correctIndex": 0,
-      "explanation": "The correct choice is \"Looking back…\". Read the full sentence aloud and notice how the words fit together.",
+      "explanation": "'Looking back' introduces reflection on the past. 'Moving forward' introduces a plan from now on.",
       "hint": "Read each option as a complete sentence before choosing."
     }
   ],
@@ -69,17 +69,22 @@
     "type": "self_review",
     "prompt": "Describe a problem you solved and explain what you learned.",
     "checklist": [
-      "I used at least two phrases from this week.",
-      "I included a clear main idea.",
-      "I added a reason or example."
+      "I answered the situation clearly.",
+      "I used a useful expression from these lessons.",
+      "I compared the meaning with the example; my wording can be different."
     ],
-    "modelResponseVisibility": "after_attempt"
+    "modelResponseVisibility": "after_attempt",
+    "modelResponse": "One challenge we faced was missing information. We checked the records and resolved the problem. Looking back, asking for clarification earlier would have helped.",
+    "writtenAlternative": true,
+    "optional": true,
+    "feedbackMode": "self_review_only"
   },
   "completionRule": "Attempt all five questions and review explanations",
   "introduction": {
     "en": "Practice explaining a challenge, proposing improvements, guiding someone through steps, and reflecting.",
     "taglish": "Balikan ang challenges, improvements, explanations, at reflections.",
-    "fil": "Balikan ang challenges, improvements, explanations, at reflections."
+    "fil": "Balikan ang pagpapaliwanag ng hamon, pagmumungkahi ng pagbabago, pagbibigay ng mga hakbang, at pagninilay."
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending",
+  "availableAfterDay": 28
 }

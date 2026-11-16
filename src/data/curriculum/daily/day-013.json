@@ -15,17 +15,17 @@
     },
     "examples": {
       "work": "We need an alternative plan.",
-      "everyday": "We need an alternative if the supplier is unavailable."
+      "everyday": "Taking the train is an alternative."
     },
     "check": {
       "id": "daily-013-word-check",
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Alternative\"?",
       "options": [
-        "A different possible choice.",
-        "The only choice that exists."
+        "The only choice that exists.",
+        "A different possible choice."
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Alternative: A different possible choice. Example: We need an alternative plan.",
       "hint": "Think about how \"alternative\" is used in this example: We need an alternative plan.",
       "maxAttemptsBeforeExplanation": 3
@@ -35,7 +35,7 @@
     },
     "explanation": {
       "en": "An alternative gives people another way to reach the same goal.",
-      "taglish": "An alternative gives people another way to reach the same goal.",
+      "taglish": "Ang alternative ay ibang paraan o choice kapag hindi bagay ang unang plano.",
       "fil": "Isang posibleng ibang paraan."
     }
   },
@@ -49,20 +49,20 @@
     },
     "examples": {
       "work": "Another option would be to use our existing equipment.",
-      "everyday": "Another option would be to meet online."
+      "everyday": "Another option would be to cook at home."
     },
     "dialogue": [
       {
-        "speaker": "Friend or coworker",
-        "text": "What do you think?"
+        "speaker": "Coworker",
+        "text": "Buying new equipment would be expensive."
       },
       {
         "speaker": "You",
         "text": "Another option would be to use our existing equipment."
       },
       {
-        "speaker": "Friend or coworker",
-        "text": "Thanks for sharing."
+        "speaker": "Coworker",
+        "text": "That could work. Let's check what we already have."
       }
     ],
     "check": {
@@ -74,14 +74,14 @@
         "simplifying"
       ],
       "correctIndex": 0,
-      "explanation": "To introduce another possible choice. Example: Another option would be to use our existing equipment.",
+      "explanation": "Use the base verb after 'to' in this pattern: Another option would be to simplify the plan.",
       "hint": "Read the complete example aloud: Another option would be to use our existing equipment.",
       "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {
-    "topic": "would plus base verb",
-    "explanation": "Grammar focus: would plus base verb. Read: \"Another option would be to use our existing equipment.\" Then create your own sentence."
+    "topic": "Would be to + base verb",
+    "explanation": "Use 'Another option would be to + base verb': 'Another option would be to use our equipment.' This presents a possible choice, not a confirmed decision."
   },
   "speaking": {
     "id": "daily-013-speaking",
@@ -99,11 +99,11 @@
     ],
     "oneMinuteGoal": "Introduce your point and support it with one example.",
     "twoMinuteGoal": "Add a second example, a reason, and a friendly closing.",
-    "modelResponse": "Another option would be to divide the presentation into shorter sections. That would make it easier to prepare and easier for everyone to follow. We could try it at the next meeting.",
+    "modelResponse": "Another option would be to use our existing equipment instead of buying new machines. That would cost less. We could test it on one part of the project first and check whether it meets our needs.",
     "selfReview": [
-      "I communicated my main idea.",
-      "I used a polite or natural expression.",
-      "I tried to speak in complete sentences."
+      "I answered the situation with a clear main message.",
+      "I included the detail or question the listener needs.",
+      "I chose one sentence to improve or practice again."
     ],
     "writtenAlternative": true,
     "modelResponseVisibility": "after_attempt",
@@ -111,7 +111,23 @@
       "Who are you talking with?",
       "What is the main point?",
       "What example can you add?"
-    ]
+    ],
+    "targetIsOptional": true,
+    "durationGuidance": {
+      "en": "One and two minutes are optional practice targets, not minimums. A shorter complete message counts. Start with two or three sentences, then add detail if useful.",
+      "taglish": "Optional targets lang ang isa o dalawang minuto. Puwedeng mas maikli basta malinaw ang mensahe. Magsimula sa dalawa o tatlong pangungusap.",
+      "fil": "Gabay lamang ang isa o dalawang minuto, hindi kailangang abutin. Sapat ang mas maikling sagot kung malinaw ang mensahe."
+    },
+    "modelResponseNote": "This is one short example, not a script to memorize or a timed one-minute answer. Your details and wording may differ.",
+    "recall": {
+      "lessonId": "daily-006",
+      "optional": true,
+      "prompt": {
+        "en": "Before speaking, try to recall a useful expression from Day 6. Use it if it fits today's situation; no extra recording is needed.",
+        "taglish": "Bago magsalita, subukang alalahanin ang isang expression sa Day 6. Gamitin kung bagay sa situation today; hindi kailangan ng dagdag na recording.",
+        "fil": "Bago magsalita, alalahanin ang isang pahayag mula sa Araw 6. Gamitin kung angkop; hindi kailangan ng dagdag na rekording."
+      }
+    }
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending"
 }

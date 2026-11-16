@@ -15,17 +15,17 @@
     },
     "examples": {
       "work": "This is a more efficient process.",
-      "everyday": "A shared calendar is more efficient than separate lists."
+      "everyday": "Planning our shopping route is more efficient than visiting shops at random."
     },
     "check": {
       "id": "daily-26-word-check",
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Efficient\"?",
       "options": [
-        "To waste time and effort unnecessarily.",
-        "Achieving results without wasting time or effort."
+        "Achieving results without wasting time or effort.",
+        "To waste time and effort unnecessarily."
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Efficient: Achieving results without wasting time or effort. Example: This is a more efficient process.",
       "hint": "Notice the meaning in this example: This is a more efficient process.",
       "maxAttemptsBeforeExplanation": 3
@@ -35,7 +35,7 @@
     },
     "explanation": {
       "en": "Efficient describes getting results with less wasted time or effort.",
-      "taglish": "Efficient describes getting results with less wasted time or effort.",
+      "taglish": "Ang efficient ay nakakamit ang resulta nang hindi sayang ang oras o effort.",
       "fil": "Makakuha ng magandang resulta nang hindi nagsasayang ng oras o gamit."
     }
   },
@@ -49,20 +49,20 @@
     },
     "examples": {
       "work": "A more efficient approach would be to use a shared template.",
-      "everyday": "A more efficient approach would be to use one checklist."
+      "everyday": "A more efficient approach would be to buy everything in one trip."
     },
     "dialogue": [
       {
-        "speaker": "Friend or coworker",
-        "text": "Can you explain a little more?"
+        "speaker": "Coworker",
+        "text": "We spend a lot of time reformatting reports."
       },
       {
         "speaker": "You",
         "text": "A more efficient approach would be to use a shared template."
       },
       {
-        "speaker": "Friend or coworker",
-        "text": "Thanks, that makes sense."
+        "speaker": "Coworker",
+        "text": "Good idea. Can we test the template on one report?"
       }
     ],
     "check": {
@@ -70,18 +70,18 @@
       "type": "multiple_choice",
       "prompt": "Complete: 'An approach would be to ___ the files.'",
       "options": [
-        "organize",
-        "organizing"
+        "organizing",
+        "organize"
       ],
-      "correctIndex": 0,
-      "explanation": "To propose a practical way to save time or effort. Example: A more efficient approach would be to use a shared template.",
+      "correctIndex": 1,
+      "explanation": "Use the base verb after 'to': An approach would be to organize the files.",
       "hint": "Read the example: A more efficient approach would be to use a shared template.",
       "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {
-    "topic": "comparisons and conditionals",
-    "explanation": "Grammar focus: comparisons and conditionals. Read: \"A more efficient approach would be to use a shared template.\" Then make your own example."
+    "topic": "More + adjective",
+    "explanation": "Compare with 'more efficient': 'One shared list is more efficient than three separate lists.' Then propose the action: 'A more efficient approach would be to use one list.'"
   },
   "speaking": {
     "id": "daily-26-speaking",
@@ -101,9 +101,9 @@
     "twoMinuteGoal": "Add a reason, another example, and a clear conclusion.",
     "modelResponse": "A more efficient approach would be to use a shared spreadsheet. Everyone could update their own tasks, and we would no longer need to ask for separate status reports. That could save us time each week.",
     "selfReview": [
-      "I communicated my main idea.",
-      "I used a natural expression.",
-      "I tried to speak in complete sentences."
+      "I answered the situation with a clear main message.",
+      "I included the detail or question the listener needs.",
+      "I chose one sentence to improve or practice again."
     ],
     "writtenAlternative": true,
     "modelResponseVisibility": "after_attempt",
@@ -111,7 +111,23 @@
       "What situation are you describing?",
       "What main point do you want to share?",
       "What example supports it?"
-    ]
+    ],
+    "targetIsOptional": true,
+    "durationGuidance": {
+      "en": "One and two minutes are optional practice targets, not minimums. A shorter complete message counts. Start with two or three sentences, then add detail if useful.",
+      "taglish": "Optional targets lang ang isa o dalawang minuto. Puwedeng mas maikli basta malinaw ang mensahe. Magsimula sa dalawa o tatlong pangungusap.",
+      "fil": "Gabay lamang ang isa o dalawang minuto, hindi kailangang abutin. Sapat ang mas maikling sagot kung malinaw ang mensahe."
+    },
+    "modelResponseNote": "This is one short example, not a script to memorize or a timed one-minute answer. Your details and wording may differ.",
+    "recall": {
+      "lessonId": "daily-019",
+      "optional": true,
+      "prompt": {
+        "en": "Before speaking, try to recall a useful expression from Day 19. Use it if it fits today's situation; no extra recording is needed.",
+        "taglish": "Bago magsalita, subukang alalahanin ang isang expression sa Day 19. Gamitin kung bagay sa situation today; hindi kailangan ng dagdag na recording.",
+        "fil": "Bago magsalita, alalahanin ang isang pahayag mula sa Araw 19. Gamitin kung angkop; hindi kailangan ng dagdag na rekording."
+      }
+    }
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending"
 }

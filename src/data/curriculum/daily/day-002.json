@@ -15,17 +15,17 @@
     },
     "examples": {
       "work": "We need to prioritize urgent requests.",
-      "everyday": "Let's prioritize the urgent customer requests."
+      "everyday": "Let's prioritize buying food before shopping for decorations."
     },
     "check": {
       "id": "daily-002-word-check",
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Prioritize\"?",
       "options": [
-        "To do all tasks without deciding which matters.",
-        "To decide which tasks are most important."
+        "To decide which tasks are most important.",
+        "To do all tasks without deciding which matters."
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Prioritize means: To decide which tasks are most important. Example: We need to prioritize urgent requests.",
       "hint": "Think about how \"prioritize\" is used in this example: We need to prioritize urgent requests.",
       "maxAttemptsBeforeExplanation": 3
@@ -45,16 +45,16 @@
     "meaning": {
       "taglish": "Ipakilala ang bagong plan mula ngayon.",
       "fil": "Ginagamit para pag-usapan ang susunod na plano.",
-      "en": "To introduce a plan or change that applies from now on."
+      "en": "To introduce a plan or change that applies from now on. 'From now on' is a simpler everyday alternative."
     },
     "examples": {
       "work": "Moving forward, let's review our priorities every Monday.",
-      "everyday": "Moving forward, I will send updates every Wednesday."
+      "everyday": "Moving forward, let's plan our meals before shopping."
     },
     "dialogue": [
       {
         "speaker": "Coworker",
-        "text": "What do you think we should do next?"
+        "text": "Which tasks should we focus on first?"
       },
       {
         "speaker": "You",
@@ -62,7 +62,7 @@
       },
       {
         "speaker": "Coworker",
-        "text": "Thanks, that helps."
+        "text": "Good idea. Let's start with the urgent requests."
       }
     ],
     "check": {
@@ -80,8 +80,8 @@
     }
   },
   "grammarTip": {
-    "topic": "future plans",
-    "explanation": "Notice the grammar in \"Moving forward, let's review our priorities every Monday.\" Practice the same structure with your own details."
+    "topic": "Let's + base verb",
+    "explanation": "Use 'Let's + base verb' to suggest a shared action: 'Let's prioritize urgent tasks.' Ang 'let's' ay 'let us'; huwag lagyan ng 'to' ang kasunod na verb."
   },
   "speaking": {
     "id": "daily-002-speaking",
@@ -92,18 +92,17 @@
       120
     ],
     "hints": [
-      "We should prioritize the task with the earliest deadline.",
-      "Moving forward…",
-      "Say what happened or what you need.",
-      "Add one clear reason or next step."
+      "I'll do ___ first because ___. After that, I'll ___.",
+      "Use your own details or imagine a situation. Pauses are okay.",
+      "A short clear message is enough; add details only if useful."
     ],
-    "oneMinuteGoal": "Introduce the situation, state your message, and give one reason or detail.",
-    "twoMinuteGoal": "Introduce the situation, give two supporting details, explain the next step, and close politely.",
-    "modelResponse": "Moving forward, I suggest we prioritize the customer requests first because they are urgent. After that, we can finish the internal report. This should help us manage our time.",
+    "oneMinuteGoal": "Use the sentence starter to give a clear message with one useful detail. Stop when your message is complete, even before one minute.",
+    "twoMinuteGoal": "Optional extension: add a reason, an example, or a next step. You do not need to fill two minutes.",
+    "modelResponse": "Moving forward, I'll prioritize the customer requests because they are due tomorrow. Then I'll finish the report due Thursday. Finally, I'll prepare the slides for Friday's meeting.",
     "selfReview": [
-      "I communicated my main idea.",
-      "I used a polite or natural expression.",
-      "I tried to speak in complete sentences."
+      "I answered the situation with a clear main message.",
+      "I included the detail or question the listener needs.",
+      "I chose one sentence to improve or practice again."
     ],
     "writtenAlternative": true,
     "modelResponseVisibility": "after_attempt",
@@ -111,7 +110,23 @@
       "Who are you speaking to?",
       "What is your main message?",
       "What detail will make it clear?"
-    ]
+    ],
+    "targetIsOptional": true,
+    "durationGuidance": {
+      "en": "One and two minutes are optional practice targets, not minimums. A shorter complete message counts. Start with two or three sentences, then add detail if useful.",
+      "taglish": "Optional targets lang ang isa o dalawang minuto. Puwedeng mas maikli basta malinaw ang mensahe. Magsimula sa dalawa o tatlong pangungusap.",
+      "fil": "Gabay lamang ang isa o dalawang minuto, hindi kailangang abutin. Sapat ang mas maikling sagot kung malinaw ang mensahe."
+    },
+    "modelResponseNote": "This is one short example, not a script to memorize or a timed one-minute answer. Your details and wording may differ.",
+    "recall": {
+      "lessonId": "daily-001",
+      "optional": true,
+      "prompt": {
+        "en": "Before speaking, try to recall a useful expression from Day 1. Use it if it fits today's situation; no extra recording is needed.",
+        "taglish": "Bago magsalita, subukang alalahanin ang isang expression sa Day 1. Gamitin kung bagay sa situation today; hindi kailangan ng dagdag na recording.",
+        "fil": "Bago magsalita, alalahanin ang isang pahayag mula sa Araw 1. Gamitin kung angkop; hindi kailangan ng dagdag na rekording."
+      }
+    }
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending"
 }

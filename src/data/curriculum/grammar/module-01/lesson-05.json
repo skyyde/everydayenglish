@@ -20,13 +20,13 @@
       "type": "multiple_choice",
       "prompt": "Complete: 'We meet ___ Monday.'",
       "options": [
-        "on",
         "in",
+        "on",
         "at"
       ],
-      "correctIndex": 0,
-      "explanation": "Use at for clock times, on for days, and in for months or years. Correct answer: on",
-      "hint": "Look at the noun after the preposition.",
+      "correctIndex": 1,
+      "explanation": "Use 'on' with a day: on Monday. Use 'at' with a clock time and 'in' with a month or year.",
+      "hint": "Is Monday a time, day, or month?",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -34,13 +34,13 @@
       "type": "multiple_choice",
       "prompt": "Complete: 'The meeting starts ___ 9 AM.'",
       "options": [
-        "at",
         "on",
-        "in"
+        "in",
+        "at"
       ],
-      "correctIndex": 0,
-      "explanation": "Use to for the person receiving something. Correct answer: at",
-      "hint": "For time, decide whether it is a clock time, day, or month.",
+      "correctIndex": 2,
+      "explanation": "Use 'at' with a specific clock time: at 9 AM.",
+      "hint": "9 AM is a clock time.",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -48,27 +48,27 @@
       "type": "multiple_choice",
       "prompt": "Correct: 'I sent the email for Maria.' (Maria is the recipient.)",
       "options": [
-        "I sent the email to Maria.",
         "I sent the email on Maria.",
+        "I sent the email to Maria.",
         "I sent the email at Maria."
       ],
-      "correctIndex": 0,
-      "explanation": "Use for when referring to preparation or purpose. Correct answer: I sent the email to Maria.",
-      "hint": "Learn common word combinations as a phrase.",
+      "correctIndex": 1,
+      "explanation": "Use 'to' for the recipient: I sent the email to Maria. 'For Maria' can mean on her behalf, which is different.",
+      "hint": "Who receives the email?",
       "maxAttemptsBeforeExplanation": 3
     },
     {
       "id": "grammar-01-05-q4",
       "type": "multiple_choice",
-      "prompt": "Choose the natural sentence.",
+      "prompt": "Which sentence means we are getting ready for the meeting?",
       "options": [
         "We are preparing for the meeting.",
         "We are preparing on the meeting.",
-        "We are preparing at the meeting."
+        "We are preparing to the meeting."
       ],
       "correctIndex": 0,
-      "explanation": "Use for when referring to preparation or purpose. Correct answer: We are preparing for the meeting.",
-      "hint": "Learn common word combinations as a phrase.",
+      "explanation": "Use 'prepare for' to say which event you are getting ready for: We are preparing for the meeting.",
+      "hint": "Which preposition follows 'prepare' for an upcoming event?",
       "maxAttemptsBeforeExplanation": 3
     },
     {
@@ -81,8 +81,8 @@
         "Change 'on' to 'in'."
       ],
       "correctIndex": 0,
-      "explanation": "Use for when referring to preparation or purpose. Correct answer: No change needed.",
-      "hint": "Learn common word combinations as a phrase.",
+      "explanation": "No correction is needed: 'to you' names the recipient and 'on Friday' gives the day.",
+      "hint": "Check the recipient and the day separately.",
       "maxAttemptsBeforeExplanation": 3
     }
   ],
@@ -90,22 +90,24 @@
     "type": "self_review",
     "prompt": "Write one sentence using a time preposition and one using 'to' or 'for'.",
     "checklist": [
-      "My sentence is complete.",
-      "My word order is natural.",
-      "I reviewed the lesson examples."
+      "I used at for a clock time, on for a day, or in for a month/year.",
+      "I used 'to' for a recipient or 'for' for a purpose.",
+      "I included both parts of the writing task."
     ],
-    "exampleAnswer": "We meet on Friday at nine.",
-    "feedbackMode": "self_review_only"
+    "exampleAnswer": "We meet on Friday at nine. I'll send the agenda to Maria.",
+    "feedbackMode": "self_review_only",
+    "modelResponseVisibility": "after_attempt"
   },
   "optionalSpeaking": {
-    "prompt": "Write one sentence using a time preposition and one using 'to' or 'for'.",
+    "prompt": "Tell a colleague when you will send something and who will receive it. Try 'on Friday', 'at nine', and 'to Maria'.",
     "targetSeconds": [
       60,
       120
     ],
-    "feedbackMode": "self_review_only"
+    "feedbackMode": "self_review_only",
+    "targetIsOptional": true
   },
-  "editorialStatus": "authored_v1",
+  "editorialStatus": "editorially_reviewed_learner_testing_pending",
   "sections": [
     {
       "id": "grammar-01-05-section-1",

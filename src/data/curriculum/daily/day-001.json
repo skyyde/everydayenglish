@@ -15,23 +15,23 @@
     },
     "examples": {
       "work": "Could you clarify the deadline?",
-      "everyday": "Could you clarify which file you need?"
+      "everyday": "Could you clarify where we should meet?"
     },
     "check": {
       "id": "daily-001-word-check",
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Clarify\"?",
       "options": [
-        "To make something easier to understand.",
-        "To make something more confusing."
+        "To make something more confusing.",
+        "To make something easier to understand."
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Clarify means: To make something easier to understand. Example: Could you clarify the deadline?",
       "hint": "Think about how \"clarify\" is used in this example: Could you clarify the deadline?",
       "maxAttemptsBeforeExplanation": 3
     },
     "translation": {
-      "fil": "Paki-linaw"
+      "fil": "Linawin"
     },
     "explanation": {
       "en": "To make something easier to understand. For example: Could you clarify the deadline?",
@@ -54,15 +54,15 @@
     "dialogue": [
       {
         "speaker": "Coworker",
-        "text": "What do you think we should do next?"
+        "text": "Who will submit the revised report?"
       },
       {
         "speaker": "You",
-        "text": "Just to make sure we're on the same page, the report is due Friday, right?"
+        "text": "Just to make sure we're on the same page, I'll submit the report after you check it. Is that correct?"
       },
       {
         "speaker": "Coworker",
-        "text": "Thanks, that helps."
+        "text": "Yes. You'll submit it after I check the formatting."
       }
     ],
     "check": {
@@ -80,8 +80,8 @@
     }
   },
   "grammarTip": {
-    "topic": "polite questions",
-    "explanation": "Notice the grammar in \"Just to make sure we're on the same page, the report is due Friday, right?\" Practice the same structure with your own details."
+    "topic": "Polite requests",
+    "explanation": "Use 'Could you + base verb...?' for a polite request: 'Could you clarify the deadline?' Sa polite request, 'clarify' lang, hindi 'clarifies'."
   },
   "speaking": {
     "id": "daily-001-speaking",
@@ -92,18 +92,17 @@
       120
     ],
     "hints": [
-      "To avoid mistakes, I'd like to clarify our responsibilities.",
-      "Just to make sure we're on the same page…",
-      "Say what happened or what you need.",
-      "Add one clear reason or next step."
+      "Could you clarify who will ___? I'll ___ by ___. Is that correct?",
+      "Use your own details or imagine a situation. Pauses are okay.",
+      "A short clear message is enough; add details only if useful."
     ],
-    "oneMinuteGoal": "Introduce the situation, state your message, and give one reason or detail.",
-    "twoMinuteGoal": "Introduce the situation, give two supporting details, explain the next step, and close politely.",
-    "modelResponse": "Just to make sure we're on the same page, we will submit the revised report on Friday. I'll prepare the figures, and you will check the formatting. Is that correct?",
+    "oneMinuteGoal": "Use the sentence starter to give a clear message with one useful detail. Stop when your message is complete, even before one minute.",
+    "twoMinuteGoal": "Optional extension: add a reason, an example, or a next step. You do not need to fill two minutes.",
+    "modelResponse": "Just to make sure we're on the same page, I'll submit the report on Friday after you check the formatting. Is that correct? Please let me know if someone else will send it.",
     "selfReview": [
-      "I communicated my main idea.",
-      "I used a polite or natural expression.",
-      "I tried to speak in complete sentences."
+      "I answered the situation with a clear main message.",
+      "I included the detail or question the listener needs.",
+      "I chose one sentence to improve or practice again."
     ],
     "writtenAlternative": true,
     "modelResponseVisibility": "after_attempt",
@@ -111,7 +110,14 @@
       "Who are you speaking to?",
       "What is your main message?",
       "What detail will make it clear?"
-    ]
+    ],
+    "targetIsOptional": true,
+    "durationGuidance": {
+      "en": "One and two minutes are optional practice targets, not minimums. A shorter complete message counts. Start with two or three sentences, then add detail if useful.",
+      "taglish": "Optional targets lang ang isa o dalawang minuto. Puwedeng mas maikli basta malinaw ang mensahe. Magsimula sa dalawa o tatlong pangungusap.",
+      "fil": "Gabay lamang ang isa o dalawang minuto, hindi kailangang abutin. Sapat ang mas maikling sagot kung malinaw ang mensahe."
+    },
+    "modelResponseNote": "This is one short example, not a script to memorize or a timed one-minute answer. Your details and wording may differ."
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending"
 }

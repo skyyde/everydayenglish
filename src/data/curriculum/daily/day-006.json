@@ -15,17 +15,17 @@
     },
     "examples": {
       "work": "We've made good progress on the project.",
-      "everyday": "We made progress even though the task was difficult."
+      "everyday": "I'm making progress with my cooking skills."
     },
     "check": {
       "id": "daily-006-word-check",
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Progress\"?",
       "options": [
-        "The complete absence of progress.",
-        "Movement toward completing a goal."
+        "Movement toward completing a goal.",
+        "The complete absence of progress."
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Progress means: Movement toward completing a goal. Example: We've made good progress on the project.",
       "hint": "Think about how \"progress\" is used in this example: We've made good progress on the project.",
       "maxAttemptsBeforeExplanation": 3
@@ -49,12 +49,12 @@
     },
     "examples": {
       "work": "We're making progress on the testing.",
-      "everyday": "We're making progress on the new system."
+      "everyday": "We're making progress on cleaning the house."
     },
     "dialogue": [
       {
         "speaker": "Coworker",
-        "text": "What do you think we should do next?"
+        "text": "How is the testing going?"
       },
       {
         "speaker": "You",
@@ -62,7 +62,7 @@
       },
       {
         "speaker": "Coworker",
-        "text": "Thanks, that helps."
+        "text": "Which part will you test next?"
       }
     ],
     "check": {
@@ -70,18 +70,18 @@
       "type": "multiple_choice",
       "prompt": "Choose the natural sentence.",
       "options": [
-        "We're making progress on the project.",
-        "We're making progress in the project on."
+        "We're making progress in the project on.",
+        "We're making progress on the project."
       ],
-      "correctIndex": 0,
-      "explanation": "To describe work that is moving forward but is not finished. Example: We're making progress on the testing.",
+      "correctIndex": 1,
+      "explanation": "Use 'make progress on + task': We're making progress on the project. This describes improvement, not necessarily completion.",
       "hint": "Read the complete example aloud: We're making progress on the testing.",
       "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {
-    "topic": "present continuous",
-    "explanation": "Notice the grammar in \"We're making progress on the testing.\" Practice the same structure with your own details."
+    "topic": "We're + -ing",
+    "explanation": "'We're' means 'we are'. Use 'are + -ing' for work in progress: 'We're making progress.' Kailangan ang 'are': hindi 'We making progress'."
   },
   "speaking": {
     "id": "daily-006-speaking",
@@ -92,18 +92,17 @@
       120
     ],
     "hints": [
-      "We're making progress, but we still need to test it.",
-      "We're making progress on…",
-      "Say what happened or what you need.",
-      "Add one clear reason or next step."
+      "We're making progress on ___. Next, we'll ___.",
+      "Use your own details or imagine a situation. Pauses are okay.",
+      "A short clear message is enough; add details only if useful."
     ],
-    "oneMinuteGoal": "Introduce the situation, state your message, and give one reason or detail.",
-    "twoMinuteGoal": "Introduce the situation, give two supporting details, explain the next step, and close politely.",
+    "oneMinuteGoal": "Use the sentence starter to give a clear message with one useful detail. Stop when your message is complete, even before one minute.",
+    "twoMinuteGoal": "Optional extension: add a reason, an example, or a next step. You do not need to fill two minutes.",
     "modelResponse": "We're making progress on the new process. We've already tested two steps, and the results look promising. Next, we'll ask the team for feedback.",
     "selfReview": [
-      "I communicated my main idea.",
-      "I used a polite or natural expression.",
-      "I tried to speak in complete sentences."
+      "I answered the situation with a clear main message.",
+      "I included the detail or question the listener needs.",
+      "I chose one sentence to improve or practice again."
     ],
     "writtenAlternative": true,
     "modelResponseVisibility": "after_attempt",
@@ -111,7 +110,23 @@
       "Who are you speaking to?",
       "What is your main message?",
       "What detail will make it clear?"
-    ]
+    ],
+    "targetIsOptional": true,
+    "durationGuidance": {
+      "en": "One and two minutes are optional practice targets, not minimums. A shorter complete message counts. Start with two or three sentences, then add detail if useful.",
+      "taglish": "Optional targets lang ang isa o dalawang minuto. Puwedeng mas maikli basta malinaw ang mensahe. Magsimula sa dalawa o tatlong pangungusap.",
+      "fil": "Gabay lamang ang isa o dalawang minuto, hindi kailangang abutin. Sapat ang mas maikling sagot kung malinaw ang mensahe."
+    },
+    "modelResponseNote": "This is one short example, not a script to memorize or a timed one-minute answer. Your details and wording may differ.",
+    "recall": {
+      "lessonId": "daily-005",
+      "optional": true,
+      "prompt": {
+        "en": "Before speaking, try to recall a useful expression from Day 5. Use it if it fits today's situation; no extra recording is needed.",
+        "taglish": "Bago magsalita, subukang alalahanin ang isang expression sa Day 5. Gamitin kung bagay sa situation today; hindi kailangan ng dagdag na recording.",
+        "fil": "Bago magsalita, alalahanin ang isang pahayag mula sa Araw 5. Gamitin kung angkop; hindi kailangan ng dagdag na rekording."
+      }
+    }
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending"
 }

@@ -15,7 +15,7 @@
     },
     "examples": {
       "work": "The deadline is Friday afternoon.",
-      "everyday": "Can we move the deadline to Tuesday?"
+      "everyday": "The deadline to renew my membership is Friday."
     },
     "check": {
       "id": "daily-004-word-check",
@@ -49,12 +49,12 @@
     },
     "examples": {
       "work": "We're on track to finish by Friday.",
-      "everyday": "We're on track to deliver the materials tomorrow."
+      "everyday": "We're on track to arrive before lunch."
     },
     "dialogue": [
       {
         "speaker": "Coworker",
-        "text": "What do you think we should do next?"
+        "text": "Will we finish before the deadline?"
       },
       {
         "speaker": "You",
@@ -62,7 +62,7 @@
       },
       {
         "speaker": "Coworker",
-        "text": "Thanks, that helps."
+        "text": "Good. Please let me know if anything changes."
       }
     ],
     "check": {
@@ -80,8 +80,8 @@
     }
   },
   "grammarTip": {
-    "topic": "future expressions",
-    "explanation": "Notice the grammar in \"We're on track to finish by Friday.\" Practice the same structure with your own details."
+    "topic": "On track to + base verb",
+    "explanation": "Use 'on track to + base verb': 'We're on track to finish by Friday.' 'By Friday' means no later than Friday; 'on Friday' names the day."
   },
   "speaking": {
     "id": "daily-004-speaking",
@@ -92,18 +92,17 @@
       120
     ],
     "hints": [
-      "Could you confirm the deadline for this task?",
-      "We're on track to…",
-      "Say what happened or what you need.",
-      "Add one clear reason or next step."
+      "We're on track to finish by ___. We still need to ___.",
+      "Use your own details or imagine a situation. Pauses are okay.",
+      "A short clear message is enough; add details only if useful."
     ],
-    "oneMinuteGoal": "Introduce the situation, state your message, and give one reason or detail.",
-    "twoMinuteGoal": "Introduce the situation, give two supporting details, explain the next step, and close politely.",
+    "oneMinuteGoal": "Use the sentence starter to give a clear message with one useful detail. Stop when your message is complete, even before one minute.",
+    "twoMinuteGoal": "Optional extension: add a reason, an example, or a next step. You do not need to fill two minutes.",
     "modelResponse": "We're on track to finish by Friday. The research is complete, and we're now checking the final details. If anything changes, I'll inform the team immediately.",
     "selfReview": [
-      "I communicated my main idea.",
-      "I used a polite or natural expression.",
-      "I tried to speak in complete sentences."
+      "I answered the situation with a clear main message.",
+      "I included the detail or question the listener needs.",
+      "I chose one sentence to improve or practice again."
     ],
     "writtenAlternative": true,
     "modelResponseVisibility": "after_attempt",
@@ -111,7 +110,23 @@
       "Who are you speaking to?",
       "What is your main message?",
       "What detail will make it clear?"
-    ]
+    ],
+    "targetIsOptional": true,
+    "durationGuidance": {
+      "en": "One and two minutes are optional practice targets, not minimums. A shorter complete message counts. Start with two or three sentences, then add detail if useful.",
+      "taglish": "Optional targets lang ang isa o dalawang minuto. Puwedeng mas maikli basta malinaw ang mensahe. Magsimula sa dalawa o tatlong pangungusap.",
+      "fil": "Gabay lamang ang isa o dalawang minuto, hindi kailangang abutin. Sapat ang mas maikling sagot kung malinaw ang mensahe."
+    },
+    "modelResponseNote": "This is one short example, not a script to memorize or a timed one-minute answer. Your details and wording may differ.",
+    "recall": {
+      "lessonId": "daily-003",
+      "optional": true,
+      "prompt": {
+        "en": "Before speaking, try to recall a useful expression from Day 3. Use it if it fits today's situation; no extra recording is needed.",
+        "taglish": "Bago magsalita, subukang alalahanin ang isang expression sa Day 3. Gamitin kung bagay sa situation today; hindi kailangan ng dagdag na recording.",
+        "fil": "Bago magsalita, alalahanin ang isang pahayag mula sa Araw 3. Gamitin kung angkop; hindi kailangan ng dagdag na rekording."
+      }
+    }
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending"
 }

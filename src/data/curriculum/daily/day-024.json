@@ -15,17 +15,17 @@
     },
     "examples": {
       "work": "We can improve the process.",
-      "everyday": "We can improve communication by sharing updates."
+      "everyday": "I want to improve my cooking."
     },
     "check": {
       "id": "daily-24-word-check",
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Improve\"?",
       "options": [
-        "To leave something exactly as it was.",
-        "To make something better."
+        "To make something better.",
+        "To leave something exactly as it was."
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Improve: To make something better. Example: We can improve the process.",
       "hint": "Notice the meaning in this example: We can improve the process.",
       "maxAttemptsBeforeExplanation": 3
@@ -35,7 +35,7 @@
     },
     "explanation": {
       "en": "Improve means making something better than before.",
-      "taglish": "Improve means making something better than before.",
+      "taglish": "Ang improve ay gawing mas maayos ang isang bagay kaysa dati.",
       "fil": "Gawing mas maayos o epektibo ang isang bagay."
     }
   },
@@ -49,20 +49,20 @@
     },
     "examples": {
       "work": "The system works, but there's room for improvement.",
-      "everyday": "There's room for improvement in our filing system."
+      "everyday": "There's room for improvement in how we organize our kitchen."
     },
     "dialogue": [
       {
-        "speaker": "Friend or coworker",
-        "text": "Can you explain a little more?"
+        "speaker": "Coworker",
+        "text": "How is our new system working?"
       },
       {
         "speaker": "You",
         "text": "The system works, but there's room for improvement."
       },
       {
-        "speaker": "Friend or coworker",
-        "text": "Thanks, that makes sense."
+        "speaker": "Coworker",
+        "text": "What is one change that would help?"
       }
     ],
     "check": {
@@ -70,18 +70,18 @@
       "type": "multiple_choice",
       "prompt": "What does 'room for improvement' mean?",
       "options": [
-        "Something can be better",
-        "Nothing can change"
+        "Nothing can change",
+        "Something can be better"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "To recognize that a process can be better. Example: The system works, but there's room for improvement.",
       "hint": "Read the example: The system works, but there's room for improvement.",
       "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {
-    "topic": "comparatives",
-    "explanation": "Grammar focus: comparatives. Read: \"The system works, but there's room for improvement.\" Then make your own example."
+    "topic": "Improve and improvement",
+    "explanation": "'Improve' is a verb; 'improvement' is a noun. Say 'We can improve the process' and 'There is room for improvement.' Then name one helpful change."
   },
   "speaking": {
     "id": "daily-24-speaking",
@@ -101,9 +101,9 @@
     "twoMinuteGoal": "Add a reason, another example, and a clear conclusion.",
     "modelResponse": "There's room for improvement in how we share project updates. Sometimes information arrives too late. I suggest a short summary at the end of each meeting.",
     "selfReview": [
-      "I communicated my main idea.",
-      "I used a natural expression.",
-      "I tried to speak in complete sentences."
+      "I answered the situation with a clear main message.",
+      "I included the detail or question the listener needs.",
+      "I chose one sentence to improve or practice again."
     ],
     "writtenAlternative": true,
     "modelResponseVisibility": "after_attempt",
@@ -111,7 +111,23 @@
       "What situation are you describing?",
       "What main point do you want to share?",
       "What example supports it?"
-    ]
+    ],
+    "targetIsOptional": true,
+    "durationGuidance": {
+      "en": "One and two minutes are optional practice targets, not minimums. A shorter complete message counts. Start with two or three sentences, then add detail if useful.",
+      "taglish": "Optional targets lang ang isa o dalawang minuto. Puwedeng mas maikli basta malinaw ang mensahe. Magsimula sa dalawa o tatlong pangungusap.",
+      "fil": "Gabay lamang ang isa o dalawang minuto, hindi kailangang abutin. Sapat ang mas maikling sagot kung malinaw ang mensahe."
+    },
+    "modelResponseNote": "This is one short example, not a script to memorize or a timed one-minute answer. Your details and wording may differ.",
+    "recall": {
+      "lessonId": "daily-017",
+      "optional": true,
+      "prompt": {
+        "en": "Before speaking, try to recall a useful expression from Day 17. Use it if it fits today's situation; no extra recording is needed.",
+        "taglish": "Bago magsalita, subukang alalahanin ang isang expression sa Day 17. Gamitin kung bagay sa situation today; hindi kailangan ng dagdag na recording.",
+        "fil": "Bago magsalita, alalahanin ang isang pahayag mula sa Araw 17. Gamitin kung angkop; hindi kailangan ng dagdag na rekording."
+      }
+    }
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending"
 }

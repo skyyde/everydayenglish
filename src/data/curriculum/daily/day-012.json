@@ -15,17 +15,17 @@
     },
     "examples": {
       "work": "My main concern is the schedule.",
-      "everyday": "I have a concern about the delivery date."
+      "everyday": "My main concern is getting home before dark."
     },
     "check": {
       "id": "daily-012-word-check",
       "type": "multiple_choice",
       "prompt": "Which meaning best matches \"Concern\"?",
       "options": [
-        "Something that can never be discussed.",
-        "Something that makes you worried or uncertain."
+        "Something that makes you worried or uncertain.",
+        "Something that can never be discussed."
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Concern: Something that makes you worried or uncertain. Example: My main concern is the schedule.",
       "hint": "Think about how \"concern\" is used in this example: My main concern is the schedule.",
       "maxAttemptsBeforeExplanation": 3
@@ -35,7 +35,7 @@
     },
     "explanation": {
       "en": "A concern is something worth discussing before it becomes a bigger issue.",
-      "taglish": "A concern is something worth discussing before it becomes a bigger issue.",
+      "taglish": "Ang concern ay bagay na ikinababahala mo at dapat pag-usapan.",
       "fil": "Isang bagay na maaaring maging problema."
     }
   },
@@ -49,20 +49,20 @@
     },
     "examples": {
       "work": "One concern I have is that we may need more time.",
-      "everyday": "One concern I have is that the timeline is too short."
+      "everyday": "One concern I have is that we might miss the last bus."
     },
     "dialogue": [
       {
-        "speaker": "Friend or coworker",
-        "text": "What do you think?"
+        "speaker": "Coworker",
+        "text": "Can we finish all the checks today?"
       },
       {
         "speaker": "You",
         "text": "One concern I have is that we may need more time."
       },
       {
-        "speaker": "Friend or coworker",
-        "text": "Thanks for sharing."
+        "speaker": "Coworker",
+        "text": "I understand. Which checks should we prioritize?"
       }
     ],
     "check": {
@@ -70,18 +70,18 @@
       "type": "multiple_choice",
       "prompt": "Complete: 'One concern I have is ___ the schedule is tight.'",
       "options": [
-        "that",
-        "for"
+        "for",
+        "that"
       ],
-      "correctIndex": 0,
-      "explanation": "To raise a potential problem respectfully. Example: One concern I have is that we may need more time.",
+      "correctIndex": 1,
+      "explanation": "Use 'that' to introduce the concern as a full clause: One concern I have is that the schedule is tight.",
       "hint": "Read the complete example aloud: One concern I have is that we may need more time.",
       "maxAttemptsBeforeExplanation": 3
     }
   },
   "grammarTip": {
-    "topic": "because and that clauses",
-    "explanation": "Grammar focus: because and that clauses. Read: \"One concern I have is that we may need more time.\" Then create your own sentence."
+    "topic": "That introduces the concern",
+    "explanation": "Use 'is that + subject + verb': 'One concern I have is that we need more time.' Then give a reason with 'because' if useful."
   },
   "speaking": {
     "id": "daily-012-speaking",
@@ -101,9 +101,9 @@
     "twoMinuteGoal": "Add a second example, a reason, and a friendly closing.",
     "modelResponse": "One concern I have is that we may not have enough time to test everything. Could we finish the most important checks first and schedule the rest for next week?",
     "selfReview": [
-      "I communicated my main idea.",
-      "I used a polite or natural expression.",
-      "I tried to speak in complete sentences."
+      "I answered the situation with a clear main message.",
+      "I included the detail or question the listener needs.",
+      "I chose one sentence to improve or practice again."
     ],
     "writtenAlternative": true,
     "modelResponseVisibility": "after_attempt",
@@ -111,7 +111,23 @@
       "Who are you talking with?",
       "What is the main point?",
       "What example can you add?"
-    ]
+    ],
+    "targetIsOptional": true,
+    "durationGuidance": {
+      "en": "One and two minutes are optional practice targets, not minimums. A shorter complete message counts. Start with two or three sentences, then add detail if useful.",
+      "taglish": "Optional targets lang ang isa o dalawang minuto. Puwedeng mas maikli basta malinaw ang mensahe. Magsimula sa dalawa o tatlong pangungusap.",
+      "fil": "Gabay lamang ang isa o dalawang minuto, hindi kailangang abutin. Sapat ang mas maikling sagot kung malinaw ang mensahe."
+    },
+    "modelResponseNote": "This is one short example, not a script to memorize or a timed one-minute answer. Your details and wording may differ.",
+    "recall": {
+      "lessonId": "daily-005",
+      "optional": true,
+      "prompt": {
+        "en": "Before speaking, try to recall a useful expression from Day 5. Use it if it fits today's situation; no extra recording is needed.",
+        "taglish": "Bago magsalita, subukang alalahanin ang isang expression sa Day 5. Gamitin kung bagay sa situation today; hindi kailangan ng dagdag na recording.",
+        "fil": "Bago magsalita, alalahanin ang isang pahayag mula sa Araw 5. Gamitin kung angkop; hindi kailangan ng dagdag na rekording."
+      }
+    }
   },
-  "editorialStatus": "authored_v1"
+  "editorialStatus": "editorially_reviewed_learner_testing_pending"
 }

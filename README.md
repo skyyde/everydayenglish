@@ -12,7 +12,7 @@ A free, offline-friendly English learning PWA for Dada.
 All items have stable IDs. Multiple-choice `correctIndex` is zero-based. Never display a model speaking response before the learner attempts the activity. Do not auto-score open-ended writing or speaking. Daily goal: complete the word, phrase, and speaking activities; optional grammar and reviews do not count toward the 3/3 goal.
 
 ## Editorial and QA status
-All launch-scope lessons have authored explanations, exercises, and model responses. A targeted editorial review and automated structure/answer-index checks have been completed. The content is **not yet learner-tested or independently copyedited**. Validate the 5–8-minute daily flow with Dada before production. Some instructional notes and exercise feedback intentionally use English fallback where full Filipino variants are not supplied; the UI should use `en` fallback and must not fabricate missing translations. This repository is a learning-content source, not a running application.
+All launch-scope lessons have authored explanations, exercises, and model responses. A targeted editorial review and automated structure/answer-index checks have been completed. The content is **not yet learner-tested or independently copyedited**. Validate the 5–8-minute daily flow with Dada before production. Some instructional notes and exercise feedback intentionally use English fallback where full Filipino variants are not supplied; the UI should use `en` fallback and must not fabricate missing translations. The repository now includes the React application, automated checks, and a GitHub Pages deployment workflow. See `DEPLOYMENT.md` for setup and verification.
 
 ## Codex instructions
 Build React + TypeScript + Vite + Tailwind, IndexedDB, MediaRecorder with written fallback, and a GitHub Pages PWA. Use the content files as source of truth; do not replace them with generated placeholders. Validate schemas and question keys, handle Philippine-calendar launch dates, support local backup/restore, and preserve all progress during updates.
@@ -29,7 +29,11 @@ Background `#FAFAF9`, white cards, gray surfaces, charcoal text and buttons. Blu
 - Clarified that the placement score uses only the ten closed questions and is not a speaking or proficiency rating. Writing remains optional and unscored.
 - Daily practice remains word + phrase + speaking (3/3). Grammar and reviews are optional additional sessions. One short complete speaking attempt counts; models are short examples, not timed scripts.
 - Weekly reviews become available after Days 7, 14, 21, and 28. The legacy manifest review checkpoints remain documented separately.
-- Implementation must consume the additive guidance fields documented in the manifest. The application has not been built.
+- Implementation must consume the additive guidance fields documented in the manifest. The application renders these authored guidance fields.
 
 ### Remaining learner check
 Try an early workplace lesson, an everyday conversation lesson, and one grammar lesson with Dada. Check whether instructions are clear, the daily core fits 5–8 minutes, and the prompts match situations he actually encounters. Shorten or simplify based on that evidence; do not assume a one-minute response or a perfect quiz score is required.
+
+## Application
+
+Install with `npm ci`, run locally with `npm run dev`, and build with `npm run build`. Run `npm test` for unit/component tests and `npm run test:e2e` for production-preview browser tests after installing Playwright Chromium. See `DEPLOYMENT.md` for the manual Pages workflow and `IMPLEMENTATION_STATUS.md` for verified results.
